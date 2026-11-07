@@ -1,5 +1,4 @@
 <?php
-
 namespace App\Http\Middleware;
 
 use Closure;
@@ -11,7 +10,7 @@ class RoleMiddleware
     public function handle(
         Request $request,
         Closure $next,
-        ...$roles
+        string ...$roles
     ): Response {
 
         $user = $request->user();
