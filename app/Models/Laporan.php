@@ -9,8 +9,6 @@ class Laporan extends Model
 {
     use HasFactory;
 
-    protected $table = 'reports';
-
     protected $fillable = [
         'user_id',
         'facility_id',
@@ -31,16 +29,16 @@ class Laporan extends Model
         ];
     }
 
-    // Pengguna yang membuat laporan
+    // Pelapor
     public function user()
     {
-        return $this->belongsTo(User::class, 'user_id');
+        return $this->belongsTo(User::class);
     }
 
     // Fasilitas yang dilaporkan
-    public function fasilitas()
+    public function Fasilitas()
     {
-        return $this->belongsTo(Fasilitas::class, 'facility_id');
+        return $this->belongsTo(Fasilitas::class);
     }
 
     // Petugas yang ditugaskan
@@ -58,18 +56,18 @@ class Laporan extends Model
     // Foto bukti kerusakan
     public function photos()
     {
-        return $this->hasMany(Foto::class, 'report_id');
+        return $this->hasMany(Foto::class);
     }
 
     // Hasil perhitungan prioritas
     public function priority()
     {
-        return $this->hasOne('App\\Models\\Prioritas', 'report_id');
+        return $this->hasOne(priority::class);
     }
 
-    // Riwayat perubahan status
+    // Riwayat status laporan
     public function statusLogs()
     {
-        return $this->hasMany(ReportStatusLog::class, 'report_id');
+        return $this->hasMany(ReportStatusLog::class);
     }
 }

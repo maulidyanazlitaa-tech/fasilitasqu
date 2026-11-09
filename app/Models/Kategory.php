@@ -5,7 +5,7 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Kategori extends Model
+class Kategory extends Model
 {
     use HasFactory;
 
@@ -25,6 +25,6 @@ class Kategori extends Model
 
     public function facilities()
     {
-        return $this->hasMany(Fasilitas::class, 'category_id');
+        return $this->hasMany(Fasilitas::class);
     }
 }

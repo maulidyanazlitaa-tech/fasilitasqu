@@ -68,7 +68,6 @@ class User extends Authenticatable
         return $this->hasMany(ReportStatusLog::class, 'changed_by');
     }
 
-    // Memeriksa role pengguna
     public function hasRole(string|array $roles): bool
     {
         return in_array($this->role, (array) $roles, true);
