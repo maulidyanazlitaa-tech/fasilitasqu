@@ -9,6 +9,8 @@ class Fasilitas extends Model
 {
     use HasFactory;
 
+    protected $table = 'facilities';
+
     protected $fillable = [
         'category_id',
         'name',
@@ -27,13 +29,13 @@ class Fasilitas extends Model
         ];
     }
 
-    public function Kategory()
+    public function kategori()
     {
-        return $this->belongsTo(Kategory::class);
+        return $this->belongsTo(Kategori::class, 'category_id');
     }
 
     public function reports()
     {
-        return $this->hasMany(Laporan::class);
+        return $this->hasMany(Laporan::class, 'facility_id');
     }
 }

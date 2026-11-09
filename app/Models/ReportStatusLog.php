@@ -9,6 +9,8 @@ class ReportStatusLog extends Model
 {
     use HasFactory;
 
+    protected $table = 'report_status_logs';
+
     protected $fillable = [
         'report_id',
         'changed_by',
@@ -25,11 +27,13 @@ class ReportStatusLog extends Model
         ];
     }
 
-    public function Laporan()
+    // Laporan yang memiliki riwayat status ini
+    public function laporan()
     {
-        return $this->belongsTo(Laporan::class);
+        return $this->belongsTo(Laporan::class, 'report_id');
     }
 
+    // Pengguna yang mengubah status
     public function changedBy()
     {
         return $this->belongsTo(User::class, 'changed_by');

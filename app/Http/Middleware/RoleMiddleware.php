@@ -1,4 +1,5 @@
 <?php
+
 namespace App\Http\Middleware;
 
 use Closure;
@@ -15,6 +16,7 @@ class RoleMiddleware
 
         $user = $request->user();
 
+        // Memeriksa autentikasi pengguna
         if (!$user) {
             return response()->json([
                 'success' => false,
