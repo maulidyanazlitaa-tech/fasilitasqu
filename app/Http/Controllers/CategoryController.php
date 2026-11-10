@@ -1,10 +1,9 @@
 <?php
 
-namespace App\Http\Controllers\Api;
+namespace App\Http\Controllers;
 
-use App\Http\Controllers\Controller;
-use App\Http\Requests\StoreCategoryRequest;
-use App\Http\Requests\UpdateCategoryRequest;
+use App\Http\Requests\StoreFacilityRequest;
+use App\Http\Requests\UpdateFacilityRequest;
 use App\Models\Kategori;
 use App\Services\CategoryService;
 use Illuminate\Http\Request;
@@ -47,7 +46,7 @@ class CategoryController extends Controller
     }
 
     // Menambahkan kategori
-    public function store(StoreCategoryRequest $request)
+    public function store(StoreFacilityRequest $request)
     {
         $category = $this->categoryService->createCategory(
             $request->validated()
@@ -62,7 +61,7 @@ class CategoryController extends Controller
 
     // Mengubah kategori
     public function update(
-        UpdateCategoryRequest $request,
+        UpdateFacilityRequest $request,
         Kategori $category
     ) {
         $updatedCategory = $this->categoryService->updateCategory(

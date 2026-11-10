@@ -1,9 +1,7 @@
 <?php
 
-namespace App\Http\Controllers\Api;
+namespace App\Http\Controllers;
 
-use App\Http\Controllers\Controller;
-use App\Http\Requests\StoreFacilityRequest;
 use App\Http\Requests\UpdateFacilityRequest;
 use App\Models\Fasilitas;
 use App\Services\FacilityService;
@@ -51,10 +49,10 @@ class FacilityController extends Controller
     }
 
     // Menambahkan fasilitas
-    public function store(StoreFacilityRequest $request)
+    public function store(Request $request)
     {
         $facility = $this->facilityService->createFacility(
-            $request->validated()
+            $request->all()
         );
 
         return response()->json([

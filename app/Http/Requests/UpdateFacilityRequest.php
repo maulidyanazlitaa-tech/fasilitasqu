@@ -5,7 +5,7 @@ namespace App\Http\Requests;
 use Illuminate\Foundation\Http\FormRequest;
 use Illuminate\Validation\Rule;
 
-class UpdateCategoryRequest extends FormRequest
+class UpdateFacilityRequest extends FormRequest
 {
     public function authorize(): bool
     {
@@ -14,14 +14,14 @@ class UpdateCategoryRequest extends FormRequest
 
     public function rules(): array
     {
-        $categoryId = $this->route('category')?->id;
+        $facilityId = $this->route('facility')?->id;
 
         return [
             'name' => [
                 'required',
                 'string',
                 'max:255',
-                Rule::unique('categories', 'name')->ignore($categoryId),
+                Rule::unique('categories', 'name')->ignore($facilityId),
             ],
             'severity_weight' => 'required|numeric|between:0,9.99',
         ];
