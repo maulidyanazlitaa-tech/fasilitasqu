@@ -9,13 +9,16 @@ class Foto extends Model
 {
     use HasFactory;
 
+    protected $table = 'photos';
+
     protected $fillable = [
         'report_id',
         'file_path',
     ];
 
-    public function Laporan()
+    // Laporan yang memiliki foto ini
+    public function laporan()
     {
-        return $this->belongsTo(Laporan::class);
+        return $this->belongsTo(Laporan::class, 'report_id');
     }
 }
