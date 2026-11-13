@@ -6,7 +6,7 @@
 @section('content')
 
     <!-- PEL-08 Detail & Status Laporan — setiap data-layer adalah layer HTML yang dapat diperiksa. -->
-    <div class="reporter-app" style="">
+    <div class="reporter-app">
       
 @include('layouts.partials.navbar-pelapor')
 
