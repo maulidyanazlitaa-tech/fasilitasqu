@@ -1,0 +1,6338 @@
+[
+  {
+    "code": "COV-00",
+    "name": "Cover & Flow",
+    "route": "/prototype",
+    "group": "00 Cover & Flow",
+    "file": "pages/COV-00.html",
+    "thumbnail": "assets/thumbnails/COV-00.jpg",
+    "layers": [
+      {
+        "id": "COV-00-layer-1",
+        "name": "Header",
+        "tag": "header",
+        "children": []
+      },
+      {
+        "id": "COV-00-layer-2",
+        "name": "Cover",
+        "tag": "section",
+        "children": [
+          {
+            "id": "COV-00-layer-3",
+            "name": "Teks/Judul Utama — FasilitasQu.",
+            "tag": "h1",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "COV-00-layer-4",
+        "name": "Teks/Subjudul — Empat peran. Satu kepedulian.",
+        "tag": "h3",
+        "children": []
+      },
+      {
+        "id": "COV-00-layer-5",
+        "name": "Flow/Peran",
+        "tag": "section",
+        "children": [
+          {
+            "id": "COV-00-layer-6",
+            "name": "Teks/Judul Kartu — Laporkan kerusakan dan pantau perkembangannya.",
+            "tag": "h4",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "COV-00-layer-7",
+        "name": "Flow/Peran",
+        "tag": "section",
+        "children": [
+          {
+            "id": "COV-00-layer-8",
+            "name": "Teks/Judul Kartu — Verifikasi laporan dan kelola fasilitas kampus.",
+            "tag": "h4",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "COV-00-layer-9",
+        "name": "Flow/Peran",
+        "tag": "section",
+        "children": [
+          {
+            "id": "COV-00-layer-10",
+            "name": "Teks/Judul Kartu — Tangani perbaikan sesuai urutan prioritas.",
+            "tag": "h4",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "COV-00-layer-11",
+        "name": "Flow/Peran",
+        "tag": "section",
+        "children": [
+          {
+            "id": "COV-00-layer-12",
+            "name": "Teks/Judul Kartu — Pantau kondisi dan prioritas perbaikan kampus.",
+            "tag": "h4",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "COV-00-layer-13",
+        "name": "Indeks/Halaman — Indeks Halaman & State",
+        "tag": "section",
+        "children": [
+          {
+            "id": "COV-00-layer-14",
+            "name": "Teks/Subjudul — Indeks Halaman & State",
+            "tag": "h3",
+            "children": []
+          },
+          {
+            "id": "COV-00-layer-15",
+            "name": "Section — 02 Publik & Auth",
+            "tag": "section",
+            "children": [
+              {
+                "id": "COV-00-layer-16",
+                "name": "Teks/Judul Kartu — 02 Publik & Auth",
+                "tag": "h4",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "COV-00-layer-17",
+            "name": "Section — 03 Pelapor",
+            "tag": "section",
+            "children": [
+              {
+                "id": "COV-00-layer-18",
+                "name": "Teks/Judul Kartu — 03 Pelapor",
+                "tag": "h4",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "COV-00-layer-19",
+            "name": "Section — 04 Admin",
+            "tag": "section",
+            "children": [
+              {
+                "id": "COV-00-layer-20",
+                "name": "Teks/Judul Kartu — 04 Admin",
+                "tag": "h4",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "COV-00-layer-21",
+            "name": "Section — 05 Petugas",
+            "tag": "section",
+            "children": [
+              {
+                "id": "COV-00-layer-22",
+                "name": "Teks/Judul Kartu — 05 Petugas",
+                "tag": "h4",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "COV-00-layer-23",
+            "name": "Section — 06 Koordinator",
+            "tag": "section",
+            "children": [
+              {
+                "id": "COV-00-layer-24",
+                "name": "Teks/Judul Kartu — 06 Koordinator",
+                "tag": "h4",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "defaults": {}
+  },
+  {
+    "code": "DS-01",
+    "name": "Design System",
+    "route": "/sistem-desain",
+    "group": "01 Design System",
+    "file": "pages/DS-01.html",
+    "thumbnail": "assets/thumbnails/DS-01.jpg",
+    "layers": [
+      {
+        "id": "DS-01-layer-1",
+        "name": "Header",
+        "tag": "header",
+        "children": []
+      },
+      {
+        "id": "DS-01-layer-2",
+        "name": "Teks/Judul Utama — Sederhana. Terukur. Konsisten.",
+        "tag": "h1",
+        "children": []
+      },
+      {
+        "id": "DS-01-layer-3",
+        "name": "Design System/Bagian — 01 — Warna & Variabel",
+        "tag": "section",
+        "children": [
+          {
+            "id": "DS-01-layer-4",
+            "name": "Teks/Subjudul — 01 — Warna & Variabel",
+            "tag": "h3",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "DS-01-layer-5",
+        "name": "Design System/Bagian — 02 — Tipografi",
+        "tag": "section",
+        "children": [
+          {
+            "id": "DS-01-layer-6",
+            "name": "Teks/Subjudul — 02 — Tipografi",
+            "tag": "h3",
+            "children": []
+          },
+          {
+            "id": "DS-01-layer-7",
+            "name": "Teks/Judul Utama — Kampus nyaman untuk semua.",
+            "tag": "h1",
+            "children": []
+          },
+          {
+            "id": "DS-01-layer-8",
+            "name": "Teks/Judul Utama — Laporanmu membawa perubahan.",
+            "tag": "h1",
+            "children": []
+          },
+          {
+            "id": "DS-01-layer-9",
+            "name": "Teks/Judul Section — Peduli, laporkan, pantau.",
+            "tag": "h2",
+            "children": []
+          },
+          {
+            "id": "DS-01-layer-10",
+            "name": "Teks/Subjudul — Fasilitas yang lebih terawat.",
+            "tag": "h3",
+            "children": []
+          },
+          {
+            "id": "DS-01-layer-11",
+            "name": "Teks/Judul Kartu — Satu kampus, kepedulian bersama.",
+            "tag": "h4",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "DS-01-layer-12",
+        "name": "Design System/Bagian — 03 — Tombol & Interaksi",
+        "tag": "section",
+        "children": [
+          {
+            "id": "DS-01-layer-13",
+            "name": "Teks/Subjudul — 03 — Tombol & Interaksi",
+            "tag": "h3",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "DS-01-layer-14",
+        "name": "Design System/Bagian — 04 — Isian Formulir",
+        "tag": "section",
+        "children": [
+          {
+            "id": "DS-01-layer-15",
+            "name": "Teks/Subjudul — 04 — Isian Formulir",
+            "tag": "h3",
+            "children": []
+          },
+          {
+            "id": "DS-01-layer-16",
+            "name": "Form/Isian — Default",
+            "tag": "div",
+            "children": []
+          },
+          {
+            "id": "DS-01-layer-17",
+            "name": "Form/Isian — Focus",
+            "tag": "div",
+            "children": []
+          },
+          {
+            "id": "DS-01-layer-18",
+            "name": "Form/Isian — Error",
+            "tag": "div",
+            "children": []
+          },
+          {
+            "id": "DS-01-layer-19",
+            "name": "Form/Isian — Disabled",
+            "tag": "div",
+            "children": []
+          },
+          {
+            "id": "DS-01-layer-20",
+            "name": "Form/Isian — Select",
+            "tag": "div",
+            "children": []
+          },
+          {
+            "id": "DS-01-layer-21",
+            "name": "Form/Isian — Textarea",
+            "tag": "div",
+            "children": []
+          },
+          {
+            "id": "DS-01-layer-22",
+            "name": "Form/Radio Card — Ringan",
+            "tag": "div",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "DS-01-layer-23",
+        "name": "Design System/Bagian — 05 — Badge & Indikator",
+        "tag": "section",
+        "children": [
+          {
+            "id": "DS-01-layer-24",
+            "name": "Teks/Subjudul — 05 — Badge & Indikator",
+            "tag": "h3",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "DS-01-layer-25",
+        "name": "Design System/Bagian — 06 — Kartu & Surface",
+        "tag": "section",
+        "children": [
+          {
+            "id": "DS-01-layer-26",
+            "name": "Teks/Subjudul — 06 — Kartu & Surface",
+            "tag": "h3",
+            "children": []
+          },
+          {
+            "id": "DS-01-layer-27",
+            "name": "Grid/Kartu",
+            "tag": "div",
+            "children": [
+              {
+                "id": "DS-01-layer-28",
+                "name": "Card/Fasilitas",
+                "tag": "article",
+                "children": [
+                  {
+                    "id": "DS-01-layer-29",
+                    "name": "Teks/Judul Kartu — Toilet Gedung A Lt.2",
+                    "tag": "h4",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "DS-01-layer-30",
+                "name": "Card/Laporan — Toilet Gedung A Lt.2",
+                "tag": "article",
+                "children": [
+                  {
+                    "id": "DS-01-layer-31",
+                    "name": "Teks/Judul Kartu — Toilet Gedung A Lt.2",
+                    "tag": "h4",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "DS-01-layer-32",
+                "name": "Card/KPI",
+                "tag": "div",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "DS-01-layer-33",
+        "name": "Design System/Bagian — 07 — Navigasi, Tabel & Riwayat",
+        "tag": "section",
+        "children": [
+          {
+            "id": "DS-01-layer-34",
+            "name": "Teks/Subjudul — 07 — Navigasi, Tabel & Riwayat",
+            "tag": "h3",
+            "children": []
+          },
+          {
+            "id": "DS-01-layer-35",
+            "name": "Panel/Konten",
+            "tag": "div",
+            "children": [
+              {
+                "id": "DS-01-layer-36",
+                "name": "Navigasi/Breadcrumb",
+                "tag": "div",
+                "children": []
+              },
+              {
+                "id": "DS-01-layer-37",
+                "name": "Navigasi/Tabs",
+                "tag": "div",
+                "children": []
+              },
+              {
+                "id": "DS-01-layer-38",
+                "name": "Tabel",
+                "tag": "div",
+                "children": []
+              },
+              {
+                "id": "DS-01-layer-39",
+                "name": "Navigasi/Pagination",
+                "tag": "div",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "DS-01-layer-40",
+            "name": "Panel/Konten — Timeline Riwayat Status",
+            "tag": "div",
+            "children": [
+              {
+                "id": "DS-01-layer-41",
+                "name": "Teks/Judul Kartu — Timeline Riwayat Status",
+                "tag": "h4",
+                "children": []
+              },
+              {
+                "id": "DS-01-layer-42",
+                "name": "Timeline/Riwayat Status",
+                "tag": "div",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "DS-01-layer-43",
+            "name": "Panel/Konten",
+            "tag": "div",
+            "children": [
+              {
+                "id": "DS-01-layer-44",
+                "name": "Peta/Kanvas",
+                "tag": "div",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "DS-01-layer-45",
+            "name": "Panel/Konten",
+            "tag": "div",
+            "children": [
+              {
+                "id": "DS-01-layer-46",
+                "name": "Teks/Subjudul — Belum ada laporan",
+                "tag": "h3",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "DS-01-layer-47",
+        "name": "Design System/Bagian — 08 — Pola Layout & Komponen Lanjutan",
+        "tag": "section",
+        "children": [
+          {
+            "id": "DS-01-layer-48",
+            "name": "Teks/Subjudul — 08 — Pola Layout & Komponen Lanjutan",
+            "tag": "h3",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "defaults": {}
+  },
+  {
+    "code": "PUB-01",
+    "name": "Landing Page",
+    "route": "/",
+    "group": "02 Publik & Auth",
+    "file": "pages/PUB-01.html",
+    "thumbnail": "assets/thumbnails/PUB-01.jpg",
+    "layers": [
+      {
+        "id": "PUB-01-layer-1",
+        "name": "Hero",
+        "tag": "section",
+        "children": [
+          {
+            "id": "PUB-01-layer-2",
+            "name": "Header/Navbar Publik",
+            "tag": "header",
+            "children": [
+              {
+                "id": "PUB-01-layer-3",
+                "name": "Navigasi",
+                "tag": "nav",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "PUB-01-layer-4",
+            "name": "Hero/Judul & Aksi",
+            "tag": "div",
+            "children": [
+              {
+                "id": "PUB-01-layer-5",
+                "name": "Teks/Judul Utama — Laporkan Kerusakan Fasilitas Kampus, Pantau Sampai Selesai.",
+                "tag": "h1",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "PUB-01-layer-6",
+        "name": "Section/Layanan Utama",
+        "tag": "section",
+        "children": [
+          {
+            "id": "PUB-01-layer-7",
+            "name": "Card/Layanan — Lapor Kerusakan",
+            "tag": "div",
+            "children": [
+              {
+                "id": "PUB-01-layer-8",
+                "name": "Teks/Judul Kartu — Lapor Kerusakan",
+                "tag": "h4",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "PUB-01-layer-9",
+            "name": "Card/Layanan — Peta & Kondisi Fasilitas",
+            "tag": "div",
+            "children": [
+              {
+                "id": "PUB-01-layer-10",
+                "name": "Teks/Judul Kartu — Peta & Kondisi Fasilitas",
+                "tag": "h4",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "PUB-01-layer-11",
+            "name": "Card/Layanan — Pantau Status",
+            "tag": "div",
+            "children": [
+              {
+                "id": "PUB-01-layer-12",
+                "name": "Teks/Judul Kartu — Pantau Status",
+                "tag": "h4",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "PUB-01-layer-13",
+        "name": "Section/Kategori Fasilitas",
+        "tag": "section",
+        "children": [
+          {
+            "id": "PUB-01-layer-14",
+            "name": "Teks/Judul Section — Hal kecil yang berfungsi,dampak besar untuk kita.",
+            "tag": "h2",
+            "children": []
+          },
+          {
+            "id": "PUB-01-layer-15",
+            "name": "Grid/Kategori",
+            "tag": "div",
+            "children": [
+              {
+                "id": "PUB-01-layer-16",
+                "name": "Card/Kategori — Toilet & Saluran Air",
+                "tag": "div",
+                "children": [
+                  {
+                    "id": "PUB-01-layer-17",
+                    "name": "Teks/Judul Kartu — Toilet & Saluran Air",
+                    "tag": "h4",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "PUB-01-layer-18",
+                "name": "Card/Kategori — Kursi & Meja Kelas",
+                "tag": "div",
+                "children": [
+                  {
+                    "id": "PUB-01-layer-19",
+                    "name": "Teks/Judul Kartu — Kursi & Meja Kelas",
+                    "tag": "h4",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "PUB-01-layer-20",
+                "name": "Card/Kategori — Jaringan Internet / Wi-Fi",
+                "tag": "div",
+                "children": [
+                  {
+                    "id": "PUB-01-layer-21",
+                    "name": "Teks/Judul Kartu — Jaringan Internet / Wi-Fi",
+                    "tag": "h4",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "PUB-01-layer-22",
+                "name": "Card/Kategori — AC & Pendingin Udara",
+                "tag": "div",
+                "children": [
+                  {
+                    "id": "PUB-01-layer-23",
+                    "name": "Teks/Judul Kartu — AC & Pendingin Udara",
+                    "tag": "h4",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "PUB-01-layer-24",
+                "name": "Card/Kategori — Proyektor & Perangkat Kelas",
+                "tag": "div",
+                "children": [
+                  {
+                    "id": "PUB-01-layer-25",
+                    "name": "Teks/Judul Kartu — Proyektor & Perangkat Kelas",
+                    "tag": "h4",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "PUB-01-layer-26",
+                "name": "Card/Kategori — Lampu & Kelistrikan",
+                "tag": "div",
+                "children": [
+                  {
+                    "id": "PUB-01-layer-27",
+                    "name": "Teks/Judul Kartu — Lampu & Kelistrikan",
+                    "tag": "h4",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "PUB-01-layer-28",
+        "name": "Section/Cara Kerja",
+        "tag": "section",
+        "children": [
+          {
+            "id": "PUB-01-layer-29",
+            "name": "Teks/Judul Section — Dari laporanmu,jadi perubahan nyata.",
+            "tag": "h2",
+            "children": []
+          },
+          {
+            "id": "PUB-01-layer-30",
+            "name": "Stepper/Cara Kerja",
+            "tag": "div",
+            "children": [
+              {
+                "id": "PUB-01-layer-31",
+                "name": "Teks/Judul Kartu — Login dan pilih fasilitas",
+                "tag": "h4",
+                "children": []
+              },
+              {
+                "id": "PUB-01-layer-32",
+                "name": "Teks/Judul Kartu — Isi laporan, foto, dan lokasi",
+                "tag": "h4",
+                "children": []
+              },
+              {
+                "id": "PUB-01-layer-33",
+                "name": "Teks/Judul Kartu — Verifikasi & prioritas",
+                "tag": "h4",
+                "children": []
+              },
+              {
+                "id": "PUB-01-layer-34",
+                "name": "Teks/Judul Kartu — Ditangani sampai selesai",
+                "tag": "h4",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "PUB-01-layer-35",
+        "name": "Section/Prioritas",
+        "tag": "section",
+        "children": [
+          {
+            "id": "PUB-01-layer-36",
+            "name": "Teks/Judul Section — Prioritas PerbaikanBerbasis Skor.",
+            "tag": "h2",
+            "children": []
+          },
+          {
+            "id": "PUB-01-layer-37",
+            "name": "Card/Prioritas — Toilet & Saluran Air",
+            "tag": "div",
+            "children": [
+              {
+                "id": "PUB-01-layer-38",
+                "name": "Teks/Judul Kartu — Toilet & Saluran Air",
+                "tag": "h4",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "PUB-01-layer-39",
+            "name": "Card/Prioritas — Kursi & Meja Kelas",
+            "tag": "div",
+            "children": [
+              {
+                "id": "PUB-01-layer-40",
+                "name": "Teks/Judul Kartu — Kursi & Meja Kelas",
+                "tag": "h4",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "PUB-01-layer-41",
+            "name": "Card/Prioritas — Internet / Wi-Fi",
+            "tag": "div",
+            "children": [
+              {
+                "id": "PUB-01-layer-42",
+                "name": "Teks/Judul Kartu — Internet / Wi-Fi",
+                "tag": "h4",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "PUB-01-layer-43",
+        "name": "Section/Survei",
+        "tag": "section",
+        "children": [
+          {
+            "id": "PUB-01-layer-44",
+            "name": "Teks/Judul Section — Kerusakan sering terlihat.Saatnya lebih banyak dilaporkan.",
+            "tag": "h2",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "PUB-01-layer-45",
+        "name": "Section/Peran",
+        "tag": "section",
+        "children": [
+          {
+            "id": "PUB-01-layer-46",
+            "name": "Teks/Judul Section — Untuk Siapa FasilitasQu?",
+            "tag": "h2",
+            "children": []
+          },
+          {
+            "id": "PUB-01-layer-47",
+            "name": "Card/Peran — Pelapor",
+            "tag": "div",
+            "children": [
+              {
+                "id": "PUB-01-layer-48",
+                "name": "Teks/Judul Kartu — Pelapor",
+                "tag": "h4",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "PUB-01-layer-49",
+            "name": "Card/Peran — Admin",
+            "tag": "div",
+            "children": [
+              {
+                "id": "PUB-01-layer-50",
+                "name": "Teks/Judul Kartu — Admin",
+                "tag": "h4",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "PUB-01-layer-51",
+            "name": "Card/Peran — Petugas",
+            "tag": "div",
+            "children": [
+              {
+                "id": "PUB-01-layer-52",
+                "name": "Teks/Judul Kartu — Petugas",
+                "tag": "h4",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "PUB-01-layer-53",
+            "name": "Card/Peran — Koordinator",
+            "tag": "div",
+            "children": [
+              {
+                "id": "PUB-01-layer-54",
+                "name": "Teks/Judul Kartu — Koordinator",
+                "tag": "h4",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "PUB-01-layer-55",
+        "name": "Section/Status Transparan",
+        "tag": "section",
+        "children": [
+          {
+            "id": "PUB-01-layer-56",
+            "name": "Teks/Judul Section — Status LaporanTransparan.",
+            "tag": "h2",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "PUB-01-layer-57",
+        "name": "Section/CTA",
+        "tag": "section",
+        "children": [
+          {
+            "id": "PUB-01-layer-58",
+            "name": "Teks/Judul Section — Menemukan fasilitas rusak?Laporkan sekarang.",
+            "tag": "h2",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "PUB-01-layer-59",
+        "name": "Footer/Publik",
+        "tag": "footer",
+        "children": [
+          {
+            "id": "PUB-01-layer-60",
+            "name": "Teks/Judul Kartu — Dibangun untukUniversitas Jambi.",
+            "tag": "h4",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "defaults": {}
+  },
+  {
+    "code": "PUB-02",
+    "name": "Login",
+    "route": "/masuk",
+    "group": "02 Publik & Auth",
+    "file": "pages/PUB-02.html",
+    "thumbnail": "assets/thumbnails/PUB-02.jpg",
+    "layers": [
+      {
+        "id": "PUB-02-layer-1",
+        "name": "Panel/Identitas",
+        "tag": "aside",
+        "children": [
+          {
+            "id": "PUB-02-layer-2",
+            "name": "Teks/Judul Section — Satu pintu untuklaporan fasilitaskampus.",
+            "tag": "h2",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "PUB-02-layer-3",
+        "name": "Form/Login",
+        "tag": "main",
+        "children": [
+          {
+            "id": "PUB-02-layer-4",
+            "name": "Teks/Judul Utama — Masuk ke FasilitasQu",
+            "tag": "h1",
+            "children": []
+          },
+          {
+            "id": "PUB-02-layer-5",
+            "name": "Form",
+            "tag": "form",
+            "children": [
+              {
+                "id": "PUB-02-layer-6",
+                "name": "Form/Isian — Email",
+                "tag": "div",
+                "children": []
+              },
+              {
+                "id": "PUB-02-layer-7",
+                "name": "Form/Isian — Password",
+                "tag": "div",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "PUB-02-layer-8",
+            "name": "Navigasi/Empat Peran",
+            "tag": "div",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "defaults": {}
+  },
+  {
+    "code": "PUB-02b",
+    "name": "Login — Error",
+    "route": "/masuk?state=error",
+    "group": "02 Publik & Auth",
+    "file": "pages/PUB-02b.html",
+    "thumbnail": "assets/thumbnails/PUB-02b.jpg",
+    "layers": [
+      {
+        "id": "PUB-02b-layer-1",
+        "name": "Panel/Identitas",
+        "tag": "aside",
+        "children": [
+          {
+            "id": "PUB-02b-layer-2",
+            "name": "Teks/Judul Section — Satu pintu untuklaporan fasilitaskampus.",
+            "tag": "h2",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "PUB-02b-layer-3",
+        "name": "Form/Login",
+        "tag": "main",
+        "children": [
+          {
+            "id": "PUB-02b-layer-4",
+            "name": "Teks/Judul Utama — Masuk ke FasilitasQu",
+            "tag": "h1",
+            "children": []
+          },
+          {
+            "id": "PUB-02b-layer-5",
+            "name": "Form",
+            "tag": "form",
+            "children": [
+              {
+                "id": "PUB-02b-layer-6",
+                "name": "Form/Isian — Email",
+                "tag": "div",
+                "children": []
+              },
+              {
+                "id": "PUB-02b-layer-7",
+                "name": "Form/Isian — Password",
+                "tag": "div",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "PUB-02b-layer-8",
+            "name": "Navigasi/Empat Peran",
+            "tag": "div",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "defaults": {
+      "state": "error"
+    }
+  },
+  {
+    "code": "PEL-01",
+    "name": "Beranda Pelapor",
+    "route": "/pelapor/beranda",
+    "group": "03 Pelapor",
+    "file": "pages/PEL-01.html",
+    "thumbnail": "assets/thumbnails/PEL-01.jpg",
+    "layers": [
+      {
+        "id": "PEL-01-layer-1",
+        "name": "Header/Navbar Pelapor",
+        "tag": "header",
+        "children": [
+          {
+            "id": "PEL-01-layer-2",
+            "name": "Navigasi",
+            "tag": "nav",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "PEL-01-layer-3",
+        "name": "Konten/Halaman Pelapor",
+        "tag": "main",
+        "children": [
+          {
+            "id": "PEL-01-layer-4",
+            "name": "Teks/Judul Utama — Halo, Aulia.",
+            "tag": "h1",
+            "children": []
+          },
+          {
+            "id": "PEL-01-layer-5",
+            "name": "Grid/KPI",
+            "tag": "div",
+            "children": [
+              {
+                "id": "PEL-01-layer-6",
+                "name": "Card/KPI",
+                "tag": "div",
+                "children": []
+              },
+              {
+                "id": "PEL-01-layer-7",
+                "name": "Card/KPI",
+                "tag": "div",
+                "children": []
+              },
+              {
+                "id": "PEL-01-layer-8",
+                "name": "Card/KPI",
+                "tag": "div",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "PEL-01-layer-9",
+            "name": "Section",
+            "tag": "section",
+            "children": [
+              {
+                "id": "PEL-01-layer-10",
+                "name": "Teks/Subjudul — Laporan Terbaru",
+                "tag": "h3",
+                "children": []
+              },
+              {
+                "id": "PEL-01-layer-11",
+                "name": "Grid/Kartu",
+                "tag": "div",
+                "children": [
+                  {
+                    "id": "PEL-01-layer-12",
+                    "name": "Card/Laporan — Lampu Koridor Gedung C",
+                    "tag": "article",
+                    "children": [
+                      {
+                        "id": "PEL-01-layer-13",
+                        "name": "Teks/Judul Kartu — Lampu Koridor Gedung C",
+                        "tag": "h4",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": "PEL-01-layer-14",
+                    "name": "Card/Laporan — Toilet Gedung B Lt.1",
+                    "tag": "article",
+                    "children": [
+                      {
+                        "id": "PEL-01-layer-15",
+                        "name": "Teks/Judul Kartu — Toilet Gedung B Lt.1",
+                        "tag": "h4",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": "PEL-01-layer-16",
+                    "name": "Card/Laporan — Proyektor Ruang B.101",
+                    "tag": "article",
+                    "children": [
+                      {
+                        "id": "PEL-01-layer-17",
+                        "name": "Teks/Judul Kartu — Proyektor Ruang B.101",
+                        "tag": "h4",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "PEL-01-layer-18",
+            "name": "Section",
+            "tag": "section",
+            "children": [
+              {
+                "id": "PEL-01-layer-19",
+                "name": "Teks/Subjudul — Fasilitas yang Perlu Perhatian",
+                "tag": "h3",
+                "children": []
+              },
+              {
+                "id": "PEL-01-layer-20",
+                "name": "Grid/Kartu",
+                "tag": "div",
+                "children": [
+                  {
+                    "id": "PEL-01-layer-21",
+                    "name": "Card/Fasilitas",
+                    "tag": "article",
+                    "children": [
+                      {
+                        "id": "PEL-01-layer-22",
+                        "name": "Teks/Judul Kartu — Toilet Gedung A Lt.2",
+                        "tag": "h4",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": "PEL-01-layer-23",
+                    "name": "Card/Fasilitas",
+                    "tag": "article",
+                    "children": [
+                      {
+                        "id": "PEL-01-layer-24",
+                        "name": "Teks/Judul Kartu — Kursi & Meja Ruang B.204",
+                        "tag": "h4",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": "PEL-01-layer-25",
+                    "name": "Card/Fasilitas",
+                    "tag": "article",
+                    "children": [
+                      {
+                        "id": "PEL-01-layer-26",
+                        "name": "Teks/Judul Kartu — Wi-Fi Lab Komputer",
+                        "tag": "h4",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "PEL-01-layer-27",
+        "name": "Footer/Aplikasi",
+        "tag": "div",
+        "children": []
+      },
+      {
+        "id": "PEL-01-layer-28",
+        "name": "Navigasi/Mobile",
+        "tag": "nav",
+        "children": []
+      }
+    ],
+    "defaults": {}
+  },
+  {
+    "code": "PEL-02",
+    "name": "Daftar Fasilitas",
+    "route": "/pelapor/fasilitas",
+    "group": "03 Pelapor",
+    "file": "pages/PEL-02.html",
+    "thumbnail": "assets/thumbnails/PEL-02.jpg",
+    "layers": [
+      {
+        "id": "PEL-02-layer-1",
+        "name": "Header/Navbar Pelapor",
+        "tag": "header",
+        "children": [
+          {
+            "id": "PEL-02-layer-2",
+            "name": "Navigasi",
+            "tag": "nav",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "PEL-02-layer-3",
+        "name": "Konten/Halaman Pelapor",
+        "tag": "main",
+        "children": [
+          {
+            "id": "PEL-02-layer-4",
+            "name": "Header/Judul Halaman",
+            "tag": "div",
+            "children": [
+              {
+                "id": "PEL-02-layer-5",
+                "name": "Teks/Judul Utama — Fasilitas Kampus",
+                "tag": "h1",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "PEL-02-layer-6",
+            "name": "Kontrol/Pencarian & Filter",
+            "tag": "div",
+            "children": [
+              {
+                "id": "PEL-02-layer-7",
+                "name": "Form/Isian",
+                "tag": "div",
+                "children": []
+              },
+              {
+                "id": "PEL-02-layer-8",
+                "name": "Form/Isian",
+                "tag": "div",
+                "children": []
+              },
+              {
+                "id": "PEL-02-layer-9",
+                "name": "Form/Isian",
+                "tag": "div",
+                "children": []
+              },
+              {
+                "id": "PEL-02-layer-10",
+                "name": "Form/Isian",
+                "tag": "div",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "PEL-02-layer-11",
+            "name": "Grid/Kartu",
+            "tag": "div",
+            "children": [
+              {
+                "id": "PEL-02-layer-12",
+                "name": "Card/Fasilitas",
+                "tag": "article",
+                "children": [
+                  {
+                    "id": "PEL-02-layer-13",
+                    "name": "Teks/Judul Kartu — Toilet Gedung A Lt.2",
+                    "tag": "h4",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "PEL-02-layer-14",
+                "name": "Card/Fasilitas",
+                "tag": "article",
+                "children": [
+                  {
+                    "id": "PEL-02-layer-15",
+                    "name": "Teks/Judul Kartu — Kursi & Meja Ruang B.204",
+                    "tag": "h4",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "PEL-02-layer-16",
+                "name": "Card/Fasilitas",
+                "tag": "article",
+                "children": [
+                  {
+                    "id": "PEL-02-layer-17",
+                    "name": "Teks/Judul Kartu — Wi-Fi Lab Komputer",
+                    "tag": "h4",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "PEL-02-layer-18",
+                "name": "Card/Fasilitas",
+                "tag": "article",
+                "children": [
+                  {
+                    "id": "PEL-02-layer-19",
+                    "name": "Teks/Judul Kartu — AC Ruang A.101",
+                    "tag": "h4",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "PEL-02-layer-20",
+                "name": "Card/Fasilitas",
+                "tag": "article",
+                "children": [
+                  {
+                    "id": "PEL-02-layer-21",
+                    "name": "Teks/Judul Kartu — Lampu Koridor Gedung C",
+                    "tag": "h4",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "PEL-02-layer-22",
+                "name": "Card/Fasilitas",
+                "tag": "article",
+                "children": [
+                  {
+                    "id": "PEL-02-layer-23",
+                    "name": "Teks/Judul Kartu — Proyektor Ruang B.101",
+                    "tag": "h4",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "PEL-02-layer-24",
+            "name": "Navigasi/Pagination",
+            "tag": "div",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "PEL-02-layer-25",
+        "name": "Footer/Aplikasi",
+        "tag": "div",
+        "children": []
+      },
+      {
+        "id": "PEL-02-layer-26",
+        "name": "Navigasi/Mobile",
+        "tag": "nav",
+        "children": []
+      }
+    ],
+    "defaults": {}
+  },
+  {
+    "code": "PEL-03",
+    "name": "Peta Fasilitas",
+    "route": "/pelapor/peta",
+    "group": "03 Pelapor",
+    "file": "pages/PEL-03.html",
+    "thumbnail": "assets/thumbnails/PEL-03.jpg",
+    "layers": [
+      {
+        "id": "PEL-03-layer-1",
+        "name": "Header/Navbar Pelapor",
+        "tag": "header",
+        "children": [
+          {
+            "id": "PEL-03-layer-2",
+            "name": "Navigasi",
+            "tag": "nav",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "PEL-03-layer-3",
+        "name": "Konten/Halaman Pelapor",
+        "tag": "main",
+        "children": [
+          {
+            "id": "PEL-03-layer-4",
+            "name": "Header/Judul Halaman",
+            "tag": "div",
+            "children": [
+              {
+                "id": "PEL-03-layer-5",
+                "name": "Teks/Judul Utama — Peta Fasilitas",
+                "tag": "h1",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "PEL-03-layer-6",
+            "name": "Peta/Daftar Fasilitas",
+            "tag": "aside",
+            "children": [
+              {
+                "id": "PEL-03-layer-7",
+                "name": "Form/Isian",
+                "tag": "div",
+                "children": []
+              },
+              {
+                "id": "PEL-03-layer-8",
+                "name": "Form/Isian",
+                "tag": "div",
+                "children": []
+              },
+              {
+                "id": "PEL-03-layer-9",
+                "name": "Form/Isian",
+                "tag": "div",
+                "children": []
+              },
+              {
+                "id": "PEL-03-layer-10",
+                "name": "Form/Isian",
+                "tag": "div",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "PEL-03-layer-11",
+            "name": "Peta/Kanvas",
+            "tag": "div",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "PEL-03-layer-12",
+        "name": "Footer/Aplikasi",
+        "tag": "div",
+        "children": []
+      },
+      {
+        "id": "PEL-03-layer-13",
+        "name": "Navigasi/Mobile",
+        "tag": "nav",
+        "children": []
+      }
+    ],
+    "defaults": {}
+  },
+  {
+    "code": "PEL-03b",
+    "name": "Peta — Pin Dipilih",
+    "route": "/pelapor/peta?pilih=1",
+    "group": "03 Pelapor",
+    "file": "pages/PEL-03b.html",
+    "thumbnail": "assets/thumbnails/PEL-03b.jpg",
+    "layers": [
+      {
+        "id": "PEL-03b-layer-1",
+        "name": "Header/Navbar Pelapor",
+        "tag": "header",
+        "children": [
+          {
+            "id": "PEL-03b-layer-2",
+            "name": "Navigasi",
+            "tag": "nav",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "PEL-03b-layer-3",
+        "name": "Konten/Halaman Pelapor",
+        "tag": "main",
+        "children": [
+          {
+            "id": "PEL-03b-layer-4",
+            "name": "Header/Judul Halaman",
+            "tag": "div",
+            "children": [
+              {
+                "id": "PEL-03b-layer-5",
+                "name": "Teks/Judul Utama — Peta Fasilitas",
+                "tag": "h1",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "PEL-03b-layer-6",
+            "name": "Peta/Daftar Fasilitas",
+            "tag": "aside",
+            "children": [
+              {
+                "id": "PEL-03b-layer-7",
+                "name": "Form/Isian",
+                "tag": "div",
+                "children": []
+              },
+              {
+                "id": "PEL-03b-layer-8",
+                "name": "Form/Isian",
+                "tag": "div",
+                "children": []
+              },
+              {
+                "id": "PEL-03b-layer-9",
+                "name": "Form/Isian",
+                "tag": "div",
+                "children": []
+              },
+              {
+                "id": "PEL-03b-layer-10",
+                "name": "Form/Isian",
+                "tag": "div",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "PEL-03b-layer-11",
+            "name": "Peta/Kanvas",
+            "tag": "div",
+            "children": [
+              {
+                "id": "PEL-03b-layer-12",
+                "name": "Peta/Popup Fasilitas — Toilet Gedung A Lt.2",
+                "tag": "div",
+                "children": [
+                  {
+                    "id": "PEL-03b-layer-13",
+                    "name": "Teks/Judul Kartu — Toilet Gedung A Lt.2",
+                    "tag": "h4",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "PEL-03b-layer-14",
+        "name": "Footer/Aplikasi",
+        "tag": "div",
+        "children": []
+      },
+      {
+        "id": "PEL-03b-layer-15",
+        "name": "Navigasi/Mobile",
+        "tag": "nav",
+        "children": []
+      }
+    ],
+    "defaults": {
+      "pilih": "1"
+    }
+  },
+  {
+    "code": "PEL-04",
+    "name": "Detail Fasilitas",
+    "route": "/pelapor/fasilitas/1",
+    "group": "03 Pelapor",
+    "file": "pages/PEL-04.html",
+    "thumbnail": "assets/thumbnails/PEL-04.jpg",
+    "layers": [
+      {
+        "id": "PEL-04-layer-1",
+        "name": "Header/Navbar Pelapor",
+        "tag": "header",
+        "children": [
+          {
+            "id": "PEL-04-layer-2",
+            "name": "Navigasi",
+            "tag": "nav",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "PEL-04-layer-3",
+        "name": "Konten/Halaman Pelapor",
+        "tag": "main",
+        "children": [
+          {
+            "id": "PEL-04-layer-4",
+            "name": "Navigasi/Breadcrumb",
+            "tag": "div",
+            "children": []
+          },
+          {
+            "id": "PEL-04-layer-5",
+            "name": "Teks/Judul Utama — Toilet Gedung A Lt.2",
+            "tag": "h1",
+            "children": []
+          },
+          {
+            "id": "PEL-04-layer-6",
+            "name": "Panel/Konten",
+            "tag": "section",
+            "children": [
+              {
+                "id": "PEL-04-layer-7",
+                "name": "Panel/Judul — Riwayat Laporan",
+                "tag": "div",
+                "children": [
+                  {
+                    "id": "PEL-04-layer-8",
+                    "name": "Teks/Judul Kartu — Riwayat Laporan",
+                    "tag": "h4",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "PEL-04-layer-9",
+                "name": "Tabel",
+                "tag": "div",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "PEL-04-layer-10",
+            "name": "Panel/Konten",
+            "tag": "section",
+            "children": [
+              {
+                "id": "PEL-04-layer-11",
+                "name": "Panel/Judul — Lokasi Fasilitas",
+                "tag": "div",
+                "children": [
+                  {
+                    "id": "PEL-04-layer-12",
+                    "name": "Teks/Judul Kartu — Lokasi Fasilitas",
+                    "tag": "h4",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "PEL-04-layer-13",
+                "name": "Peta/Kanvas",
+                "tag": "div",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "PEL-04-layer-14",
+        "name": "Footer/Aplikasi",
+        "tag": "div",
+        "children": []
+      },
+      {
+        "id": "PEL-04-layer-15",
+        "name": "Navigasi/Mobile",
+        "tag": "nav",
+        "children": []
+      }
+    ],
+    "defaults": {}
+  },
+  {
+    "code": "PEL-05",
+    "name": "Form Laporan Kerusakan",
+    "route": "/pelapor/lapor",
+    "group": "03 Pelapor",
+    "file": "pages/PEL-05.html",
+    "thumbnail": "assets/thumbnails/PEL-05.jpg",
+    "layers": [
+      {
+        "id": "PEL-05-layer-1",
+        "name": "Header/Navbar Pelapor",
+        "tag": "header",
+        "children": [
+          {
+            "id": "PEL-05-layer-2",
+            "name": "Navigasi",
+            "tag": "nav",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "PEL-05-layer-3",
+        "name": "Konten/Halaman Pelapor",
+        "tag": "main",
+        "children": [
+          {
+            "id": "PEL-05-layer-4",
+            "name": "Navigasi/Breadcrumb",
+            "tag": "div",
+            "children": []
+          },
+          {
+            "id": "PEL-05-layer-5",
+            "name": "Header/Judul Halaman",
+            "tag": "div",
+            "children": [
+              {
+                "id": "PEL-05-layer-6",
+                "name": "Teks/Judul Utama — Laporkan Kerusakan",
+                "tag": "h1",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "PEL-05-layer-7",
+            "name": "Form",
+            "tag": "form",
+            "children": [
+              {
+                "id": "PEL-05-layer-8",
+                "name": "Panel/Konten",
+                "tag": "div",
+                "children": [
+                  {
+                    "id": "PEL-05-layer-9",
+                    "name": "Form/Bagian",
+                    "tag": "section",
+                    "children": [
+                      {
+                        "id": "PEL-05-layer-10",
+                        "name": "Teks/Judul Kartu — Fasilitas",
+                        "tag": "h4",
+                        "children": []
+                      },
+                      {
+                        "id": "PEL-05-layer-11",
+                        "name": "Form/Isian",
+                        "tag": "div",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": "PEL-05-layer-12",
+                    "name": "Form/Bagian",
+                    "tag": "section",
+                    "children": [
+                      {
+                        "id": "PEL-05-layer-13",
+                        "name": "Teks/Judul Kartu — Deskripsi kerusakan",
+                        "tag": "h4",
+                        "children": []
+                      },
+                      {
+                        "id": "PEL-05-layer-14",
+                        "name": "Form/Isian",
+                        "tag": "div",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": "PEL-05-layer-15",
+                    "name": "Form/Bagian",
+                    "tag": "section",
+                    "children": [
+                      {
+                        "id": "PEL-05-layer-16",
+                        "name": "Teks/Judul Kartu — Tingkat kerusakan",
+                        "tag": "h4",
+                        "children": []
+                      },
+                      {
+                        "id": "PEL-05-layer-17",
+                        "name": "Form/Radio Card — RinganMasih dapat digunakan",
+                        "tag": "div",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": "PEL-05-layer-18",
+                    "name": "Form/Bagian",
+                    "tag": "section",
+                    "children": [
+                      {
+                        "id": "PEL-05-layer-19",
+                        "name": "Teks/Judul Kartu — Foto bukti",
+                        "tag": "h4",
+                        "children": []
+                      },
+                      {
+                        "id": "PEL-05-layer-20",
+                        "name": "Form/Dropzone Foto",
+                        "tag": "div",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": "PEL-05-layer-21",
+                    "name": "Form/Bagian",
+                    "tag": "section",
+                    "children": [
+                      {
+                        "id": "PEL-05-layer-22",
+                        "name": "Teks/Judul Kartu — Lokasi",
+                        "tag": "h4",
+                        "children": []
+                      },
+                      {
+                        "id": "PEL-05-layer-23",
+                        "name": "Peta/Kanvas",
+                        "tag": "div",
+                        "children": []
+                      },
+                      {
+                        "id": "PEL-05-layer-24",
+                        "name": "Form/Isian — Latitude",
+                        "tag": "div",
+                        "children": []
+                      },
+                      {
+                        "id": "PEL-05-layer-25",
+                        "name": "Form/Isian — Longitude",
+                        "tag": "div",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "PEL-05-layer-26",
+                "name": "Panel/Samping",
+                "tag": "aside",
+                "children": [
+                  {
+                    "id": "PEL-05-layer-27",
+                    "name": "Panel/Konten",
+                    "tag": "div",
+                    "children": [
+                      {
+                        "id": "PEL-05-layer-28",
+                        "name": "Panel/Judul — Ringkasan Fasilitas",
+                        "tag": "div",
+                        "children": [
+                          {
+                            "id": "PEL-05-layer-29",
+                            "name": "Teks/Judul Kartu — Ringkasan Fasilitas",
+                            "tag": "h4",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "PEL-05-layer-30",
+                    "name": "Card/Tips — Laporan yang baik, lebih cepat ditindaklanjuti.",
+                    "tag": "div",
+                    "children": [
+                      {
+                        "id": "PEL-05-layer-31",
+                        "name": "Teks/Judul Kartu — Laporan yang baik, lebih cepat ditindaklanjuti.",
+                        "tag": "h4",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "PEL-05-layer-32",
+                "name": "Form/Aksi",
+                "tag": "div",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "PEL-05-layer-33",
+        "name": "Footer/Aplikasi",
+        "tag": "div",
+        "children": []
+      },
+      {
+        "id": "PEL-05-layer-34",
+        "name": "Navigasi/Mobile",
+        "tag": "nav",
+        "children": []
+      }
+    ],
+    "defaults": {}
+  },
+  {
+    "code": "PEL-05b",
+    "name": "Form — Validasi Gagal",
+    "route": "/pelapor/lapor?state=error",
+    "group": "03 Pelapor",
+    "file": "pages/PEL-05b.html",
+    "thumbnail": "assets/thumbnails/PEL-05b.jpg",
+    "layers": [
+      {
+        "id": "PEL-05b-layer-1",
+        "name": "Header/Navbar Pelapor",
+        "tag": "header",
+        "children": [
+          {
+            "id": "PEL-05b-layer-2",
+            "name": "Navigasi",
+            "tag": "nav",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "PEL-05b-layer-3",
+        "name": "Konten/Halaman Pelapor",
+        "tag": "main",
+        "children": [
+          {
+            "id": "PEL-05b-layer-4",
+            "name": "Navigasi/Breadcrumb",
+            "tag": "div",
+            "children": []
+          },
+          {
+            "id": "PEL-05b-layer-5",
+            "name": "Header/Judul Halaman",
+            "tag": "div",
+            "children": [
+              {
+                "id": "PEL-05b-layer-6",
+                "name": "Teks/Judul Utama — Laporkan Kerusakan",
+                "tag": "h1",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "PEL-05b-layer-7",
+            "name": "Form",
+            "tag": "form",
+            "children": [
+              {
+                "id": "PEL-05b-layer-8",
+                "name": "Panel/Konten",
+                "tag": "div",
+                "children": [
+                  {
+                    "id": "PEL-05b-layer-9",
+                    "name": "Form/Bagian",
+                    "tag": "section",
+                    "children": [
+                      {
+                        "id": "PEL-05b-layer-10",
+                        "name": "Teks/Judul Kartu — Fasilitas",
+                        "tag": "h4",
+                        "children": []
+                      },
+                      {
+                        "id": "PEL-05b-layer-11",
+                        "name": "Form/Isian",
+                        "tag": "div",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": "PEL-05b-layer-12",
+                    "name": "Form/Bagian",
+                    "tag": "section",
+                    "children": [
+                      {
+                        "id": "PEL-05b-layer-13",
+                        "name": "Teks/Judul Kartu — Deskripsi kerusakan",
+                        "tag": "h4",
+                        "children": []
+                      },
+                      {
+                        "id": "PEL-05b-layer-14",
+                        "name": "Form/Isian",
+                        "tag": "div",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": "PEL-05b-layer-15",
+                    "name": "Form/Bagian",
+                    "tag": "section",
+                    "children": [
+                      {
+                        "id": "PEL-05b-layer-16",
+                        "name": "Teks/Judul Kartu — Tingkat kerusakan",
+                        "tag": "h4",
+                        "children": []
+                      },
+                      {
+                        "id": "PEL-05b-layer-17",
+                        "name": "Form/Radio Card — RinganMasih dapat digunakan",
+                        "tag": "div",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": "PEL-05b-layer-18",
+                    "name": "Form/Bagian",
+                    "tag": "section",
+                    "children": [
+                      {
+                        "id": "PEL-05b-layer-19",
+                        "name": "Teks/Judul Kartu — Foto bukti",
+                        "tag": "h4",
+                        "children": []
+                      },
+                      {
+                        "id": "PEL-05b-layer-20",
+                        "name": "Form/Dropzone Foto",
+                        "tag": "div",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": "PEL-05b-layer-21",
+                    "name": "Form/Bagian",
+                    "tag": "section",
+                    "children": [
+                      {
+                        "id": "PEL-05b-layer-22",
+                        "name": "Teks/Judul Kartu — Lokasi",
+                        "tag": "h4",
+                        "children": []
+                      },
+                      {
+                        "id": "PEL-05b-layer-23",
+                        "name": "Peta/Kanvas",
+                        "tag": "div",
+                        "children": []
+                      },
+                      {
+                        "id": "PEL-05b-layer-24",
+                        "name": "Form/Isian — Latitude",
+                        "tag": "div",
+                        "children": []
+                      },
+                      {
+                        "id": "PEL-05b-layer-25",
+                        "name": "Form/Isian — Longitude",
+                        "tag": "div",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "PEL-05b-layer-26",
+                "name": "Panel/Samping",
+                "tag": "aside",
+                "children": [
+                  {
+                    "id": "PEL-05b-layer-27",
+                    "name": "Panel/Konten",
+                    "tag": "div",
+                    "children": [
+                      {
+                        "id": "PEL-05b-layer-28",
+                        "name": "Panel/Judul — Ringkasan Fasilitas",
+                        "tag": "div",
+                        "children": [
+                          {
+                            "id": "PEL-05b-layer-29",
+                            "name": "Teks/Judul Kartu — Ringkasan Fasilitas",
+                            "tag": "h4",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "PEL-05b-layer-30",
+                    "name": "Card/Tips — Laporan yang baik, lebih cepat ditindaklanjuti.",
+                    "tag": "div",
+                    "children": [
+                      {
+                        "id": "PEL-05b-layer-31",
+                        "name": "Teks/Judul Kartu — Laporan yang baik, lebih cepat ditindaklanjuti.",
+                        "tag": "h4",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "PEL-05b-layer-32",
+                "name": "Form/Aksi",
+                "tag": "div",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "PEL-05b-layer-33",
+        "name": "Footer/Aplikasi",
+        "tag": "div",
+        "children": []
+      },
+      {
+        "id": "PEL-05b-layer-34",
+        "name": "Navigasi/Mobile",
+        "tag": "nav",
+        "children": []
+      }
+    ],
+    "defaults": {
+      "state": "error"
+    }
+  },
+  {
+    "code": "PEL-05c",
+    "name": "Form — Data Lengkap",
+    "route": "/pelapor/lapor?state=complete",
+    "group": "03 Pelapor",
+    "file": "pages/PEL-05c.html",
+    "thumbnail": "assets/thumbnails/PEL-05c.jpg",
+    "layers": [
+      {
+        "id": "PEL-05c-layer-1",
+        "name": "Header/Navbar Pelapor",
+        "tag": "header",
+        "children": [
+          {
+            "id": "PEL-05c-layer-2",
+            "name": "Navigasi",
+            "tag": "nav",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "PEL-05c-layer-3",
+        "name": "Konten/Halaman Pelapor",
+        "tag": "main",
+        "children": [
+          {
+            "id": "PEL-05c-layer-4",
+            "name": "Navigasi/Breadcrumb",
+            "tag": "div",
+            "children": []
+          },
+          {
+            "id": "PEL-05c-layer-5",
+            "name": "Header/Judul Halaman",
+            "tag": "div",
+            "children": [
+              {
+                "id": "PEL-05c-layer-6",
+                "name": "Teks/Judul Utama — Laporkan Kerusakan",
+                "tag": "h1",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "PEL-05c-layer-7",
+            "name": "Form",
+            "tag": "form",
+            "children": [
+              {
+                "id": "PEL-05c-layer-8",
+                "name": "Panel/Konten",
+                "tag": "div",
+                "children": [
+                  {
+                    "id": "PEL-05c-layer-9",
+                    "name": "Form/Bagian",
+                    "tag": "section",
+                    "children": [
+                      {
+                        "id": "PEL-05c-layer-10",
+                        "name": "Teks/Judul Kartu — Fasilitas",
+                        "tag": "h4",
+                        "children": []
+                      },
+                      {
+                        "id": "PEL-05c-layer-11",
+                        "name": "Form/Isian",
+                        "tag": "div",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": "PEL-05c-layer-12",
+                    "name": "Form/Bagian",
+                    "tag": "section",
+                    "children": [
+                      {
+                        "id": "PEL-05c-layer-13",
+                        "name": "Teks/Judul Kartu — Deskripsi kerusakan",
+                        "tag": "h4",
+                        "children": []
+                      },
+                      {
+                        "id": "PEL-05c-layer-14",
+                        "name": "Form/Isian",
+                        "tag": "div",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": "PEL-05c-layer-15",
+                    "name": "Form/Bagian",
+                    "tag": "section",
+                    "children": [
+                      {
+                        "id": "PEL-05c-layer-16",
+                        "name": "Teks/Judul Kartu — Tingkat kerusakan",
+                        "tag": "h4",
+                        "children": []
+                      },
+                      {
+                        "id": "PEL-05c-layer-17",
+                        "name": "Form/Radio Card — RinganMasih dapat digunakan",
+                        "tag": "div",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": "PEL-05c-layer-18",
+                    "name": "Form/Bagian",
+                    "tag": "section",
+                    "children": [
+                      {
+                        "id": "PEL-05c-layer-19",
+                        "name": "Teks/Judul Kartu — Foto bukti",
+                        "tag": "h4",
+                        "children": []
+                      },
+                      {
+                        "id": "PEL-05c-layer-20",
+                        "name": "Form/Dropzone Foto",
+                        "tag": "div",
+                        "children": []
+                      },
+                      {
+                        "id": "PEL-05c-layer-21",
+                        "name": "Form/Preview Foto",
+                        "tag": "div",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": "PEL-05c-layer-22",
+                    "name": "Form/Bagian",
+                    "tag": "section",
+                    "children": [
+                      {
+                        "id": "PEL-05c-layer-23",
+                        "name": "Teks/Judul Kartu — Lokasi",
+                        "tag": "h4",
+                        "children": []
+                      },
+                      {
+                        "id": "PEL-05c-layer-24",
+                        "name": "Peta/Kanvas",
+                        "tag": "div",
+                        "children": []
+                      },
+                      {
+                        "id": "PEL-05c-layer-25",
+                        "name": "Form/Isian — Latitude",
+                        "tag": "div",
+                        "children": []
+                      },
+                      {
+                        "id": "PEL-05c-layer-26",
+                        "name": "Form/Isian — Longitude",
+                        "tag": "div",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "PEL-05c-layer-27",
+                "name": "Panel/Samping",
+                "tag": "aside",
+                "children": [
+                  {
+                    "id": "PEL-05c-layer-28",
+                    "name": "Panel/Konten",
+                    "tag": "div",
+                    "children": [
+                      {
+                        "id": "PEL-05c-layer-29",
+                        "name": "Panel/Judul — Ringkasan Fasilitas",
+                        "tag": "div",
+                        "children": [
+                          {
+                            "id": "PEL-05c-layer-30",
+                            "name": "Teks/Judul Kartu — Ringkasan Fasilitas",
+                            "tag": "h4",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "id": "PEL-05c-layer-31",
+                        "name": "Teks/Judul Kartu — Toilet Gedung B Lt.1",
+                        "tag": "h4",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": "PEL-05c-layer-32",
+                    "name": "Card/Tips — Laporan yang baik, lebih cepat ditindaklanjuti.",
+                    "tag": "div",
+                    "children": [
+                      {
+                        "id": "PEL-05c-layer-33",
+                        "name": "Teks/Judul Kartu — Laporan yang baik, lebih cepat ditindaklanjuti.",
+                        "tag": "h4",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "PEL-05c-layer-34",
+                "name": "Form/Aksi",
+                "tag": "div",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "PEL-05c-layer-35",
+        "name": "Footer/Aplikasi",
+        "tag": "div",
+        "children": []
+      },
+      {
+        "id": "PEL-05c-layer-36",
+        "name": "Navigasi/Mobile",
+        "tag": "nav",
+        "children": []
+      }
+    ],
+    "defaults": {
+      "state": "complete"
+    }
+  },
+  {
+    "code": "PEL-06",
+    "name": "Konfirmasi Laporan Terkirim",
+    "route": "/pelapor/terkirim",
+    "group": "03 Pelapor",
+    "file": "pages/PEL-06.html",
+    "thumbnail": "assets/thumbnails/PEL-06.jpg",
+    "layers": [
+      {
+        "id": "PEL-06-layer-1",
+        "name": "Header/Navbar Pelapor",
+        "tag": "header",
+        "children": [
+          {
+            "id": "PEL-06-layer-2",
+            "name": "Navigasi",
+            "tag": "nav",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "PEL-06-layer-3",
+        "name": "Konten/Halaman Pelapor",
+        "tag": "main",
+        "children": [
+          {
+            "id": "PEL-06-layer-4",
+            "name": "Panel/Konten",
+            "tag": "div",
+            "children": [
+              {
+                "id": "PEL-06-layer-5",
+                "name": "Teks/Judul Utama — Laporan berhasil dikirim",
+                "tag": "h1",
+                "children": []
+              },
+              {
+                "id": "PEL-06-layer-6",
+                "name": "Teks/Judul Kartu — Toilet Gedung B Lt.1",
+                "tag": "h4",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "PEL-06-layer-7",
+        "name": "Footer/Aplikasi",
+        "tag": "div",
+        "children": []
+      },
+      {
+        "id": "PEL-06-layer-8",
+        "name": "Navigasi/Mobile",
+        "tag": "nav",
+        "children": []
+      }
+    ],
+    "defaults": {}
+  },
+  {
+    "code": "PEL-07",
+    "name": "Laporan Saya",
+    "route": "/pelapor/laporan",
+    "group": "03 Pelapor",
+    "file": "pages/PEL-07.html",
+    "thumbnail": "assets/thumbnails/PEL-07.jpg",
+    "layers": [
+      {
+        "id": "PEL-07-layer-1",
+        "name": "Header/Navbar Pelapor",
+        "tag": "header",
+        "children": [
+          {
+            "id": "PEL-07-layer-2",
+            "name": "Navigasi",
+            "tag": "nav",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "PEL-07-layer-3",
+        "name": "Konten/Halaman Pelapor",
+        "tag": "main",
+        "children": [
+          {
+            "id": "PEL-07-layer-4",
+            "name": "Header/Judul Halaman",
+            "tag": "div",
+            "children": [
+              {
+                "id": "PEL-07-layer-5",
+                "name": "Teks/Judul Utama — Laporan Saya",
+                "tag": "h1",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "PEL-07-layer-6",
+            "name": "Panel/Konten",
+            "tag": "div",
+            "children": [
+              {
+                "id": "PEL-07-layer-7",
+                "name": "Navigasi/Tabs",
+                "tag": "div",
+                "children": []
+              },
+              {
+                "id": "PEL-07-layer-8",
+                "name": "Form/Isian",
+                "tag": "div",
+                "children": []
+              },
+              {
+                "id": "PEL-07-layer-9",
+                "name": "Tabel",
+                "tag": "div",
+                "children": []
+              },
+              {
+                "id": "PEL-07-layer-10",
+                "name": "Card/Laporan — Toilet Gedung A Lt.2",
+                "tag": "article",
+                "children": [
+                  {
+                    "id": "PEL-07-layer-11",
+                    "name": "Teks/Judul Kartu — Toilet Gedung A Lt.2",
+                    "tag": "h4",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "PEL-07-layer-12",
+                "name": "Card/Laporan — Kursi & Meja Ruang B.204",
+                "tag": "article",
+                "children": [
+                  {
+                    "id": "PEL-07-layer-13",
+                    "name": "Teks/Judul Kartu — Kursi & Meja Ruang B.204",
+                    "tag": "h4",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "PEL-07-layer-14",
+                "name": "Card/Laporan — Wi-Fi Lab Komputer",
+                "tag": "article",
+                "children": [
+                  {
+                    "id": "PEL-07-layer-15",
+                    "name": "Teks/Judul Kartu — Wi-Fi Lab Komputer",
+                    "tag": "h4",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "PEL-07-layer-16",
+                "name": "Card/Laporan — AC Ruang A.101",
+                "tag": "article",
+                "children": [
+                  {
+                    "id": "PEL-07-layer-17",
+                    "name": "Teks/Judul Kartu — AC Ruang A.101",
+                    "tag": "h4",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "PEL-07-layer-18",
+                "name": "Card/Laporan — Lampu Koridor Gedung C",
+                "tag": "article",
+                "children": [
+                  {
+                    "id": "PEL-07-layer-19",
+                    "name": "Teks/Judul Kartu — Lampu Koridor Gedung C",
+                    "tag": "h4",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "PEL-07-layer-20",
+                "name": "Card/Laporan — Proyektor Ruang B.101",
+                "tag": "article",
+                "children": [
+                  {
+                    "id": "PEL-07-layer-21",
+                    "name": "Teks/Judul Kartu — Proyektor Ruang B.101",
+                    "tag": "h4",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "PEL-07-layer-22",
+                "name": "Navigasi/Pagination",
+                "tag": "div",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "PEL-07-layer-23",
+        "name": "Footer/Aplikasi",
+        "tag": "div",
+        "children": []
+      },
+      {
+        "id": "PEL-07-layer-24",
+        "name": "Navigasi/Mobile",
+        "tag": "nav",
+        "children": []
+      }
+    ],
+    "defaults": {}
+  },
+  {
+    "code": "PEL-07b",
+    "name": "Laporan Saya — Kosong",
+    "route": "/pelapor/laporan?state=empty",
+    "group": "03 Pelapor",
+    "file": "pages/PEL-07b.html",
+    "thumbnail": "assets/thumbnails/PEL-07b.jpg",
+    "layers": [
+      {
+        "id": "PEL-07b-layer-1",
+        "name": "Header/Navbar Pelapor",
+        "tag": "header",
+        "children": [
+          {
+            "id": "PEL-07b-layer-2",
+            "name": "Navigasi",
+            "tag": "nav",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "PEL-07b-layer-3",
+        "name": "Konten/Halaman Pelapor",
+        "tag": "main",
+        "children": [
+          {
+            "id": "PEL-07b-layer-4",
+            "name": "Header/Judul Halaman",
+            "tag": "div",
+            "children": [
+              {
+                "id": "PEL-07b-layer-5",
+                "name": "Teks/Judul Utama — Laporan Saya",
+                "tag": "h1",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "PEL-07b-layer-6",
+            "name": "Panel/Konten",
+            "tag": "div",
+            "children": [
+              {
+                "id": "PEL-07b-layer-7",
+                "name": "Navigasi/Tabs",
+                "tag": "div",
+                "children": []
+              },
+              {
+                "id": "PEL-07b-layer-8",
+                "name": "Form/Isian",
+                "tag": "div",
+                "children": []
+              },
+              {
+                "id": "PEL-07b-layer-9",
+                "name": "Teks/Subjudul — Belum ada laporan",
+                "tag": "h3",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "PEL-07b-layer-10",
+        "name": "Footer/Aplikasi",
+        "tag": "div",
+        "children": []
+      },
+      {
+        "id": "PEL-07b-layer-11",
+        "name": "Navigasi/Mobile",
+        "tag": "nav",
+        "children": []
+      }
+    ],
+    "defaults": {
+      "state": "empty"
+    }
+  },
+  {
+    "code": "PEL-08",
+    "name": "Detail & Status Laporan",
+    "route": "/pelapor/laporan/LP-2026-0003",
+    "group": "03 Pelapor",
+    "file": "pages/PEL-08.html",
+    "thumbnail": "assets/thumbnails/PEL-08.jpg",
+    "layers": [
+      {
+        "id": "PEL-08-layer-1",
+        "name": "Header/Navbar Pelapor",
+        "tag": "header",
+        "children": [
+          {
+            "id": "PEL-08-layer-2",
+            "name": "Navigasi",
+            "tag": "nav",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "PEL-08-layer-3",
+        "name": "Konten/Halaman Pelapor",
+        "tag": "main",
+        "children": [
+          {
+            "id": "PEL-08-layer-4",
+            "name": "Navigasi/Breadcrumb",
+            "tag": "div",
+            "children": []
+          },
+          {
+            "id": "PEL-08-layer-5",
+            "name": "Header/Judul Halaman",
+            "tag": "div",
+            "children": [
+              {
+                "id": "PEL-08-layer-6",
+                "name": "Teks/Judul Utama — Detail & Status Laporan",
+                "tag": "h1",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "PEL-08-layer-7",
+            "name": "Panel/Konten",
+            "tag": "section",
+            "children": [
+              {
+                "id": "PEL-08-layer-8",
+                "name": "Panel/Judul — Informasi Laporan",
+                "tag": "div",
+                "children": [
+                  {
+                    "id": "PEL-08-layer-9",
+                    "name": "Teks/Judul Kartu — Informasi Laporan",
+                    "tag": "h4",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "PEL-08-layer-10",
+                "name": "Teks/Subjudul — Wi-Fi Lab Komputer",
+                "tag": "h3",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "PEL-08-layer-11",
+            "name": "Panel/Konten",
+            "tag": "section",
+            "children": [
+              {
+                "id": "PEL-08-layer-12",
+                "name": "Panel/Judul — Lokasi Kerusakan",
+                "tag": "div",
+                "children": [
+                  {
+                    "id": "PEL-08-layer-13",
+                    "name": "Teks/Judul Kartu — Lokasi Kerusakan",
+                    "tag": "h4",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "PEL-08-layer-14",
+                "name": "Peta/Kanvas",
+                "tag": "div",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "PEL-08-layer-15",
+            "name": "Panel/Samping",
+            "tag": "aside",
+            "children": [
+              {
+                "id": "PEL-08-layer-16",
+                "name": "Panel/Konten",
+                "tag": "section",
+                "children": [
+                  {
+                    "id": "PEL-08-layer-17",
+                    "name": "Panel/Judul — Riwayat Status",
+                    "tag": "div",
+                    "children": [
+                      {
+                        "id": "PEL-08-layer-18",
+                        "name": "Teks/Judul Kartu — Riwayat Status",
+                        "tag": "h4",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": "PEL-08-layer-19",
+                    "name": "Timeline/Riwayat Status",
+                    "tag": "div",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "PEL-08-layer-20",
+        "name": "Footer/Aplikasi",
+        "tag": "div",
+        "children": []
+      },
+      {
+        "id": "PEL-08-layer-21",
+        "name": "Navigasi/Mobile",
+        "tag": "nav",
+        "children": []
+      }
+    ],
+    "defaults": {
+      "report": "LP-2026-0003"
+    }
+  },
+  {
+    "code": "PEL-08b",
+    "name": "Detail Laporan — Ditolak",
+    "route": "/pelapor/laporan/LP-2026-0006",
+    "group": "03 Pelapor",
+    "file": "pages/PEL-08b.html",
+    "thumbnail": "assets/thumbnails/PEL-08b.jpg",
+    "layers": [
+      {
+        "id": "PEL-08b-layer-1",
+        "name": "Header/Navbar Pelapor",
+        "tag": "header",
+        "children": [
+          {
+            "id": "PEL-08b-layer-2",
+            "name": "Navigasi",
+            "tag": "nav",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "PEL-08b-layer-3",
+        "name": "Konten/Halaman Pelapor",
+        "tag": "main",
+        "children": [
+          {
+            "id": "PEL-08b-layer-4",
+            "name": "Navigasi/Breadcrumb",
+            "tag": "div",
+            "children": []
+          },
+          {
+            "id": "PEL-08b-layer-5",
+            "name": "Header/Judul Halaman",
+            "tag": "div",
+            "children": [
+              {
+                "id": "PEL-08b-layer-6",
+                "name": "Teks/Judul Utama — Detail & Status Laporan",
+                "tag": "h1",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "PEL-08b-layer-7",
+            "name": "Panel/Konten",
+            "tag": "section",
+            "children": [
+              {
+                "id": "PEL-08b-layer-8",
+                "name": "Panel/Judul — Informasi Laporan",
+                "tag": "div",
+                "children": [
+                  {
+                    "id": "PEL-08b-layer-9",
+                    "name": "Teks/Judul Kartu — Informasi Laporan",
+                    "tag": "h4",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "PEL-08b-layer-10",
+                "name": "Teks/Subjudul — Proyektor Ruang B.101",
+                "tag": "h3",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "PEL-08b-layer-11",
+            "name": "Panel/Konten",
+            "tag": "section",
+            "children": [
+              {
+                "id": "PEL-08b-layer-12",
+                "name": "Panel/Judul — Lokasi Kerusakan",
+                "tag": "div",
+                "children": [
+                  {
+                    "id": "PEL-08b-layer-13",
+                    "name": "Teks/Judul Kartu — Lokasi Kerusakan",
+                    "tag": "h4",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "PEL-08b-layer-14",
+                "name": "Peta/Kanvas",
+                "tag": "div",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "PEL-08b-layer-15",
+            "name": "Panel/Samping",
+            "tag": "aside",
+            "children": [
+              {
+                "id": "PEL-08b-layer-16",
+                "name": "Teks/Judul Kartu — Alasan penolakan",
+                "tag": "h4",
+                "children": []
+              },
+              {
+                "id": "PEL-08b-layer-17",
+                "name": "Panel/Konten",
+                "tag": "section",
+                "children": [
+                  {
+                    "id": "PEL-08b-layer-18",
+                    "name": "Panel/Judul — Riwayat Status",
+                    "tag": "div",
+                    "children": [
+                      {
+                        "id": "PEL-08b-layer-19",
+                        "name": "Teks/Judul Kartu — Riwayat Status",
+                        "tag": "h4",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": "PEL-08b-layer-20",
+                    "name": "Timeline/Riwayat Status",
+                    "tag": "div",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "PEL-08b-layer-21",
+        "name": "Footer/Aplikasi",
+        "tag": "div",
+        "children": []
+      },
+      {
+        "id": "PEL-08b-layer-22",
+        "name": "Navigasi/Mobile",
+        "tag": "nav",
+        "children": []
+      }
+    ],
+    "defaults": {
+      "report": "LP-2026-0006"
+    }
+  },
+  {
+    "code": "ADM-01",
+    "name": "Dashboard Admin",
+    "route": "/admin/dashboard",
+    "group": "04 Admin",
+    "file": "pages/ADM-01.html",
+    "thumbnail": "assets/thumbnails/ADM-01.jpg",
+    "layers": [
+      {
+        "id": "ADM-01-layer-1",
+        "name": "Sidebar/Navigasi Peran",
+        "tag": "aside",
+        "children": [
+          {
+            "id": "ADM-01-layer-2",
+            "name": "Navigasi",
+            "tag": "nav",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "ADM-01-layer-3",
+        "name": "Header/Topbar Dashboard",
+        "tag": "header",
+        "children": [
+          {
+            "id": "ADM-01-layer-4",
+            "name": "Form",
+            "tag": "form",
+            "children": [
+              {
+                "id": "ADM-01-layer-5",
+                "name": "Form/Isian",
+                "tag": "div",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ADM-01-layer-6",
+        "name": "Konten/Halaman Dashboard",
+        "tag": "main",
+        "children": [
+          {
+            "id": "ADM-01-layer-7",
+            "name": "Header/Judul Halaman",
+            "tag": "div",
+            "children": [
+              {
+                "id": "ADM-01-layer-8",
+                "name": "Teks/Judul Utama — Dashboard Admin",
+                "tag": "h1",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "ADM-01-layer-9",
+            "name": "Grid/KPI",
+            "tag": "div",
+            "children": [
+              {
+                "id": "ADM-01-layer-10",
+                "name": "Card/KPI",
+                "tag": "div",
+                "children": []
+              },
+              {
+                "id": "ADM-01-layer-11",
+                "name": "Card/KPI",
+                "tag": "div",
+                "children": []
+              },
+              {
+                "id": "ADM-01-layer-12",
+                "name": "Card/KPI",
+                "tag": "div",
+                "children": []
+              },
+              {
+                "id": "ADM-01-layer-13",
+                "name": "Card/KPI",
+                "tag": "div",
+                "children": []
+              },
+              {
+                "id": "ADM-01-layer-14",
+                "name": "Card/KPI",
+                "tag": "div",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "ADM-01-layer-15",
+            "name": "Panel/Konten",
+            "tag": "section",
+            "children": [
+              {
+                "id": "ADM-01-layer-16",
+                "name": "Panel/Judul",
+                "tag": "div",
+                "children": [
+                  {
+                    "id": "ADM-01-layer-17",
+                    "name": "Teks/Judul Kartu — Antrian Verifikasi Terbaru",
+                    "tag": "h4",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "ADM-01-layer-18",
+                "name": "Tabel",
+                "tag": "div",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "ADM-01-layer-19",
+            "name": "Panel/Konten",
+            "tag": "section",
+            "children": [
+              {
+                "id": "ADM-01-layer-20",
+                "name": "Panel/Judul",
+                "tag": "div",
+                "children": [
+                  {
+                    "id": "ADM-01-layer-21",
+                    "name": "Teks/Judul Kartu — Top Prioritas",
+                    "tag": "h4",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ADM-01-layer-22",
+        "name": "Footer/Aplikasi",
+        "tag": "div",
+        "children": []
+      }
+    ],
+    "defaults": {}
+  },
+  {
+    "code": "ADM-02",
+    "name": "Antrian Verifikasi",
+    "route": "/admin/antrian",
+    "group": "04 Admin",
+    "file": "pages/ADM-02.html",
+    "thumbnail": "assets/thumbnails/ADM-02.jpg",
+    "layers": [
+      {
+        "id": "ADM-02-layer-1",
+        "name": "Sidebar/Navigasi Peran",
+        "tag": "aside",
+        "children": [
+          {
+            "id": "ADM-02-layer-2",
+            "name": "Navigasi",
+            "tag": "nav",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "ADM-02-layer-3",
+        "name": "Header/Topbar Dashboard",
+        "tag": "header",
+        "children": [
+          {
+            "id": "ADM-02-layer-4",
+            "name": "Form",
+            "tag": "form",
+            "children": [
+              {
+                "id": "ADM-02-layer-5",
+                "name": "Form/Isian",
+                "tag": "div",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ADM-02-layer-6",
+        "name": "Konten/Halaman Dashboard",
+        "tag": "main",
+        "children": [
+          {
+            "id": "ADM-02-layer-7",
+            "name": "Header/Judul Halaman",
+            "tag": "div",
+            "children": [
+              {
+                "id": "ADM-02-layer-8",
+                "name": "Teks/Judul Utama — Antrian Verifikasi",
+                "tag": "h1",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "ADM-02-layer-9",
+            "name": "Panel/Konten",
+            "tag": "div",
+            "children": [
+              {
+                "id": "ADM-02-layer-10",
+                "name": "Kontrol/Pencarian & Filter",
+                "tag": "div",
+                "children": [
+                  {
+                    "id": "ADM-02-layer-11",
+                    "name": "Form/Isian",
+                    "tag": "div",
+                    "children": []
+                  },
+                  {
+                    "id": "ADM-02-layer-12",
+                    "name": "Form/Isian",
+                    "tag": "div",
+                    "children": []
+                  },
+                  {
+                    "id": "ADM-02-layer-13",
+                    "name": "Form/Isian",
+                    "tag": "div",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "ADM-02-layer-14",
+                "name": "Tabel",
+                "tag": "div",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ADM-02-layer-15",
+        "name": "Footer/Aplikasi",
+        "tag": "div",
+        "children": []
+      }
+    ],
+    "defaults": {}
+  },
+  {
+    "code": "ADM-03a",
+    "name": "Detail Verifikasi — Default",
+    "route": "/admin/verifikasi/LP-2026-0005",
+    "group": "04 Admin",
+    "file": "pages/ADM-03a.html",
+    "thumbnail": "assets/thumbnails/ADM-03a.jpg",
+    "layers": [
+      {
+        "id": "ADM-03a-layer-1",
+        "name": "Sidebar/Navigasi Peran",
+        "tag": "aside",
+        "children": [
+          {
+            "id": "ADM-03a-layer-2",
+            "name": "Navigasi",
+            "tag": "nav",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "ADM-03a-layer-3",
+        "name": "Header/Topbar Dashboard",
+        "tag": "header",
+        "children": [
+          {
+            "id": "ADM-03a-layer-4",
+            "name": "Form",
+            "tag": "form",
+            "children": [
+              {
+                "id": "ADM-03a-layer-5",
+                "name": "Form/Isian",
+                "tag": "div",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ADM-03a-layer-6",
+        "name": "Konten/Halaman Dashboard",
+        "tag": "main",
+        "children": [
+          {
+            "id": "ADM-03a-layer-7",
+            "name": "Navigasi/Breadcrumb",
+            "tag": "div",
+            "children": []
+          },
+          {
+            "id": "ADM-03a-layer-8",
+            "name": "Header/Judul Halaman",
+            "tag": "div",
+            "children": [
+              {
+                "id": "ADM-03a-layer-9",
+                "name": "Teks/Judul Utama — Detail Verifikasi",
+                "tag": "h1",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "ADM-03a-layer-10",
+            "name": "Panel/Konten",
+            "tag": "section",
+            "children": [
+              {
+                "id": "ADM-03a-layer-11",
+                "name": "Panel/Judul — Informasi Laporan",
+                "tag": "div",
+                "children": [
+                  {
+                    "id": "ADM-03a-layer-12",
+                    "name": "Teks/Judul Kartu — Informasi Laporan",
+                    "tag": "h4",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "ADM-03a-layer-13",
+                "name": "Teks/Subjudul — Lampu Koridor Gedung C",
+                "tag": "h3",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "ADM-03a-layer-14",
+            "name": "Panel/Konten",
+            "tag": "section",
+            "children": [
+              {
+                "id": "ADM-03a-layer-15",
+                "name": "Panel/Judul — Lokasi Kerusakan",
+                "tag": "div",
+                "children": [
+                  {
+                    "id": "ADM-03a-layer-16",
+                    "name": "Teks/Judul Kartu — Lokasi Kerusakan",
+                    "tag": "h4",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "ADM-03a-layer-17",
+                "name": "Peta/Kanvas",
+                "tag": "div",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "ADM-03a-layer-18",
+            "name": "Panel/Samping",
+            "tag": "aside",
+            "children": [
+              {
+                "id": "ADM-03a-layer-19",
+                "name": "Panel/Konten",
+                "tag": "section",
+                "children": [
+                  {
+                    "id": "ADM-03a-layer-20",
+                    "name": "Panel/Judul — Keputusan Verifikasi",
+                    "tag": "div",
+                    "children": [
+                      {
+                        "id": "ADM-03a-layer-21",
+                        "name": "Teks/Judul Kartu — Keputusan Verifikasi",
+                        "tag": "h4",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": "ADM-03a-layer-22",
+                    "name": "Form/Keputusan Verifikasi — ValidLaporan lengkap dan sesuai kondisi.",
+                    "tag": "div",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ADM-03a-layer-23",
+        "name": "Footer/Aplikasi",
+        "tag": "div",
+        "children": []
+      }
+    ],
+    "defaults": {
+      "report": "LP-2026-0005"
+    }
+  },
+  {
+    "code": "ADM-03b",
+    "name": "Detail Verifikasi — Valid",
+    "route": "/admin/verifikasi/LP-2026-0005?state=valid",
+    "group": "04 Admin",
+    "file": "pages/ADM-03b.html",
+    "thumbnail": "assets/thumbnails/ADM-03b.jpg",
+    "layers": [
+      {
+        "id": "ADM-03b-layer-1",
+        "name": "Sidebar/Navigasi Peran",
+        "tag": "aside",
+        "children": [
+          {
+            "id": "ADM-03b-layer-2",
+            "name": "Navigasi",
+            "tag": "nav",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "ADM-03b-layer-3",
+        "name": "Header/Topbar Dashboard",
+        "tag": "header",
+        "children": [
+          {
+            "id": "ADM-03b-layer-4",
+            "name": "Form",
+            "tag": "form",
+            "children": [
+              {
+                "id": "ADM-03b-layer-5",
+                "name": "Form/Isian",
+                "tag": "div",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ADM-03b-layer-6",
+        "name": "Konten/Halaman Dashboard",
+        "tag": "main",
+        "children": [
+          {
+            "id": "ADM-03b-layer-7",
+            "name": "Navigasi/Breadcrumb",
+            "tag": "div",
+            "children": []
+          },
+          {
+            "id": "ADM-03b-layer-8",
+            "name": "Header/Judul Halaman",
+            "tag": "div",
+            "children": [
+              {
+                "id": "ADM-03b-layer-9",
+                "name": "Teks/Judul Utama — Detail Verifikasi",
+                "tag": "h1",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "ADM-03b-layer-10",
+            "name": "Panel/Konten",
+            "tag": "section",
+            "children": [
+              {
+                "id": "ADM-03b-layer-11",
+                "name": "Panel/Judul — Informasi Laporan",
+                "tag": "div",
+                "children": [
+                  {
+                    "id": "ADM-03b-layer-12",
+                    "name": "Teks/Judul Kartu — Informasi Laporan",
+                    "tag": "h4",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "ADM-03b-layer-13",
+                "name": "Teks/Subjudul — Lampu Koridor Gedung C",
+                "tag": "h3",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "ADM-03b-layer-14",
+            "name": "Panel/Konten",
+            "tag": "section",
+            "children": [
+              {
+                "id": "ADM-03b-layer-15",
+                "name": "Panel/Judul — Lokasi Kerusakan",
+                "tag": "div",
+                "children": [
+                  {
+                    "id": "ADM-03b-layer-16",
+                    "name": "Teks/Judul Kartu — Lokasi Kerusakan",
+                    "tag": "h4",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "ADM-03b-layer-17",
+                "name": "Peta/Kanvas",
+                "tag": "div",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "ADM-03b-layer-18",
+            "name": "Panel/Samping",
+            "tag": "aside",
+            "children": [
+              {
+                "id": "ADM-03b-layer-19",
+                "name": "Panel/Konten",
+                "tag": "section",
+                "children": [
+                  {
+                    "id": "ADM-03b-layer-20",
+                    "name": "Panel/Judul — Keputusan Verifikasi",
+                    "tag": "div",
+                    "children": [
+                      {
+                        "id": "ADM-03b-layer-21",
+                        "name": "Teks/Judul Kartu — Keputusan Verifikasi",
+                        "tag": "h4",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": "ADM-03b-layer-22",
+                    "name": "Form/Keputusan Verifikasi — ValidLaporan lengkap dan sesuai kondisi.",
+                    "tag": "div",
+                    "children": []
+                  },
+                  {
+                    "id": "ADM-03b-layer-23",
+                    "name": "Form/Keputusan",
+                    "tag": "div",
+                    "children": [
+                      {
+                        "id": "ADM-03b-layer-24",
+                        "name": "Form/Isian — Tingkat Kerusakan (K)",
+                        "tag": "div",
+                        "children": []
+                      },
+                      {
+                        "id": "ADM-03b-layer-25",
+                        "name": "Form/Isian — Tugaskan Petugas (opsional)",
+                        "tag": "div",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ADM-03b-layer-26",
+        "name": "Footer/Aplikasi",
+        "tag": "div",
+        "children": []
+      }
+    ],
+    "defaults": {
+      "state": "valid",
+      "report": "LP-2026-0005"
+    }
+  },
+  {
+    "code": "ADM-03c",
+    "name": "Detail Verifikasi — Tidak Valid",
+    "route": "/admin/verifikasi/LP-2026-0005?state=invalid",
+    "group": "04 Admin",
+    "file": "pages/ADM-03c.html",
+    "thumbnail": "assets/thumbnails/ADM-03c.jpg",
+    "layers": [
+      {
+        "id": "ADM-03c-layer-1",
+        "name": "Sidebar/Navigasi Peran",
+        "tag": "aside",
+        "children": [
+          {
+            "id": "ADM-03c-layer-2",
+            "name": "Navigasi",
+            "tag": "nav",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "ADM-03c-layer-3",
+        "name": "Header/Topbar Dashboard",
+        "tag": "header",
+        "children": [
+          {
+            "id": "ADM-03c-layer-4",
+            "name": "Form",
+            "tag": "form",
+            "children": [
+              {
+                "id": "ADM-03c-layer-5",
+                "name": "Form/Isian",
+                "tag": "div",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ADM-03c-layer-6",
+        "name": "Konten/Halaman Dashboard",
+        "tag": "main",
+        "children": [
+          {
+            "id": "ADM-03c-layer-7",
+            "name": "Navigasi/Breadcrumb",
+            "tag": "div",
+            "children": []
+          },
+          {
+            "id": "ADM-03c-layer-8",
+            "name": "Header/Judul Halaman",
+            "tag": "div",
+            "children": [
+              {
+                "id": "ADM-03c-layer-9",
+                "name": "Teks/Judul Utama — Detail Verifikasi",
+                "tag": "h1",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "ADM-03c-layer-10",
+            "name": "Panel/Konten",
+            "tag": "section",
+            "children": [
+              {
+                "id": "ADM-03c-layer-11",
+                "name": "Panel/Judul — Informasi Laporan",
+                "tag": "div",
+                "children": [
+                  {
+                    "id": "ADM-03c-layer-12",
+                    "name": "Teks/Judul Kartu — Informasi Laporan",
+                    "tag": "h4",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "ADM-03c-layer-13",
+                "name": "Teks/Subjudul — Lampu Koridor Gedung C",
+                "tag": "h3",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "ADM-03c-layer-14",
+            "name": "Panel/Konten",
+            "tag": "section",
+            "children": [
+              {
+                "id": "ADM-03c-layer-15",
+                "name": "Panel/Judul — Lokasi Kerusakan",
+                "tag": "div",
+                "children": [
+                  {
+                    "id": "ADM-03c-layer-16",
+                    "name": "Teks/Judul Kartu — Lokasi Kerusakan",
+                    "tag": "h4",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "ADM-03c-layer-17",
+                "name": "Peta/Kanvas",
+                "tag": "div",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "ADM-03c-layer-18",
+            "name": "Panel/Samping",
+            "tag": "aside",
+            "children": [
+              {
+                "id": "ADM-03c-layer-19",
+                "name": "Panel/Konten",
+                "tag": "section",
+                "children": [
+                  {
+                    "id": "ADM-03c-layer-20",
+                    "name": "Panel/Judul — Keputusan Verifikasi",
+                    "tag": "div",
+                    "children": [
+                      {
+                        "id": "ADM-03c-layer-21",
+                        "name": "Teks/Judul Kartu — Keputusan Verifikasi",
+                        "tag": "h4",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": "ADM-03c-layer-22",
+                    "name": "Form/Keputusan Verifikasi — ValidLaporan lengkap dan sesuai kondisi.",
+                    "tag": "div",
+                    "children": []
+                  },
+                  {
+                    "id": "ADM-03c-layer-23",
+                    "name": "Form/Keputusan",
+                    "tag": "div",
+                    "children": [
+                      {
+                        "id": "ADM-03c-layer-24",
+                        "name": "Form/Isian — Alasan penolakan",
+                        "tag": "div",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ADM-03c-layer-25",
+        "name": "Footer/Aplikasi",
+        "tag": "div",
+        "children": []
+      }
+    ],
+    "defaults": {
+      "state": "invalid",
+      "report": "LP-2026-0005"
+    }
+  },
+  {
+    "code": "ADM-04",
+    "name": "Hasil Verifikasi — Modal",
+    "route": "/admin/hasil?id=LP-2026-0002&contoh=1",
+    "group": "04 Admin",
+    "file": "pages/ADM-04.html",
+    "thumbnail": "assets/thumbnails/ADM-04.jpg",
+    "layers": [
+      {
+        "id": "ADM-04-layer-1",
+        "name": "Sidebar/Navigasi Peran",
+        "tag": "aside",
+        "children": [
+          {
+            "id": "ADM-04-layer-2",
+            "name": "Navigasi",
+            "tag": "nav",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "ADM-04-layer-3",
+        "name": "Header/Topbar Dashboard",
+        "tag": "header",
+        "children": [
+          {
+            "id": "ADM-04-layer-4",
+            "name": "Form",
+            "tag": "form",
+            "children": [
+              {
+                "id": "ADM-04-layer-5",
+                "name": "Form/Isian",
+                "tag": "div",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ADM-04-layer-6",
+        "name": "Konten/Halaman Dashboard",
+        "tag": "main",
+        "children": [
+          {
+            "id": "ADM-04-layer-7",
+            "name": "Navigasi/Breadcrumb",
+            "tag": "div",
+            "children": []
+          },
+          {
+            "id": "ADM-04-layer-8",
+            "name": "Header/Judul Halaman",
+            "tag": "div",
+            "children": [
+              {
+                "id": "ADM-04-layer-9",
+                "name": "Teks/Judul Utama — Detail Verifikasi",
+                "tag": "h1",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "ADM-04-layer-10",
+            "name": "Panel/Konten",
+            "tag": "section",
+            "children": [
+              {
+                "id": "ADM-04-layer-11",
+                "name": "Panel/Judul — Informasi Laporan",
+                "tag": "div",
+                "children": [
+                  {
+                    "id": "ADM-04-layer-12",
+                    "name": "Teks/Judul Kartu — Informasi Laporan",
+                    "tag": "h4",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "ADM-04-layer-13",
+                "name": "Teks/Subjudul — Kursi & Meja Ruang B.204",
+                "tag": "h3",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "ADM-04-layer-14",
+            "name": "Panel/Konten",
+            "tag": "section",
+            "children": [
+              {
+                "id": "ADM-04-layer-15",
+                "name": "Panel/Judul — Lokasi Kerusakan",
+                "tag": "div",
+                "children": [
+                  {
+                    "id": "ADM-04-layer-16",
+                    "name": "Teks/Judul Kartu — Lokasi Kerusakan",
+                    "tag": "h4",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "ADM-04-layer-17",
+                "name": "Peta/Kanvas",
+                "tag": "div",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "ADM-04-layer-18",
+            "name": "Panel/Samping",
+            "tag": "aside",
+            "children": [
+              {
+                "id": "ADM-04-layer-19",
+                "name": "Panel/Konten",
+                "tag": "section",
+                "children": [
+                  {
+                    "id": "ADM-04-layer-20",
+                    "name": "Panel/Judul — Keputusan Verifikasi",
+                    "tag": "div",
+                    "children": [
+                      {
+                        "id": "ADM-04-layer-21",
+                        "name": "Teks/Judul Kartu — Keputusan Verifikasi",
+                        "tag": "h4",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": "ADM-04-layer-22",
+                    "name": "Form/Keputusan Verifikasi — ValidLaporan lengkap dan sesuai kondisi.",
+                    "tag": "div",
+                    "children": []
+                  },
+                  {
+                    "id": "ADM-04-layer-23",
+                    "name": "Form/Keputusan",
+                    "tag": "div",
+                    "children": [
+                      {
+                        "id": "ADM-04-layer-24",
+                        "name": "Form/Isian — Tingkat Kerusakan (K)",
+                        "tag": "div",
+                        "children": []
+                      },
+                      {
+                        "id": "ADM-04-layer-25",
+                        "name": "Form/Isian — Tugaskan Petugas (opsional)",
+                        "tag": "div",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "ADM-04-layer-26",
+            "name": "Overlay/Modal",
+            "tag": "div",
+            "children": [
+              {
+                "id": "ADM-04-layer-27",
+                "name": "Modal/Konten",
+                "tag": "div",
+                "children": [
+                  {
+                    "id": "ADM-04-layer-28",
+                    "name": "Modal/Judul — Laporan terverifikasi",
+                    "tag": "div",
+                    "children": [
+                      {
+                        "id": "ADM-04-layer-29",
+                        "name": "Teks/Subjudul — Laporan terverifikasi",
+                        "tag": "h3",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": "ADM-04-layer-30",
+                    "name": "Modal/Hasil Verifikasi",
+                    "tag": "div",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ADM-04-layer-31",
+        "name": "Footer/Aplikasi",
+        "tag": "div",
+        "children": []
+      }
+    ],
+    "defaults": {
+      "id": "LP-2026-0002",
+      "contoh": "1"
+    }
+  },
+  {
+    "code": "ADM-05",
+    "name": "Semua Laporan",
+    "route": "/admin/laporan",
+    "group": "04 Admin",
+    "file": "pages/ADM-05.html",
+    "thumbnail": "assets/thumbnails/ADM-05.jpg",
+    "layers": [
+      {
+        "id": "ADM-05-layer-1",
+        "name": "Sidebar/Navigasi Peran",
+        "tag": "aside",
+        "children": [
+          {
+            "id": "ADM-05-layer-2",
+            "name": "Navigasi",
+            "tag": "nav",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "ADM-05-layer-3",
+        "name": "Header/Topbar Dashboard",
+        "tag": "header",
+        "children": [
+          {
+            "id": "ADM-05-layer-4",
+            "name": "Form",
+            "tag": "form",
+            "children": [
+              {
+                "id": "ADM-05-layer-5",
+                "name": "Form/Isian",
+                "tag": "div",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ADM-05-layer-6",
+        "name": "Konten/Halaman Dashboard",
+        "tag": "main",
+        "children": [
+          {
+            "id": "ADM-05-layer-7",
+            "name": "Header/Judul Halaman",
+            "tag": "div",
+            "children": [
+              {
+                "id": "ADM-05-layer-8",
+                "name": "Teks/Judul Utama — Semua Laporan",
+                "tag": "h1",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "ADM-05-layer-9",
+            "name": "Panel/Konten",
+            "tag": "div",
+            "children": [
+              {
+                "id": "ADM-05-layer-10",
+                "name": "Kontrol/Pencarian & Filter",
+                "tag": "div",
+                "children": [
+                  {
+                    "id": "ADM-05-layer-11",
+                    "name": "Form/Isian",
+                    "tag": "div",
+                    "children": []
+                  },
+                  {
+                    "id": "ADM-05-layer-12",
+                    "name": "Form/Isian",
+                    "tag": "div",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "ADM-05-layer-13",
+                "name": "Tabel",
+                "tag": "div",
+                "children": []
+              },
+              {
+                "id": "ADM-05-layer-14",
+                "name": "Navigasi/Pagination",
+                "tag": "div",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ADM-05-layer-15",
+        "name": "Footer/Aplikasi",
+        "tag": "div",
+        "children": []
+      }
+    ],
+    "defaults": {}
+  },
+  {
+    "code": "ADM-05b",
+    "name": "Detail & Perbarui Status",
+    "route": "/admin/laporan/LP-2026-0003",
+    "group": "04 Admin",
+    "file": "pages/ADM-05b.html",
+    "thumbnail": "assets/thumbnails/ADM-05b.jpg",
+    "layers": [
+      {
+        "id": "ADM-05b-layer-1",
+        "name": "Sidebar/Navigasi Peran",
+        "tag": "aside",
+        "children": [
+          {
+            "id": "ADM-05b-layer-2",
+            "name": "Navigasi",
+            "tag": "nav",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "ADM-05b-layer-3",
+        "name": "Header/Topbar Dashboard",
+        "tag": "header",
+        "children": [
+          {
+            "id": "ADM-05b-layer-4",
+            "name": "Form",
+            "tag": "form",
+            "children": [
+              {
+                "id": "ADM-05b-layer-5",
+                "name": "Form/Isian",
+                "tag": "div",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ADM-05b-layer-6",
+        "name": "Konten/Halaman Dashboard",
+        "tag": "main",
+        "children": [
+          {
+            "id": "ADM-05b-layer-7",
+            "name": "Navigasi/Breadcrumb",
+            "tag": "div",
+            "children": []
+          },
+          {
+            "id": "ADM-05b-layer-8",
+            "name": "Header/Judul Halaman",
+            "tag": "div",
+            "children": [
+              {
+                "id": "ADM-05b-layer-9",
+                "name": "Teks/Judul Utama — Detail Laporan",
+                "tag": "h1",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "ADM-05b-layer-10",
+            "name": "Panel/Konten",
+            "tag": "section",
+            "children": [
+              {
+                "id": "ADM-05b-layer-11",
+                "name": "Panel/Judul — Informasi Laporan",
+                "tag": "div",
+                "children": [
+                  {
+                    "id": "ADM-05b-layer-12",
+                    "name": "Teks/Judul Kartu — Informasi Laporan",
+                    "tag": "h4",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "ADM-05b-layer-13",
+                "name": "Teks/Subjudul — Wi-Fi Lab Komputer",
+                "tag": "h3",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "ADM-05b-layer-14",
+            "name": "Panel/Konten",
+            "tag": "section",
+            "children": [
+              {
+                "id": "ADM-05b-layer-15",
+                "name": "Panel/Judul — Lokasi Kerusakan",
+                "tag": "div",
+                "children": [
+                  {
+                    "id": "ADM-05b-layer-16",
+                    "name": "Teks/Judul Kartu — Lokasi Kerusakan",
+                    "tag": "h4",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "ADM-05b-layer-17",
+                "name": "Peta/Kanvas",
+                "tag": "div",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "ADM-05b-layer-18",
+            "name": "Panel/Samping",
+            "tag": "aside",
+            "children": [
+              {
+                "id": "ADM-05b-layer-19",
+                "name": "Panel/Konten",
+                "tag": "section",
+                "children": [
+                  {
+                    "id": "ADM-05b-layer-20",
+                    "name": "Panel/Judul — Perbarui Status Penanganan",
+                    "tag": "div",
+                    "children": [
+                      {
+                        "id": "ADM-05b-layer-21",
+                        "name": "Teks/Judul Kartu — Perbarui Status Penanganan",
+                        "tag": "h4",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": "ADM-05b-layer-22",
+                    "name": "Form",
+                    "tag": "form",
+                    "children": [
+                      {
+                        "id": "ADM-05b-layer-23",
+                        "name": "Form/Isian — Status berikutnya",
+                        "tag": "div",
+                        "children": []
+                      },
+                      {
+                        "id": "ADM-05b-layer-24",
+                        "name": "Form/Isian — Catatan penanganan",
+                        "tag": "div",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "ADM-05b-layer-25",
+                "name": "Panel/Konten",
+                "tag": "section",
+                "children": [
+                  {
+                    "id": "ADM-05b-layer-26",
+                    "name": "Panel/Judul — Riwayat Status",
+                    "tag": "div",
+                    "children": [
+                      {
+                        "id": "ADM-05b-layer-27",
+                        "name": "Teks/Judul Kartu — Riwayat Status",
+                        "tag": "h4",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": "ADM-05b-layer-28",
+                    "name": "Timeline/Riwayat Status",
+                    "tag": "div",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ADM-05b-layer-29",
+        "name": "Footer/Aplikasi",
+        "tag": "div",
+        "children": []
+      }
+    ],
+    "defaults": {
+      "report": "LP-2026-0003"
+    }
+  },
+  {
+    "code": "ADM-06",
+    "name": "Daftar Prioritas",
+    "route": "/admin/prioritas",
+    "group": "04 Admin",
+    "file": "pages/ADM-06.html",
+    "thumbnail": "assets/thumbnails/ADM-06.jpg",
+    "layers": [
+      {
+        "id": "ADM-06-layer-1",
+        "name": "Sidebar/Navigasi Peran",
+        "tag": "aside",
+        "children": [
+          {
+            "id": "ADM-06-layer-2",
+            "name": "Navigasi",
+            "tag": "nav",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "ADM-06-layer-3",
+        "name": "Header/Topbar Dashboard",
+        "tag": "header",
+        "children": [
+          {
+            "id": "ADM-06-layer-4",
+            "name": "Form",
+            "tag": "form",
+            "children": [
+              {
+                "id": "ADM-06-layer-5",
+                "name": "Form/Isian",
+                "tag": "div",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ADM-06-layer-6",
+        "name": "Konten/Halaman Dashboard",
+        "tag": "main",
+        "children": [
+          {
+            "id": "ADM-06-layer-7",
+            "name": "Header/Judul Halaman",
+            "tag": "div",
+            "children": [
+              {
+                "id": "ADM-06-layer-8",
+                "name": "Teks/Judul Utama — Prioritas Perbaikan",
+                "tag": "h1",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "ADM-06-layer-9",
+            "name": "Panel/Konten",
+            "tag": "div",
+            "children": [
+              {
+                "id": "ADM-06-layer-10",
+                "name": "Kontrol/Pencarian & Filter",
+                "tag": "div",
+                "children": [
+                  {
+                    "id": "ADM-06-layer-11",
+                    "name": "Form/Isian",
+                    "tag": "div",
+                    "children": []
+                  },
+                  {
+                    "id": "ADM-06-layer-12",
+                    "name": "Form/Isian",
+                    "tag": "div",
+                    "children": []
+                  },
+                  {
+                    "id": "ADM-06-layer-13",
+                    "name": "Form/Isian",
+                    "tag": "div",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "ADM-06-layer-14",
+                "name": "Tabel",
+                "tag": "div",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ADM-06-layer-15",
+        "name": "Footer/Aplikasi",
+        "tag": "div",
+        "children": []
+      }
+    ],
+    "defaults": {}
+  },
+  {
+    "code": "ADM-07",
+    "name": "Kelola Fasilitas",
+    "route": "/admin/fasilitas",
+    "group": "04 Admin",
+    "file": "pages/ADM-07.html",
+    "thumbnail": "assets/thumbnails/ADM-07.jpg",
+    "layers": [
+      {
+        "id": "ADM-07-layer-1",
+        "name": "Sidebar/Navigasi Peran",
+        "tag": "aside",
+        "children": [
+          {
+            "id": "ADM-07-layer-2",
+            "name": "Navigasi",
+            "tag": "nav",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "ADM-07-layer-3",
+        "name": "Header/Topbar Dashboard",
+        "tag": "header",
+        "children": [
+          {
+            "id": "ADM-07-layer-4",
+            "name": "Form",
+            "tag": "form",
+            "children": [
+              {
+                "id": "ADM-07-layer-5",
+                "name": "Form/Isian",
+                "tag": "div",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ADM-07-layer-6",
+        "name": "Konten/Halaman Dashboard",
+        "tag": "main",
+        "children": [
+          {
+            "id": "ADM-07-layer-7",
+            "name": "Header/Judul Halaman",
+            "tag": "div",
+            "children": [
+              {
+                "id": "ADM-07-layer-8",
+                "name": "Teks/Judul Utama — Kelola Fasilitas",
+                "tag": "h1",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "ADM-07-layer-9",
+            "name": "Panel/Konten",
+            "tag": "div",
+            "children": [
+              {
+                "id": "ADM-07-layer-10",
+                "name": "Kontrol/Pencarian & Filter",
+                "tag": "div",
+                "children": [
+                  {
+                    "id": "ADM-07-layer-11",
+                    "name": "Form/Isian",
+                    "tag": "div",
+                    "children": []
+                  },
+                  {
+                    "id": "ADM-07-layer-12",
+                    "name": "Form/Isian",
+                    "tag": "div",
+                    "children": []
+                  },
+                  {
+                    "id": "ADM-07-layer-13",
+                    "name": "Form/Isian",
+                    "tag": "div",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "ADM-07-layer-14",
+                "name": "Tabel",
+                "tag": "div",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ADM-07-layer-15",
+        "name": "Footer/Aplikasi",
+        "tag": "div",
+        "children": []
+      }
+    ],
+    "defaults": {}
+  },
+  {
+    "code": "ADM-08",
+    "name": "Tambah Fasilitas",
+    "route": "/admin/fasilitas/baru",
+    "group": "04 Admin",
+    "file": "pages/ADM-08.html",
+    "thumbnail": "assets/thumbnails/ADM-08.jpg",
+    "layers": [
+      {
+        "id": "ADM-08-layer-1",
+        "name": "Sidebar/Navigasi Peran",
+        "tag": "aside",
+        "children": [
+          {
+            "id": "ADM-08-layer-2",
+            "name": "Navigasi",
+            "tag": "nav",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "ADM-08-layer-3",
+        "name": "Header/Topbar Dashboard",
+        "tag": "header",
+        "children": [
+          {
+            "id": "ADM-08-layer-4",
+            "name": "Form",
+            "tag": "form",
+            "children": [
+              {
+                "id": "ADM-08-layer-5",
+                "name": "Form/Isian",
+                "tag": "div",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ADM-08-layer-6",
+        "name": "Konten/Halaman Dashboard",
+        "tag": "main",
+        "children": [
+          {
+            "id": "ADM-08-layer-7",
+            "name": "Header/Judul Halaman",
+            "tag": "div",
+            "children": [
+              {
+                "id": "ADM-08-layer-8",
+                "name": "Teks/Judul Utama — Kelola Fasilitas",
+                "tag": "h1",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "ADM-08-layer-9",
+            "name": "Panel/Konten",
+            "tag": "div",
+            "children": [
+              {
+                "id": "ADM-08-layer-10",
+                "name": "Kontrol/Pencarian & Filter",
+                "tag": "div",
+                "children": [
+                  {
+                    "id": "ADM-08-layer-11",
+                    "name": "Form/Isian",
+                    "tag": "div",
+                    "children": []
+                  },
+                  {
+                    "id": "ADM-08-layer-12",
+                    "name": "Form/Isian",
+                    "tag": "div",
+                    "children": []
+                  },
+                  {
+                    "id": "ADM-08-layer-13",
+                    "name": "Form/Isian",
+                    "tag": "div",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "ADM-08-layer-14",
+                "name": "Tabel",
+                "tag": "div",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "ADM-08-layer-15",
+            "name": "Overlay/Modal",
+            "tag": "div",
+            "children": [
+              {
+                "id": "ADM-08-layer-16",
+                "name": "Modal/Konten",
+                "tag": "div",
+                "children": [
+                  {
+                    "id": "ADM-08-layer-17",
+                    "name": "Modal/Judul — Tambah Fasilitas",
+                    "tag": "div",
+                    "children": [
+                      {
+                        "id": "ADM-08-layer-18",
+                        "name": "Teks/Subjudul — Tambah Fasilitas",
+                        "tag": "h3",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": "ADM-08-layer-19",
+                    "name": "Form",
+                    "tag": "form",
+                    "children": [
+                      {
+                        "id": "ADM-08-layer-20",
+                        "name": "Form/Isian — Nama Fasilitas",
+                        "tag": "div",
+                        "children": []
+                      },
+                      {
+                        "id": "ADM-08-layer-21",
+                        "name": "Form/Isian — Kategori",
+                        "tag": "div",
+                        "children": []
+                      },
+                      {
+                        "id": "ADM-08-layer-22",
+                        "name": "Form/Isian — Gedung",
+                        "tag": "div",
+                        "children": []
+                      },
+                      {
+                        "id": "ADM-08-layer-23",
+                        "name": "Form/Isian — Deskripsi",
+                        "tag": "div",
+                        "children": []
+                      },
+                      {
+                        "id": "ADM-08-layer-24",
+                        "name": "Peta/Kanvas",
+                        "tag": "div",
+                        "children": []
+                      },
+                      {
+                        "id": "ADM-08-layer-25",
+                        "name": "Form/Isian — Latitude",
+                        "tag": "div",
+                        "children": []
+                      },
+                      {
+                        "id": "ADM-08-layer-26",
+                        "name": "Form/Isian — Longitude",
+                        "tag": "div",
+                        "children": []
+                      },
+                      {
+                        "id": "ADM-08-layer-27",
+                        "name": "Form/Isian — Kondisi",
+                        "tag": "div",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ADM-08-layer-28",
+        "name": "Footer/Aplikasi",
+        "tag": "div",
+        "children": []
+      }
+    ],
+    "defaults": {}
+  },
+  {
+    "code": "ADM-08b",
+    "name": "Edit Fasilitas",
+    "route": "/admin/fasilitas/1",
+    "group": "04 Admin",
+    "file": "pages/ADM-08b.html",
+    "thumbnail": "assets/thumbnails/ADM-08b.jpg",
+    "layers": [
+      {
+        "id": "ADM-08b-layer-1",
+        "name": "Sidebar/Navigasi Peran",
+        "tag": "aside",
+        "children": [
+          {
+            "id": "ADM-08b-layer-2",
+            "name": "Navigasi",
+            "tag": "nav",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "ADM-08b-layer-3",
+        "name": "Header/Topbar Dashboard",
+        "tag": "header",
+        "children": [
+          {
+            "id": "ADM-08b-layer-4",
+            "name": "Form",
+            "tag": "form",
+            "children": [
+              {
+                "id": "ADM-08b-layer-5",
+                "name": "Form/Isian",
+                "tag": "div",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ADM-08b-layer-6",
+        "name": "Konten/Halaman Dashboard",
+        "tag": "main",
+        "children": [
+          {
+            "id": "ADM-08b-layer-7",
+            "name": "Header/Judul Halaman",
+            "tag": "div",
+            "children": [
+              {
+                "id": "ADM-08b-layer-8",
+                "name": "Teks/Judul Utama — Kelola Fasilitas",
+                "tag": "h1",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "ADM-08b-layer-9",
+            "name": "Panel/Konten",
+            "tag": "div",
+            "children": [
+              {
+                "id": "ADM-08b-layer-10",
+                "name": "Kontrol/Pencarian & Filter",
+                "tag": "div",
+                "children": [
+                  {
+                    "id": "ADM-08b-layer-11",
+                    "name": "Form/Isian",
+                    "tag": "div",
+                    "children": []
+                  },
+                  {
+                    "id": "ADM-08b-layer-12",
+                    "name": "Form/Isian",
+                    "tag": "div",
+                    "children": []
+                  },
+                  {
+                    "id": "ADM-08b-layer-13",
+                    "name": "Form/Isian",
+                    "tag": "div",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "ADM-08b-layer-14",
+                "name": "Tabel",
+                "tag": "div",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "ADM-08b-layer-15",
+            "name": "Overlay/Modal",
+            "tag": "div",
+            "children": [
+              {
+                "id": "ADM-08b-layer-16",
+                "name": "Modal/Konten",
+                "tag": "div",
+                "children": [
+                  {
+                    "id": "ADM-08b-layer-17",
+                    "name": "Modal/Judul — Edit Fasilitas",
+                    "tag": "div",
+                    "children": [
+                      {
+                        "id": "ADM-08b-layer-18",
+                        "name": "Teks/Subjudul — Edit Fasilitas",
+                        "tag": "h3",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": "ADM-08b-layer-19",
+                    "name": "Form",
+                    "tag": "form",
+                    "children": [
+                      {
+                        "id": "ADM-08b-layer-20",
+                        "name": "Form/Isian — Nama Fasilitas",
+                        "tag": "div",
+                        "children": []
+                      },
+                      {
+                        "id": "ADM-08b-layer-21",
+                        "name": "Form/Isian — Kategori",
+                        "tag": "div",
+                        "children": []
+                      },
+                      {
+                        "id": "ADM-08b-layer-22",
+                        "name": "Form/Isian — Gedung",
+                        "tag": "div",
+                        "children": []
+                      },
+                      {
+                        "id": "ADM-08b-layer-23",
+                        "name": "Form/Isian — Deskripsi",
+                        "tag": "div",
+                        "children": []
+                      },
+                      {
+                        "id": "ADM-08b-layer-24",
+                        "name": "Peta/Kanvas",
+                        "tag": "div",
+                        "children": []
+                      },
+                      {
+                        "id": "ADM-08b-layer-25",
+                        "name": "Form/Isian — Latitude",
+                        "tag": "div",
+                        "children": []
+                      },
+                      {
+                        "id": "ADM-08b-layer-26",
+                        "name": "Form/Isian — Longitude",
+                        "tag": "div",
+                        "children": []
+                      },
+                      {
+                        "id": "ADM-08b-layer-27",
+                        "name": "Form/Isian — Kondisi",
+                        "tag": "div",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ADM-08b-layer-28",
+        "name": "Footer/Aplikasi",
+        "tag": "div",
+        "children": []
+      }
+    ],
+    "defaults": {}
+  },
+  {
+    "code": "ADM-09",
+    "name": "Kelola Kategori",
+    "route": "/admin/kategori",
+    "group": "04 Admin",
+    "file": "pages/ADM-09.html",
+    "thumbnail": "assets/thumbnails/ADM-09.jpg",
+    "layers": [
+      {
+        "id": "ADM-09-layer-1",
+        "name": "Sidebar/Navigasi Peran",
+        "tag": "aside",
+        "children": [
+          {
+            "id": "ADM-09-layer-2",
+            "name": "Navigasi",
+            "tag": "nav",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "ADM-09-layer-3",
+        "name": "Header/Topbar Dashboard",
+        "tag": "header",
+        "children": [
+          {
+            "id": "ADM-09-layer-4",
+            "name": "Form",
+            "tag": "form",
+            "children": [
+              {
+                "id": "ADM-09-layer-5",
+                "name": "Form/Isian",
+                "tag": "div",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ADM-09-layer-6",
+        "name": "Konten/Halaman Dashboard",
+        "tag": "main",
+        "children": [
+          {
+            "id": "ADM-09-layer-7",
+            "name": "Header/Judul Halaman",
+            "tag": "div",
+            "children": [
+              {
+                "id": "ADM-09-layer-8",
+                "name": "Teks/Judul Utama — Kelola Kategori",
+                "tag": "h1",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "ADM-09-layer-9",
+            "name": "Panel/Konten",
+            "tag": "div",
+            "children": [
+              {
+                "id": "ADM-09-layer-10",
+                "name": "Tabel",
+                "tag": "div",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ADM-09-layer-11",
+        "name": "Footer/Aplikasi",
+        "tag": "div",
+        "children": []
+      }
+    ],
+    "defaults": {}
+  },
+  {
+    "code": "ADM-09b",
+    "name": "Tambah Kategori — Modal",
+    "route": "/admin/kategori?state=modal",
+    "group": "04 Admin",
+    "file": "pages/ADM-09b.html",
+    "thumbnail": "assets/thumbnails/ADM-09b.jpg",
+    "layers": [
+      {
+        "id": "ADM-09b-layer-1",
+        "name": "Sidebar/Navigasi Peran",
+        "tag": "aside",
+        "children": [
+          {
+            "id": "ADM-09b-layer-2",
+            "name": "Navigasi",
+            "tag": "nav",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "ADM-09b-layer-3",
+        "name": "Header/Topbar Dashboard",
+        "tag": "header",
+        "children": [
+          {
+            "id": "ADM-09b-layer-4",
+            "name": "Form",
+            "tag": "form",
+            "children": [
+              {
+                "id": "ADM-09b-layer-5",
+                "name": "Form/Isian",
+                "tag": "div",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ADM-09b-layer-6",
+        "name": "Konten/Halaman Dashboard",
+        "tag": "main",
+        "children": [
+          {
+            "id": "ADM-09b-layer-7",
+            "name": "Header/Judul Halaman",
+            "tag": "div",
+            "children": [
+              {
+                "id": "ADM-09b-layer-8",
+                "name": "Teks/Judul Utama — Kelola Kategori",
+                "tag": "h1",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "ADM-09b-layer-9",
+            "name": "Panel/Konten",
+            "tag": "div",
+            "children": [
+              {
+                "id": "ADM-09b-layer-10",
+                "name": "Tabel",
+                "tag": "div",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "ADM-09b-layer-11",
+            "name": "Overlay/Modal",
+            "tag": "div",
+            "children": [
+              {
+                "id": "ADM-09b-layer-12",
+                "name": "Modal/Konten",
+                "tag": "div",
+                "children": [
+                  {
+                    "id": "ADM-09b-layer-13",
+                    "name": "Modal/Judul — Tambah Kategori",
+                    "tag": "div",
+                    "children": [
+                      {
+                        "id": "ADM-09b-layer-14",
+                        "name": "Teks/Subjudul — Tambah Kategori",
+                        "tag": "h3",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": "ADM-09b-layer-15",
+                    "name": "Form",
+                    "tag": "form",
+                    "children": [
+                      {
+                        "id": "ADM-09b-layer-16",
+                        "name": "Form/Isian — Nama Kategori",
+                        "tag": "div",
+                        "children": []
+                      },
+                      {
+                        "id": "ADM-09b-layer-17",
+                        "name": "Form/Isian — Bobot Dampak (D)",
+                        "tag": "div",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ADM-09b-layer-18",
+        "name": "Footer/Aplikasi",
+        "tag": "div",
+        "children": []
+      }
+    ],
+    "defaults": {
+      "state": "modal"
+    }
+  },
+  {
+    "code": "PTG-01",
+    "name": "Dashboard Petugas",
+    "route": "/petugas/tugas",
+    "group": "05 Petugas",
+    "file": "pages/PTG-01.html",
+    "thumbnail": "assets/thumbnails/PTG-01.jpg",
+    "layers": [
+      {
+        "id": "PTG-01-layer-1",
+        "name": "Sidebar/Navigasi Peran",
+        "tag": "aside",
+        "children": [
+          {
+            "id": "PTG-01-layer-2",
+            "name": "Navigasi",
+            "tag": "nav",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "PTG-01-layer-3",
+        "name": "Header/Topbar Dashboard",
+        "tag": "header",
+        "children": [
+          {
+            "id": "PTG-01-layer-4",
+            "name": "Form",
+            "tag": "form",
+            "children": [
+              {
+                "id": "PTG-01-layer-5",
+                "name": "Form/Isian",
+                "tag": "div",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "PTG-01-layer-6",
+        "name": "Konten/Halaman Dashboard",
+        "tag": "main",
+        "children": [
+          {
+            "id": "PTG-01-layer-7",
+            "name": "Header/Judul Halaman",
+            "tag": "div",
+            "children": [
+              {
+                "id": "PTG-01-layer-8",
+                "name": "Teks/Judul Utama — Halo, Pak Budi.",
+                "tag": "h1",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "PTG-01-layer-9",
+            "name": "Grid/KPI",
+            "tag": "div",
+            "children": [
+              {
+                "id": "PTG-01-layer-10",
+                "name": "Card/KPI",
+                "tag": "div",
+                "children": []
+              },
+              {
+                "id": "PTG-01-layer-11",
+                "name": "Card/KPI",
+                "tag": "div",
+                "children": []
+              },
+              {
+                "id": "PTG-01-layer-12",
+                "name": "Card/KPI",
+                "tag": "div",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "PTG-01-layer-13",
+            "name": "Panel/Konten",
+            "tag": "section",
+            "children": [
+              {
+                "id": "PTG-01-layer-14",
+                "name": "Panel/Judul",
+                "tag": "div",
+                "children": [
+                  {
+                    "id": "PTG-01-layer-15",
+                    "name": "Teks/Judul Kartu — Daftar Tugas Terurut Skor Prioritas",
+                    "tag": "h4",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "PTG-01-layer-16",
+                "name": "Kontrol/Pencarian & Filter",
+                "tag": "div",
+                "children": [
+                  {
+                    "id": "PTG-01-layer-17",
+                    "name": "Form/Isian",
+                    "tag": "div",
+                    "children": []
+                  },
+                  {
+                    "id": "PTG-01-layer-18",
+                    "name": "Form/Isian",
+                    "tag": "div",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "PTG-01-layer-19",
+                "name": "Tabel",
+                "tag": "div",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "PTG-01-layer-20",
+        "name": "Footer/Aplikasi",
+        "tag": "div",
+        "children": []
+      }
+    ],
+    "defaults": {}
+  },
+  {
+    "code": "PTG-01b",
+    "name": "Riwayat Selesai",
+    "route": "/petugas/riwayat",
+    "group": "05 Petugas",
+    "file": "pages/PTG-01b.html",
+    "thumbnail": "assets/thumbnails/PTG-01b.jpg",
+    "layers": [
+      {
+        "id": "PTG-01b-layer-1",
+        "name": "Sidebar/Navigasi Peran",
+        "tag": "aside",
+        "children": [
+          {
+            "id": "PTG-01b-layer-2",
+            "name": "Navigasi",
+            "tag": "nav",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "PTG-01b-layer-3",
+        "name": "Header/Topbar Dashboard",
+        "tag": "header",
+        "children": [
+          {
+            "id": "PTG-01b-layer-4",
+            "name": "Form",
+            "tag": "form",
+            "children": [
+              {
+                "id": "PTG-01b-layer-5",
+                "name": "Form/Isian",
+                "tag": "div",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "PTG-01b-layer-6",
+        "name": "Konten/Halaman Dashboard",
+        "tag": "main",
+        "children": [
+          {
+            "id": "PTG-01b-layer-7",
+            "name": "Header/Judul Halaman",
+            "tag": "div",
+            "children": [
+              {
+                "id": "PTG-01b-layer-8",
+                "name": "Teks/Judul Utama — Riwayat Selesai",
+                "tag": "h1",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "PTG-01b-layer-9",
+            "name": "Grid/KPI",
+            "tag": "div",
+            "children": [
+              {
+                "id": "PTG-01b-layer-10",
+                "name": "Card/KPI",
+                "tag": "div",
+                "children": []
+              },
+              {
+                "id": "PTG-01b-layer-11",
+                "name": "Card/KPI",
+                "tag": "div",
+                "children": []
+              },
+              {
+                "id": "PTG-01b-layer-12",
+                "name": "Card/KPI",
+                "tag": "div",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "PTG-01b-layer-13",
+            "name": "Panel/Konten",
+            "tag": "section",
+            "children": [
+              {
+                "id": "PTG-01b-layer-14",
+                "name": "Panel/Judul",
+                "tag": "div",
+                "children": [
+                  {
+                    "id": "PTG-01b-layer-15",
+                    "name": "Teks/Judul Kartu — Tugas yang Telah Selesai",
+                    "tag": "h4",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "PTG-01b-layer-16",
+                "name": "Kontrol/Pencarian & Filter",
+                "tag": "div",
+                "children": [
+                  {
+                    "id": "PTG-01b-layer-17",
+                    "name": "Form/Isian",
+                    "tag": "div",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "PTG-01b-layer-18",
+                "name": "Tabel",
+                "tag": "div",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "PTG-01b-layer-19",
+        "name": "Footer/Aplikasi",
+        "tag": "div",
+        "children": []
+      }
+    ],
+    "defaults": {}
+  },
+  {
+    "code": "PTG-02",
+    "name": "Detail Tugas",
+    "route": "/petugas/detail/LP-2026-0001",
+    "group": "05 Petugas",
+    "file": "pages/PTG-02.html",
+    "thumbnail": "assets/thumbnails/PTG-02.jpg",
+    "layers": [
+      {
+        "id": "PTG-02-layer-1",
+        "name": "Sidebar/Navigasi Peran",
+        "tag": "aside",
+        "children": [
+          {
+            "id": "PTG-02-layer-2",
+            "name": "Navigasi",
+            "tag": "nav",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "PTG-02-layer-3",
+        "name": "Header/Topbar Dashboard",
+        "tag": "header",
+        "children": [
+          {
+            "id": "PTG-02-layer-4",
+            "name": "Form",
+            "tag": "form",
+            "children": [
+              {
+                "id": "PTG-02-layer-5",
+                "name": "Form/Isian",
+                "tag": "div",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "PTG-02-layer-6",
+        "name": "Konten/Halaman Dashboard",
+        "tag": "main",
+        "children": [
+          {
+            "id": "PTG-02-layer-7",
+            "name": "Navigasi/Breadcrumb",
+            "tag": "div",
+            "children": []
+          },
+          {
+            "id": "PTG-02-layer-8",
+            "name": "Header/Judul Halaman",
+            "tag": "div",
+            "children": [
+              {
+                "id": "PTG-02-layer-9",
+                "name": "Teks/Judul Utama — Detail Tugas",
+                "tag": "h1",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "PTG-02-layer-10",
+            "name": "Panel/Konten",
+            "tag": "section",
+            "children": [
+              {
+                "id": "PTG-02-layer-11",
+                "name": "Panel/Judul — Informasi Laporan",
+                "tag": "div",
+                "children": [
+                  {
+                    "id": "PTG-02-layer-12",
+                    "name": "Teks/Judul Kartu — Informasi Laporan",
+                    "tag": "h4",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "PTG-02-layer-13",
+                "name": "Teks/Subjudul — Toilet Gedung A Lt.2",
+                "tag": "h3",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "PTG-02-layer-14",
+            "name": "Panel/Konten",
+            "tag": "section",
+            "children": [
+              {
+                "id": "PTG-02-layer-15",
+                "name": "Panel/Judul — Lokasi Kerusakan",
+                "tag": "div",
+                "children": [
+                  {
+                    "id": "PTG-02-layer-16",
+                    "name": "Teks/Judul Kartu — Lokasi Kerusakan",
+                    "tag": "h4",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "PTG-02-layer-17",
+                "name": "Peta/Kanvas",
+                "tag": "div",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "PTG-02-layer-18",
+            "name": "Panel/Samping",
+            "tag": "aside",
+            "children": [
+              {
+                "id": "PTG-02-layer-19",
+                "name": "Panel/Konten",
+                "tag": "section",
+                "children": [
+                  {
+                    "id": "PTG-02-layer-20",
+                    "name": "Panel/Judul — Riwayat Status",
+                    "tag": "div",
+                    "children": [
+                      {
+                        "id": "PTG-02-layer-21",
+                        "name": "Teks/Judul Kartu — Riwayat Status",
+                        "tag": "h4",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": "PTG-02-layer-22",
+                    "name": "Timeline/Riwayat Status",
+                    "tag": "div",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "PTG-02-layer-23",
+        "name": "Footer/Aplikasi",
+        "tag": "div",
+        "children": []
+      }
+    ],
+    "defaults": {
+      "report": "LP-2026-0001"
+    }
+  },
+  {
+    "code": "PTG-03a",
+    "name": "Perbarui Progres — Belum Selesai",
+    "route": "/petugas/progres/LP-2026-0003",
+    "group": "05 Petugas",
+    "file": "pages/PTG-03a.html",
+    "thumbnail": "assets/thumbnails/PTG-03a.jpg",
+    "layers": [
+      {
+        "id": "PTG-03a-layer-1",
+        "name": "Sidebar/Navigasi Peran",
+        "tag": "aside",
+        "children": [
+          {
+            "id": "PTG-03a-layer-2",
+            "name": "Navigasi",
+            "tag": "nav",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "PTG-03a-layer-3",
+        "name": "Header/Topbar Dashboard",
+        "tag": "header",
+        "children": [
+          {
+            "id": "PTG-03a-layer-4",
+            "name": "Form",
+            "tag": "form",
+            "children": [
+              {
+                "id": "PTG-03a-layer-5",
+                "name": "Form/Isian",
+                "tag": "div",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "PTG-03a-layer-6",
+        "name": "Konten/Halaman Dashboard",
+        "tag": "main",
+        "children": [
+          {
+            "id": "PTG-03a-layer-7",
+            "name": "Navigasi/Breadcrumb",
+            "tag": "div",
+            "children": []
+          },
+          {
+            "id": "PTG-03a-layer-8",
+            "name": "Header/Judul Halaman",
+            "tag": "div",
+            "children": [
+              {
+                "id": "PTG-03a-layer-9",
+                "name": "Teks/Judul Utama — Perbarui Progres",
+                "tag": "h1",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "PTG-03a-layer-10",
+            "name": "Panel/Konten",
+            "tag": "section",
+            "children": [
+              {
+                "id": "PTG-03a-layer-11",
+                "name": "Panel/Judul",
+                "tag": "div",
+                "children": [
+                  {
+                    "id": "PTG-03a-layer-12",
+                    "name": "Teks/Judul Kartu — Wi-Fi Lab Komputer",
+                    "tag": "h4",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "PTG-03a-layer-13",
+                "name": "Form",
+                "tag": "form",
+                "children": [
+                  {
+                    "id": "PTG-03a-layer-14",
+                    "name": "Form/Isian — Catatan progres",
+                    "tag": "div",
+                    "children": []
+                  },
+                  {
+                    "id": "PTG-03a-layer-15",
+                    "name": "Form/Aksi",
+                    "tag": "div",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "PTG-03a-layer-16",
+            "name": "Panel/Samping",
+            "tag": "aside",
+            "children": [
+              {
+                "id": "PTG-03a-layer-17",
+                "name": "Panel/Konten",
+                "tag": "div",
+                "children": [
+                  {
+                    "id": "PTG-03a-layer-18",
+                    "name": "Teks/Judul Kartu — Wi-Fi Lab Komputer",
+                    "tag": "h4",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "PTG-03a-layer-19",
+        "name": "Footer/Aplikasi",
+        "tag": "div",
+        "children": []
+      }
+    ],
+    "defaults": {
+      "report": "LP-2026-0003"
+    }
+  },
+  {
+    "code": "PTG-03b",
+    "name": "Perbarui Progres — Selesai",
+    "route": "/petugas/progres/LP-2026-0003?selesai=1",
+    "group": "05 Petugas",
+    "file": "pages/PTG-03b.html",
+    "thumbnail": "assets/thumbnails/PTG-03b.jpg",
+    "layers": [
+      {
+        "id": "PTG-03b-layer-1",
+        "name": "Sidebar/Navigasi Peran",
+        "tag": "aside",
+        "children": [
+          {
+            "id": "PTG-03b-layer-2",
+            "name": "Navigasi",
+            "tag": "nav",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "PTG-03b-layer-3",
+        "name": "Header/Topbar Dashboard",
+        "tag": "header",
+        "children": [
+          {
+            "id": "PTG-03b-layer-4",
+            "name": "Form",
+            "tag": "form",
+            "children": [
+              {
+                "id": "PTG-03b-layer-5",
+                "name": "Form/Isian",
+                "tag": "div",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "PTG-03b-layer-6",
+        "name": "Konten/Halaman Dashboard",
+        "tag": "main",
+        "children": [
+          {
+            "id": "PTG-03b-layer-7",
+            "name": "Navigasi/Breadcrumb",
+            "tag": "div",
+            "children": []
+          },
+          {
+            "id": "PTG-03b-layer-8",
+            "name": "Header/Judul Halaman",
+            "tag": "div",
+            "children": [
+              {
+                "id": "PTG-03b-layer-9",
+                "name": "Teks/Judul Utama — Perbarui Progres",
+                "tag": "h1",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "PTG-03b-layer-10",
+            "name": "Panel/Konten",
+            "tag": "section",
+            "children": [
+              {
+                "id": "PTG-03b-layer-11",
+                "name": "Panel/Judul",
+                "tag": "div",
+                "children": [
+                  {
+                    "id": "PTG-03b-layer-12",
+                    "name": "Teks/Judul Kartu — Wi-Fi Lab Komputer",
+                    "tag": "h4",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "PTG-03b-layer-13",
+                "name": "Form",
+                "tag": "form",
+                "children": [
+                  {
+                    "id": "PTG-03b-layer-14",
+                    "name": "Form/Isian — Catatan progres",
+                    "tag": "div",
+                    "children": []
+                  },
+                  {
+                    "id": "PTG-03b-layer-15",
+                    "name": "Form/Isian — Kondisi fasilitas setelah perbaikan",
+                    "tag": "div",
+                    "children": []
+                  },
+                  {
+                    "id": "PTG-03b-layer-16",
+                    "name": "Form/Aksi",
+                    "tag": "div",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "PTG-03b-layer-17",
+            "name": "Panel/Samping",
+            "tag": "aside",
+            "children": [
+              {
+                "id": "PTG-03b-layer-18",
+                "name": "Panel/Konten",
+                "tag": "div",
+                "children": [
+                  {
+                    "id": "PTG-03b-layer-19",
+                    "name": "Teks/Judul Kartu — Wi-Fi Lab Komputer",
+                    "tag": "h4",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "PTG-03b-layer-20",
+        "name": "Footer/Aplikasi",
+        "tag": "div",
+        "children": []
+      }
+    ],
+    "defaults": {
+      "selesai": "1",
+      "report": "LP-2026-0003"
+    }
+  },
+  {
+    "code": "PTG-04",
+    "name": "Konfirmasi Selesai — Modal",
+    "route": "/petugas/selesai?id=LP-2026-0004",
+    "group": "05 Petugas",
+    "file": "pages/PTG-04.html",
+    "thumbnail": "assets/thumbnails/PTG-04.jpg",
+    "layers": [
+      {
+        "id": "PTG-04-layer-1",
+        "name": "Sidebar/Navigasi Peran",
+        "tag": "aside",
+        "children": [
+          {
+            "id": "PTG-04-layer-2",
+            "name": "Navigasi",
+            "tag": "nav",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "PTG-04-layer-3",
+        "name": "Header/Topbar Dashboard",
+        "tag": "header",
+        "children": [
+          {
+            "id": "PTG-04-layer-4",
+            "name": "Form",
+            "tag": "form",
+            "children": [
+              {
+                "id": "PTG-04-layer-5",
+                "name": "Form/Isian",
+                "tag": "div",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "PTG-04-layer-6",
+        "name": "Konten/Halaman Dashboard",
+        "tag": "main",
+        "children": [
+          {
+            "id": "PTG-04-layer-7",
+            "name": "Navigasi/Breadcrumb",
+            "tag": "div",
+            "children": []
+          },
+          {
+            "id": "PTG-04-layer-8",
+            "name": "Header/Judul Halaman",
+            "tag": "div",
+            "children": [
+              {
+                "id": "PTG-04-layer-9",
+                "name": "Teks/Judul Utama — Perbarui Progres",
+                "tag": "h1",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "PTG-04-layer-10",
+            "name": "Panel/Konten",
+            "tag": "section",
+            "children": [
+              {
+                "id": "PTG-04-layer-11",
+                "name": "Panel/Judul",
+                "tag": "div",
+                "children": [
+                  {
+                    "id": "PTG-04-layer-12",
+                    "name": "Teks/Judul Kartu — AC Ruang A.101",
+                    "tag": "h4",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "PTG-04-layer-13",
+                "name": "Form",
+                "tag": "form",
+                "children": [
+                  {
+                    "id": "PTG-04-layer-14",
+                    "name": "Form/Isian — Catatan progres",
+                    "tag": "div",
+                    "children": []
+                  },
+                  {
+                    "id": "PTG-04-layer-15",
+                    "name": "Form/Isian — Kondisi fasilitas setelah perbaikan",
+                    "tag": "div",
+                    "children": []
+                  },
+                  {
+                    "id": "PTG-04-layer-16",
+                    "name": "Form/Aksi",
+                    "tag": "div",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "PTG-04-layer-17",
+            "name": "Panel/Samping",
+            "tag": "aside",
+            "children": [
+              {
+                "id": "PTG-04-layer-18",
+                "name": "Panel/Konten",
+                "tag": "div",
+                "children": [
+                  {
+                    "id": "PTG-04-layer-19",
+                    "name": "Teks/Judul Kartu — AC Ruang A.101",
+                    "tag": "h4",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "PTG-04-layer-20",
+            "name": "Overlay/Modal",
+            "tag": "div",
+            "children": [
+              {
+                "id": "PTG-04-layer-21",
+                "name": "Modal/Konten",
+                "tag": "div",
+                "children": [
+                  {
+                    "id": "PTG-04-layer-22",
+                    "name": "Modal/Judul — Perbaikan berhasil diselesaikan",
+                    "tag": "div",
+                    "children": [
+                      {
+                        "id": "PTG-04-layer-23",
+                        "name": "Teks/Subjudul — Perbaikan berhasil diselesaikan",
+                        "tag": "h3",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": "PTG-04-layer-24",
+                    "name": "Modal/Hasil Verifikasi — Tugas selesai.",
+                    "tag": "div",
+                    "children": [
+                      {
+                        "id": "PTG-04-layer-25",
+                        "name": "Teks/Subjudul — Tugas selesai.",
+                        "tag": "h3",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "PTG-04-layer-26",
+        "name": "Footer/Aplikasi",
+        "tag": "div",
+        "children": []
+      }
+    ],
+    "defaults": {
+      "id": "LP-2026-0004"
+    }
+  },
+  {
+    "code": "KRD-01",
+    "name": "Dashboard Rekap Kondisi",
+    "route": "/koordinator/rekap",
+    "group": "06 Koordinator",
+    "file": "pages/KRD-01.html",
+    "thumbnail": "assets/thumbnails/KRD-01.jpg",
+    "layers": [
+      {
+        "id": "KRD-01-layer-1",
+        "name": "Sidebar/Navigasi Peran",
+        "tag": "aside",
+        "children": [
+          {
+            "id": "KRD-01-layer-2",
+            "name": "Navigasi",
+            "tag": "nav",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "KRD-01-layer-3",
+        "name": "Header/Topbar Dashboard",
+        "tag": "header",
+        "children": [
+          {
+            "id": "KRD-01-layer-4",
+            "name": "Form",
+            "tag": "form",
+            "children": [
+              {
+                "id": "KRD-01-layer-5",
+                "name": "Form/Isian",
+                "tag": "div",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "KRD-01-layer-6",
+        "name": "Konten/Halaman Dashboard",
+        "tag": "main",
+        "children": [
+          {
+            "id": "KRD-01-layer-7",
+            "name": "Header/Judul Halaman",
+            "tag": "div",
+            "children": [
+              {
+                "id": "KRD-01-layer-8",
+                "name": "Teks/Judul Utama — Rekap Kondisi Fasilitas",
+                "tag": "h1",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "KRD-01-layer-9",
+            "name": "Form/Isian — Gedung",
+            "tag": "div",
+            "children": []
+          },
+          {
+            "id": "KRD-01-layer-10",
+            "name": "Form/Isian — Kategori",
+            "tag": "div",
+            "children": []
+          },
+          {
+            "id": "KRD-01-layer-11",
+            "name": "Form/Isian — Periode",
+            "tag": "div",
+            "children": []
+          },
+          {
+            "id": "KRD-01-layer-12",
+            "name": "Grid/KPI",
+            "tag": "div",
+            "children": [
+              {
+                "id": "KRD-01-layer-13",
+                "name": "Card/KPI",
+                "tag": "div",
+                "children": []
+              },
+              {
+                "id": "KRD-01-layer-14",
+                "name": "Card/KPI",
+                "tag": "div",
+                "children": []
+              },
+              {
+                "id": "KRD-01-layer-15",
+                "name": "Card/KPI",
+                "tag": "div",
+                "children": []
+              },
+              {
+                "id": "KRD-01-layer-16",
+                "name": "Card/KPI",
+                "tag": "div",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "KRD-01-layer-17",
+            "name": "Grid/Grafik",
+            "tag": "div",
+            "children": [
+              {
+                "id": "KRD-01-layer-18",
+                "name": "Panel/Konten",
+                "tag": "section",
+                "children": [
+                  {
+                    "id": "KRD-01-layer-19",
+                    "name": "Panel/Judul",
+                    "tag": "div",
+                    "children": [
+                      {
+                        "id": "KRD-01-layer-20",
+                        "name": "Teks/Judul Kartu — Kondisi Fasilitas",
+                        "tag": "h4",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": "KRD-01-layer-21",
+                    "name": "Grafik/Kondisi Fasilitas",
+                    "tag": "div",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "KRD-01-layer-22",
+                "name": "Panel/Konten",
+                "tag": "section",
+                "children": [
+                  {
+                    "id": "KRD-01-layer-23",
+                    "name": "Panel/Judul",
+                    "tag": "div",
+                    "children": [
+                      {
+                        "id": "KRD-01-layer-24",
+                        "name": "Teks/Judul Kartu — Laporan per Kategori",
+                        "tag": "h4",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": "KRD-01-layer-25",
+                    "name": "Grafik/Laporan per Kategori",
+                    "tag": "div",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "KRD-01-layer-26",
+            "name": "Panel/Konten",
+            "tag": "section",
+            "children": [
+              {
+                "id": "KRD-01-layer-27",
+                "name": "Panel/Judul",
+                "tag": "div",
+                "children": [
+                  {
+                    "id": "KRD-01-layer-28",
+                    "name": "Teks/Judul Kartu — Top 5 Prioritas Perbaikan",
+                    "tag": "h4",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "KRD-01-layer-29",
+                "name": "Tabel",
+                "tag": "div",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "KRD-01-layer-30",
+        "name": "Footer/Aplikasi",
+        "tag": "div",
+        "children": []
+      }
+    ],
+    "defaults": {}
+  },
+  {
+    "code": "KRD-02",
+    "name": "Prioritas Perbaikan",
+    "route": "/koordinator/prioritas",
+    "group": "06 Koordinator",
+    "file": "pages/KRD-02.html",
+    "thumbnail": "assets/thumbnails/KRD-02.jpg",
+    "layers": [
+      {
+        "id": "KRD-02-layer-1",
+        "name": "Sidebar/Navigasi Peran",
+        "tag": "aside",
+        "children": [
+          {
+            "id": "KRD-02-layer-2",
+            "name": "Navigasi",
+            "tag": "nav",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "KRD-02-layer-3",
+        "name": "Header/Topbar Dashboard",
+        "tag": "header",
+        "children": [
+          {
+            "id": "KRD-02-layer-4",
+            "name": "Form",
+            "tag": "form",
+            "children": [
+              {
+                "id": "KRD-02-layer-5",
+                "name": "Form/Isian",
+                "tag": "div",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "KRD-02-layer-6",
+        "name": "Konten/Halaman Dashboard",
+        "tag": "main",
+        "children": [
+          {
+            "id": "KRD-02-layer-7",
+            "name": "Header/Judul Halaman",
+            "tag": "div",
+            "children": [
+              {
+                "id": "KRD-02-layer-8",
+                "name": "Teks/Judul Utama — Prioritas Perbaikan",
+                "tag": "h1",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "KRD-02-layer-9",
+            "name": "Panel/Konten",
+            "tag": "div",
+            "children": [
+              {
+                "id": "KRD-02-layer-10",
+                "name": "Kontrol/Pencarian & Filter",
+                "tag": "div",
+                "children": [
+                  {
+                    "id": "KRD-02-layer-11",
+                    "name": "Form/Isian",
+                    "tag": "div",
+                    "children": []
+                  },
+                  {
+                    "id": "KRD-02-layer-12",
+                    "name": "Form/Isian",
+                    "tag": "div",
+                    "children": []
+                  },
+                  {
+                    "id": "KRD-02-layer-13",
+                    "name": "Form/Isian",
+                    "tag": "div",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "KRD-02-layer-14",
+                "name": "Tabel",
+                "tag": "div",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "KRD-02-layer-15",
+        "name": "Footer/Aplikasi",
+        "tag": "div",
+        "children": []
+      }
+    ],
+    "defaults": {}
+  }
+]
