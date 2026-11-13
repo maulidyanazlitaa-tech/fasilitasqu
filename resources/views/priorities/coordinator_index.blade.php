@@ -6,7 +6,7 @@
 @section('content')
 
     <!-- KRD-02 Prioritas Perbaikan — setiap data-layer adalah layer HTML yang dapat diperiksa. -->
-    <div class="dashboard-app" style="">
+    <div class="dashboard-app">
       
 @include('layouts.partials.sidebar-koordinator')
 
