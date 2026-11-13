@@ -16,19 +16,12 @@ class RoleMiddleware
 
         $user = $request->user();
 
-        // Memeriksa autentikasi pengguna
         if (!$user) {
-            return response()->json([
-                'success' => false,
-                'message' => 'Unauthenticated.'
-            ], 401);
+            return redirect()->route('login');
         }
 
-        if (!in_array($user->role, $roles)) {
-            return response()->json([
-                'success' => false,
-                'message' => 'Anda tidak memiliki akses.'
-            ], 403);
+        if (!$user->hasRole($roles)) {
+            abort(403, 'Anda tidak memiliki akses ke halaman ini.');
         }
 
         return $next($request);

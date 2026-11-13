@@ -1,0 +1,693 @@
+@extends('layouts.fasilitasqu')
+
+@section('title', 'DS-01 Design System — FasilitasQu')
+@section('page-code', 'DS-01')
+
+@section('content')
+
+    <!-- DS-01 Design System — setiap data-layer adalah layer HTML yang dapat diperiksa. -->
+    <div class="prototype-page" data-screen="01 Design System">
+      <header class="prototype-header" data-layer="Header" data-layer-id="DS-01-layer-1">
+        <a class="text-link logo" href="PUB-01.html"><span class="logo-mark"><svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin" aria-hidden="true">
+              <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path>
+              <circle cx="12" cy="10" r="3"></circle></svg><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-wrench" aria-hidden="true">
+              <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.106-3.105c.32-.322.863-.22.983.218a6 6 0 0 1-8.259 7.057l-7.91 7.91a1 1 0 0 1-2.999-3l7.91-7.91a6 6 0 0 1 7.057-8.259c.438.12.54.662.219.984z"></path></svg></span><span>Fasilitas<span class="logo-qu">Qu</span><span class="logo-period">.</span></span></a><span>01 Design System</span><a class="button button--outline button--sm" href="PUB-01.html">
+          Buka prototype
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right" aria-hidden="true">
+            <path d="M7 7h10v10"></path>
+            <path d="M7 17 17 7"></path></svg></a>
+      </header>
+      <div class="container">
+        <div class="ds-page-heading">
+          <div class="eyebrow">FASILITASQU · FONDASI VISUAL</div>
+          <h1 class="title title--1" data-layer="Teks/Judul Utama — Sederhana. Terukur. Konsisten." data-layer-id="DS-01-layer-2">
+            Sederhana. Terukur. Konsisten.
+          </h1>
+          <p class="muted">Komponen bersama untuk seluruh pengalaman FasilitasQu.</p>
+        </div>
+        <div class="prototype-tabs">
+          <a class="text-link" href="../index.html#alur"><svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-layout-grid" aria-hidden="true">
+              <rect width="7" height="7" x="3" y="3" rx="1"></rect>
+              <rect width="7" height="7" x="14" y="3" rx="1"></rect>
+              <rect width="7" height="7" x="14" y="14" rx="1"></rect>
+              <rect width="7" height="7" x="3" y="14" rx="1"></rect></svg>00 Cover &amp; Flow</a><a class="text-link is-active" href="DS-01.html"><svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-code-xml lucide-code-2" aria-hidden="true">
+              <path d="m18 16 4-4-4-4"></path>
+              <path d="m6 8-4 4 4 4"></path>
+              <path d="m14.5 4-5 16"></path></svg>01 Design System</a>
+        </div>
+        <section class="ds-section" data-layer="Design System/Bagian — 01 — Warna &amp; Variabel" data-layer-id="DS-01-layer-3">
+          <h3 class="title title--3" data-layer="Teks/Subjudul — 01 — Warna &amp; Variabel" data-layer-id="DS-01-layer-4">
+            01 — Warna &amp; Variabel
+          </h3>
+          <div class="color-swatches">
+            <div>
+              <span class="swatch swatch--white"></span><strong>Primary/White</strong><span class="muted">#FFFFFF</span>
+            </div>
+            <div>
+              <span class="swatch swatch--secondary"></span><strong>Secondary/524646</strong><span class="muted">#524646</span>
+            </div>
+            <div>
+              <span class="swatch swatch--accent"></span><strong>Tertiary/EC5B38</strong><span class="muted">#EC5B38</span>
+            </div>
+            <div>
+              <span class="swatch swatch--soft"></span><strong>Surface-Soft</strong><span class="muted">#F7F5F5</span>
+            </div>
+            <div>
+              <span class="swatch swatch--border"></span><strong>Border</strong><span class="muted">#E7E2E2</span>
+            </div>
+            <div>
+              <span class="swatch swatch--muted"></span><strong>Text-Muted</strong><span class="muted">#857A7A</span>
+            </div>
+            <div>
+              <span class="swatch swatch--secondary-tint"></span><strong>Secondary-Tint-10</strong><span class="muted">10% Sekunder</span>
+            </div>
+            <div>
+              <span class="swatch swatch--accent-tint"></span><strong>Tertiary-Tint-12</strong><span class="muted">12% Tersier</span>
+            </div>
+          </div>
+          <p class="ds-caption">
+            Putih dominan 70–80%. Aksen tersier hanya sebagai pembeda, maksimal 10% area halaman.
+          </p>
+        </section>
+        <section class="ds-section" data-layer="Design System/Bagian — 02 — Tipografi" data-layer-id="DS-01-layer-5">
+          <h3 class="title title--3" data-layer="Teks/Subjudul — 02 — Tipografi" data-layer-id="DS-01-layer-6">
+            02 — Tipografi
+          </h3>
+          <div class="type-specimens">
+            <div>
+              <span>H1 Landing · 56/64 · Bold</span>
+              <h1 class="title title--1 landing-type" data-layer="Teks/Judul Utama — Kampus nyaman untuk semua." data-layer-id="DS-01-layer-7">
+                Kampus nyaman untuk semua.
+              </h1>
+            </div>
+            <div>
+              <span>H1 Dashboard · 32/40 · Bold</span>
+              <h1 class="title title--1" data-layer="Teks/Judul Utama — Laporanmu membawa perubahan." data-layer-id="DS-01-layer-8">
+                Laporanmu membawa perubahan.
+              </h1>
+            </div>
+            <div>
+              <span>H2 · 40/48 · Bold</span>
+              <h2 class="title title--2" data-layer="Teks/Judul Section — Peduli, laporkan, pantau." data-layer-id="DS-01-layer-9">
+                Peduli, laporkan, pantau.
+              </h2>
+            </div>
+            <div>
+              <span>H3 · 28/36 · Semibold</span>
+              <h3 class="title title--3" data-layer="Teks/Subjudul — Fasilitas yang lebih terawat." data-layer-id="DS-01-layer-10">
+                Fasilitas yang lebih terawat.
+              </h3>
+            </div>
+            <div>
+              <span>H4 · 20/28 · Semibold</span>
+              <h4 class="title title--4" data-layer="Teks/Judul Kartu — Satu kampus, kepedulian bersama." data-layer-id="DS-01-layer-11">
+                Satu kampus, kepedulian bersama.
+              </h4>
+            </div>
+            <div>
+              <span>Body-L · 18/28</span>
+              <p class="body-large">Platform pelaporan fasilitas Universitas Jambi.</p>
+            </div>
+            <div>
+              <span>Body · 16/24</span>
+              <p>Laporan yang jelas membantu penanganan lebih cepat.</p>
+            </div>
+            <div>
+              <span>Small · 14/20 · Caption · 12/16</span>
+              <p class="small">Diperbarui 09 Nov 2026</p>
+              <p class="caption muted">Inter · fallback IBM Plex Sans</p>
+            </div>
+          </div>
+        </section>
+        <section class="ds-section" data-layer="Design System/Bagian — 03 — Tombol &amp; Interaksi" data-layer-id="DS-01-layer-12">
+          <h3 class="title title--3" data-layer="Teks/Subjudul — 03 — Tombol &amp; Interaksi" data-layer-id="DS-01-layer-13">
+            03 — Tombol &amp; Interaksi
+          </h3>
+          <div class="ds-buttons">
+            <div>
+              <span class="eyebrow">primary</span><button class="button button--primary button--md" type="button">
+                Default
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right" aria-hidden="true">
+                  <path d="M7 7h10v10"></path>
+                  <path d="M7 17 17 7"></path>
+                </svg></button><button class="button button--primary button--md demo-hover" type="button">
+                Hover</button><button class="button button--primary button--md demo-pressed" type="button">
+                Pressed</button><button class="button button--primary button--md" disabled="" type="button">
+                Disabled
+              </button>
+            </div>
+            <div>
+              <span class="eyebrow">secondary</span><button class="button button--secondary button--md" type="button">
+                Default
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right" aria-hidden="true">
+                  <path d="M7 7h10v10"></path>
+                  <path d="M7 17 17 7"></path>
+                </svg></button><button class="button button--secondary button--md demo-hover" type="button">
+                Hover</button><button class="button button--secondary button--md demo-pressed" type="button">
+                Pressed</button><button class="button button--secondary button--md" disabled="" type="button">
+                Disabled
+              </button>
+            </div>
+            <div>
+              <span class="eyebrow">outline</span><button class="button button--outline button--md" type="button">
+                Default
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right" aria-hidden="true">
+                  <path d="M7 7h10v10"></path>
+                  <path d="M7 17 17 7"></path>
+                </svg></button><button class="button button--outline button--md demo-hover" type="button">
+                Hover</button><button class="button button--outline button--md demo-pressed" type="button">
+                Pressed</button><button class="button button--outline button--md" disabled="" type="button">
+                Disabled
+              </button>
+            </div>
+            <div>
+              <span class="eyebrow">ghost</span><button class="button button--ghost button--md" type="button">
+                Default
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right" aria-hidden="true">
+                  <path d="M7 7h10v10"></path>
+                  <path d="M7 17 17 7"></path>
+                </svg></button><button class="button button--ghost button--md demo-hover" type="button">
+                Hover</button><button class="button button--ghost button--md demo-pressed" type="button">
+                Pressed</button><button class="button button--ghost button--md" disabled="" type="button">
+                Disabled
+              </button>
+            </div>
+          </div>
+          <p class="ds-caption">
+            Radius pill · Transisi 300 ms Ease-Out · Fokus keyboard terlihat.
+          </p>
+        </section>
+        <section class="ds-section" data-layer="Design System/Bagian — 04 — Isian Formulir" data-layer-id="DS-01-layer-14">
+          <h3 class="title title--3" data-layer="Teks/Subjudul — 04 — Isian Formulir" data-layer-id="DS-01-layer-15">
+            04 — Isian Formulir
+          </h3>
+          <div class="ds-fields">
+            <div class="field" data-layer="Form/Isian — Default" data-layer-id="DS-01-layer-16">
+              <label for="_r_0_">Default</label>
+              <div class="input-wrap">
+                <input placeholder="Nama fasilitas" id="_r_0_" class="" aria-invalid="false" data-field="0" value="">
+              </div>
+            </div>
+            <div class="field demo-focus" data-layer="Form/Isian — Focus" data-layer-id="DS-01-layer-17">
+              <label for="_r_1_">Focus</label>
+              <div class="input-wrap">
+                <input placeholder="Tulis informasi..." id="_r_1_" class="" aria-invalid="false" data-field="1" value="">
+              </div>
+            </div>
+            <div class="field" data-layer="Form/Isian — Error" data-layer-id="DS-01-layer-18">
+              <label for="_r_2_">Error</label>
+              <div class="input-wrap input-wrap--error">
+                <input placeholder="Deskripsi kerusakan" id="_r_2_" class="" aria-invalid="true" aria-describedby="_r_2_-hint" value="" data-field="2">
+              </div>
+              <span id="_r_2_-hint" class="field-hint field-hint--error">Deskripsi wajib diisi</span>
+            </div>
+            <div class="field" data-layer="Form/Isian — Disabled" data-layer-id="DS-01-layer-19">
+              <label for="_r_3_">Disabled</label>
+              <div class="input-wrap">
+                <input disabled="" id="_r_3_" class="" aria-invalid="false" value="Tidak dapat diubah" data-field="3">
+              </div>
+            </div>
+            <div class="field" data-layer="Form/Isian — Select" data-layer-id="DS-01-layer-20">
+              <label for="_r_4_">Select</label>
+              <div class="select-wrap">
+                <select id="_r_4_" data-field="4">
+                  <option value="" selected="">Pilih kategori</option>
+                  <option value="Toilet &amp; Saluran Air">Toilet &amp; Saluran Air</option>
+                  <option value="Kursi &amp; Meja Kelas">Kursi &amp; Meja Kelas</option></select><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down" aria-hidden="true">
+                  <path d="m6 9 6 6 6-6"></path>
+                </svg>
+              </div>
+            </div>
+            <div class="field" data-layer="Form/Isian — Textarea" data-layer-id="DS-01-layer-21">
+              <label for="_r_5_">Textarea</label><textarea placeholder="Ceritakan kerusakan..." rows="2" id="_r_5_" class="" aria-invalid="false" data-field="5"></textarea>
+            </div>
+          </div>
+          <div class="radio-cards ds-radio-cards" data-layer="Form/Radio Card — Ringan" data-layer-id="DS-01-layer-22">
+            <label class="radio-card"><input type="radio" name="ds-severity" data-field="6" value="on"><span class="radio-indicator"></span><strong>Ringan</strong></label><label class="radio-card"><input type="radio" name="ds-severity" data-field="7" value="on"><span class="radio-indicator"></span><strong>Sedang</strong></label><label class="radio-card"><input type="radio" name="ds-severity" data-field="8" value="on"><span class="radio-indicator"></span><strong>Berat</strong></label>
+          </div>
+          <div class="alert" role="alert">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-exclamation-point lucide-alert-circle lucide-circle-alert" aria-hidden="true">
+              <circle cx="12" cy="12" r="10"></circle>
+              <line x1="12" x2="12" y1="8" y2="12"></line>
+              <line x1="12" x2="12.01" y1="16" y2="16"></line></svg>Data belum lengkap. Periksa kembali isian Anda.
+          </div>
+        </section>
+        <section class="ds-section" data-layer="Design System/Bagian — 05 — Badge &amp; Indikator" data-layer-id="DS-01-layer-23">
+          <h3 class="title title--3" data-layer="Teks/Subjudul — 05 — Badge &amp; Indikator" data-layer-id="DS-01-layer-24">
+            05 — Badge &amp; Indikator
+          </h3>
+          <div class="ds-badge-group">
+            <span>Status laporan</span>
+            <div>
+              <span class="badge badge--waiting"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-clock-3" aria-hidden="true">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <path d="M12 6v6h4"></path></svg>Menunggu Verifikasi</span><span class="badge badge--verified"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shield-check" aria-hidden="true">
+                  <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path>
+                  <path d="m9 12 2 2 4-4"></path></svg>Terverifikasi</span><span class="badge badge--progress"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-wrench" aria-hidden="true">
+                  <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.106-3.105c.32-.322.863-.22.983.218a6 6 0 0 1-8.259 7.057l-7.91 7.91a1 1 0 0 1-2.999-3l7.91-7.91a6 6 0 0 1 7.057-8.259c.438.12.54.662.219.984z"></path></svg>Dalam Penanganan</span><span class="badge badge--done"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check" aria-hidden="true">
+                  <path d="M20 6 9 17l-5-5"></path></svg>Selesai</span><span class="badge badge--rejected"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-x" aria-hidden="true">
+                  <path d="M18 6 6 18"></path>
+                  <path d="m6 6 12 12"></path></svg>Ditolak</span>
+            </div>
+          </div>
+          <div class="ds-badge-group">
+            <span>Prioritas perbaikan</span>
+            <div>
+              <span class="badge priority priority--tinggi"><span class="badge-dot"></span>Tinggi</span><span class="badge priority priority--sedang"><span class="badge-dot"></span>Sedang</span><span class="badge priority priority--rendah"><span class="badge-dot"></span>Rendah</span>
+            </div>
+          </div>
+          <div class="ds-badge-group">
+            <span>Kondisi fasilitas</span>
+            <div>
+              <span class="badge condition condition--good"><span class="badge-dot"></span>Baik</span><span class="badge condition condition--repair"><span class="badge-dot"></span>Dalam Perbaikan</span><span class="badge condition condition--broken"><span class="badge-dot"></span>Rusak</span>
+            </div>
+          </div>
+        </section>
+        <section class="ds-section" data-layer="Design System/Bagian — 06 — Kartu &amp; Surface" data-layer-id="DS-01-layer-25">
+          <h3 class="title title--3" data-layer="Teks/Subjudul — 06 — Kartu &amp; Surface" data-layer-id="DS-01-layer-26">
+            06 — Kartu &amp; Surface
+          </h3>
+          <div class="card-grid" data-layer="Grid/Kartu" data-layer-id="DS-01-layer-27">
+            <article class="facility-card" data-layer="Card/Fasilitas" data-layer-id="DS-01-layer-28">
+              <div class="facility-card-photo">
+                <img alt="Toilet Gedung A Lt.2" loading="lazy" src="../assets/images/faucet.jpg"><span class="badge condition condition--broken"><span class="badge-dot"></span>Rusak</span>
+              </div>
+              <div class="facility-card-body">
+                <div class="facility-card-category">Toilet &amp; Saluran Air</div>
+                <h4 class="title title--4" data-layer="Teks/Judul Kartu — Toilet Gedung A Lt.2" data-layer-id="DS-01-layer-29">
+                  <a class="text-link" href="PEL-04.html">Toilet Gedung A Lt.2</a>
+                </h4>
+                <p class="facility-card-location">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin" aria-hidden="true">
+                    <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path>
+                    <circle cx="12" cy="10" r="3"></circle></svg>Gedung A
+                </p>
+                <div class="facility-card-actions">
+                  <a class="button button--outline button--sm" href="PEL-04.html">
+                    Detail
+                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right" aria-hidden="true">
+                      <path d="M7 7h10v10"></path>
+                      <path d="M7 17 17 7"></path>
+                    </svg> </a><a class="button button--primary button--sm" href="PEL-05.html?facility=1">
+                    Laporkan
+                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right" aria-hidden="true">
+                      <path d="M5 12h14"></path>
+                      <path d="m12 5 7 7-7 7"></path>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </article>
+            <article class="report-card" data-layer="Card/Laporan — Toilet Gedung A Lt.2" data-layer-id="DS-01-layer-30">
+              <div class="report-card-top">
+                <span class="report-id">LP-2026-0001</span><span class="badge badge--verified"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shield-check" aria-hidden="true">
+                    <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path>
+                    <path d="m9 12 2 2 4-4"></path></svg>Terverifikasi</span>
+              </div>
+              <h4 class="title title--4" data-layer="Teks/Judul Kartu — Toilet Gedung A Lt.2" data-layer-id="DS-01-layer-31">
+                <a class="text-link" href="PEL-08.html?report=LP-2026-0001">Toilet Gedung A Lt.2</a>
+              </h4>
+              <p class="muted">Keran bocor dan saluran tersumbat</p>
+              <div class="report-card-footer">
+                <span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-calendar-days" aria-hidden="true">
+                    <path d="M8 2v3"></path>
+                    <path d="M16 2v3"></path>
+                    <rect x="3" y="3" width="18" height="18" rx="2"></rect>
+                    <path d="M3 9h18"></path>
+                    <path d="M8 13h.01"></path>
+                    <path d="M12 13h.01"></path>
+                    <path d="M16 13h.01"></path>
+                    <path d="M8 17h.01"></path>
+                    <path d="M12 17h.01"></path>
+                    <path d="M16 17h.01"></path></svg>07 Nov 2026</span><a class="text-link" href="PEL-08.html?report=LP-2026-0001">Lihat Detail
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right" aria-hidden="true">
+                    <path d="M7 7h10v10"></path>
+                    <path d="M7 17 17 7"></path></svg></a>
+              </div>
+            </article>
+            <div>
+              <div class="kpi-card kpi-card--accent" data-layer="Card/KPI" data-layer-id="DS-01-layer-32">
+                <div class="kpi-top">
+                  <span>Menunggu Verifikasi</span>
+                  <div class="icon-box">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-clock-3" aria-hidden="true">
+                      <circle cx="12" cy="12" r="10"></circle>
+                      <path d="M12 6v6h4"></path>
+                    </svg>
+                  </div>
+                </div>
+                <div class="kpi-value">02</div>
+                <p>Laporan yang menunggu pemeriksaan</p>
+              </div>
+              <div class="ds-effect-card">
+                <strong>Effect / Soft Shadow</strong><span>0 8 24 · Sekunder 8%</span><span>Radius kartu 20 · Input 12</span>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="ds-section" data-layer="Design System/Bagian — 07 — Navigasi, Tabel &amp; Riwayat" data-layer-id="DS-01-layer-33">
+          <h3 class="title title--3" data-layer="Teks/Subjudul — 07 — Navigasi, Tabel &amp; Riwayat" data-layer-id="DS-01-layer-34">
+            07 — Navigasi, Tabel &amp; Riwayat
+          </h3>
+          <div class="panel" data-layer="Panel/Konten" data-layer-id="DS-01-layer-35">
+            <div class="breadcrumb" data-layer="Navigasi/Breadcrumb" data-layer-id="DS-01-layer-36">
+              <span><a class="text-link" href="PUB-01.html">Beranda</a></span><span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right" aria-hidden="true">
+                  <path d="m9 18 6-6-6-6"></path></svg><a class="text-link" href="PEL-02.html">Fasilitas</a></span><span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right" aria-hidden="true">
+                  <path d="m9 18 6-6-6-6"></path></svg>Detail Fasilitas</span>
+            </div>
+            <div class="tabs" role="tablist" aria-label="Contoh tab" data-layer="Navigasi/Tabs" data-layer-id="DS-01-layer-37">
+              <button role="tab" aria-selected="true" class="is-active" type="button">Semua</button><button role="tab" aria-selected="false" class="" type="button">
+                Menunggu Verifikasi</button><button role="tab" aria-selected="false" class="" type="button">Selesai</button>
+            </div>
+            <div class="table-scroll" data-layer="Tabel" data-layer-id="DS-01-layer-38">
+              <table class="data-table">
+                <thead>
+                  <tr>
+                    <th>No. Laporan</th>
+                    <th>Fasilitas</th>
+                    <th>Tanggal</th>
+                    <th>Status</th>
+                    <th class="text-right">Aksi</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="">
+                    <td><span class="report-id">LP-2026-0001</span></td>
+                    <td>
+                      <strong>Toilet Gedung A Lt.2</strong><span class="table-sub">Keran bocor dan saluran tersumbat</span>
+                    </td>
+                    <td class="no-wrap">07 Nov 2026</td>
+                    <td>
+                      <span class="badge badge--verified"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shield-check" aria-hidden="true">
+                          <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path>
+                          <path d="m9 12 2 2 4-4"></path></svg>Terverifikasi</span>
+                    </td>
+                    <td class="text-right">
+                      <a class="button button--outline button--sm" href="PEL-08.html?report=LP-2026-0001">
+                        Detail
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right" aria-hidden="true">
+                          <path d="M7 7h10v10"></path>
+                          <path d="M7 17 17 7"></path></svg></a>
+                    </td>
+                  </tr>
+                  <tr class="">
+                    <td><span class="report-id">LP-2026-0002</span></td>
+                    <td>
+                      <strong>Kursi &amp; Meja Ruang B.204</strong><span class="table-sub">Kursi patah</span>
+                    </td>
+                    <td class="no-wrap">07 Nov 2026</td>
+                    <td>
+                      <span class="badge badge--verified"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shield-check" aria-hidden="true">
+                          <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path>
+                          <path d="m9 12 2 2 4-4"></path></svg>Terverifikasi</span>
+                    </td>
+                    <td class="text-right">
+                      <a class="button button--outline button--sm" href="PEL-08.html?report=LP-2026-0002">
+                        Detail
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right" aria-hidden="true">
+                          <path d="M7 7h10v10"></path>
+                          <path d="M7 17 17 7"></path></svg></a>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="pagination" data-layer="Navigasi/Pagination" data-layer-id="DS-01-layer-39">
+              <span class="muted">Menampilkan 1–2 dari 8 data</span>
+              <div>
+                <button class="button button--outline button--sm" aria-label="Halaman sebelumnya" disabled="" type="button">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-left" aria-hidden="true">
+                    <path d="m15 18-6-6 6-6"></path>
+                  </svg></button><button class="button button--primary button--sm" aria-label="Halaman 1" type="button">
+                  1</button><button class="button button--ghost button--sm" aria-label="Halaman 2" type="button">
+                  2</button><button class="button button--ghost button--sm" aria-label="Halaman 3" type="button">
+                  3</button><button class="button button--ghost button--sm" aria-label="Halaman 4" type="button">
+                  4</button><button class="button button--outline button--sm" aria-label="Halaman berikutnya" type="button">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right" aria-hidden="true">
+                    <path d="m9 18 6-6-6-6"></path>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="two-columns ds-bottom-grid">
+            <div class="panel panel-body" data-layer="Panel/Konten — Timeline Riwayat Status" data-layer-id="DS-01-layer-40">
+              <h4 class="title title--4" data-layer="Teks/Judul Kartu — Timeline Riwayat Status" data-layer-id="DS-01-layer-41">
+                Timeline Riwayat Status
+              </h4>
+              <div class="timeline" data-layer="Timeline/Riwayat Status" data-layer-id="DS-01-layer-42">
+                <div class="timeline-item">
+                  <div class="timeline-dot">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check" aria-hidden="true">
+                      <path d="M20 6 9 17l-5-5"></path>
+                    </svg>
+                  </div>
+                  <div class="timeline-content">
+                    <div class="timeline-date">07 Nov 2026 · 09.15</div>
+                    <span class="badge badge--waiting"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-clock-3" aria-hidden="true">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <path d="M12 6v6h4"></path></svg>Menunggu Verifikasi</span>
+                    <p>Laporan diterima dan menunggu pemeriksaan admin.</p>
+                    <span class="muted">oleh Aulia Rahman</span>
+                  </div>
+                </div>
+                <div class="timeline-item">
+                  <div class="timeline-dot">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check" aria-hidden="true">
+                      <path d="M20 6 9 17l-5-5"></path>
+                    </svg>
+                  </div>
+                  <div class="timeline-content">
+                    <div class="timeline-date">08 Nov 2026 · 10.30</div>
+                    <span class="badge badge--verified"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shield-check" aria-hidden="true">
+                        <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path>
+                        <path d="m9 12 2 2 4-4"></path></svg>Terverifikasi</span>
+                    <div class="timeline-transition">
+                      Menunggu Verifikasi
+                      <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right" aria-hidden="true">
+                        <path d="M5 12h14"></path>
+                        <path d="m12 5 7 7-7 7"></path>
+                      </svg>
+                      Terverifikasi
+                    </div>
+                    <p>Laporan telah diperiksa dan dinyatakan valid.</p>
+                    <span class="muted">oleh Admin FST</span>
+                  </div>
+                </div>
+                <div class="timeline-item is-current">
+                  <div class="timeline-dot">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-clock-3" aria-hidden="true">
+                      <circle cx="12" cy="12" r="10"></circle>
+                      <path d="M12 6v6h4"></path>
+                    </svg>
+                  </div>
+                  <div class="timeline-content">
+                    <div class="timeline-date">09 Nov 2026 · 08.00</div>
+                    <span class="badge badge--progress"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-wrench" aria-hidden="true">
+                        <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.106-3.105c.32-.322.863-.22.983.218a6 6 0 0 1-8.259 7.057l-7.91 7.91a1 1 0 0 1-2.999-3l7.91-7.91a6 6 0 0 1 7.057-8.259c.438.12.54.662.219.984z"></path></svg>Dalam Penanganan</span>
+                    <div class="timeline-transition">
+                      Terverifikasi
+                      <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right" aria-hidden="true">
+                        <path d="M5 12h14"></path>
+                        <path d="m12 5 7 7-7 7"></path>
+                      </svg>
+                      Dalam Penanganan
+                    </div>
+                    <p>Petugas mulai memeriksa dan menangani kerusakan.</p>
+                    <span class="muted">oleh Budi Santoso</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="panel" data-layer="Panel/Konten" data-layer-id="DS-01-layer-43">
+                <div class="campus-map campus-map--mini" data-layer="Peta/Kanvas" data-layer-id="DS-01-layer-44">
+                  <div class="map-artwork" style="transform: scale(1)">
+                    <svg viewBox="0 0 1000 700" class="map-svg" aria-label="Peta ilustrasi Kampus Mendalo Universitas Jambi">
+                      <defs>
+                        <pattern id="map-grid-_r_6_" width="28" height="28" patternUnits="userSpaceOnUse">
+                          <path d="M 28 0 L 0 0 0 28" class="map-grid-line" fill="none"></path>
+                        </pattern>
+                      </defs>
+                      <rect width="1000" height="700" class="map-land"></rect>
+                      <rect width="1000" height="700" fill="url(#map-grid-_r_6_)"></rect>
+                      <g class="map-gardens">
+                        <path d="M0 20H230V200H0Z"></path>
+                        <path d="M720 0H1000V172H720Z"></path>
+                        <path d="M0 510H200V700H0Z"></path>
+                        <path d="M795 480H1000V700H795Z"></path>
+                        <ellipse cx="490" cy="335" rx="56" ry="52"></ellipse>
+                      </g>
+                      <g class="map-road-border" fill="none">
+                        <path d="M-80 585C200 580 180 150 520 165S800 240 1080 80"></path>
+                        <path d="M-50 345H420Q490 345 560 380L1070 610"></path>
+                        <path d="M530 -40V265Q530 320 540 420L560 760"></path>
+                      </g>
+                      <g class="map-roads" fill="none">
+                        <path d="M-80 585C200 580 180 150 520 165S800 240 1080 80"></path>
+                        <path d="M-50 345H420Q490 345 560 380L1070 610"></path>
+                        <path d="M530 -40V265Q530 320 540 420L560 760"></path>
+                      </g>
+                      <g class="map-building">
+                        <rect x="255" y="200" width="145" height="90" rx="8"></rect>
+                        <rect x="275" y="410" width="140" height="72" rx="7"></rect>
+                        <rect x="595" y="218" width="130" height="105" rx="8"></rect>
+                        <rect x="605" y="435" width="110" height="76" rx="7"></rect>
+                        <rect x="730" y="390" width="128" height="72" rx="7"></rect>
+                        <rect x="374" y="530" width="116" height="81" rx="7"></rect>
+                        <rect x="630" y="60" width="110" height="69" rx="6"></rect>
+                        <rect x="85" y="210" width="105" height="72" rx="7"></rect>
+                      </g>
+                      <g class="map-building-roof">
+                        <path d="M270 216H385V273H270Z"></path>
+                        <path d="M610 233H710V308H610Z"></path>
+                        <path d="M390 546H475V595H390Z"></path>
+                      </g>
+                      <g class="map-trees">
+                        <circle cx="60" cy="40" r="8"></circle>
+                        <circle cx="197" cy="137" r="9"></circle>
+                        <circle cx="334" cy="234" r="10"></circle>
+                        <circle cx="471" cy="331" r="11"></circle>
+                        <circle cx="608" cy="428" r="12"></circle>
+                        <circle cx="745" cy="525" r="8"></circle>
+                        <circle cx="882" cy="622" r="9"></circle>
+                        <circle cx="139" cy="109" r="10"></circle>
+                        <circle cx="276" cy="206" r="11"></circle>
+                        <circle cx="413" cy="303" r="12"></circle>
+                        <circle cx="550" cy="400" r="8"></circle>
+                        <circle cx="687" cy="497" r="9"></circle>
+                        <circle cx="824" cy="594" r="10"></circle>
+                        <circle cx="81" cy="81" r="11"></circle>
+                        <circle cx="218" cy="178" r="12"></circle>
+                        <circle cx="355" cy="275" r="8"></circle>
+                        <circle cx="492" cy="372" r="9"></circle>
+                        <circle cx="629" cy="469" r="10"></circle>
+                        <circle cx="766" cy="566" r="11"></circle>
+                        <circle cx="903" cy="53" r="12"></circle>
+                        <circle cx="160" cy="150" r="8"></circle>
+                        <circle cx="297" cy="247" r="9"></circle>
+                        <circle cx="434" cy="344" r="10"></circle>
+                        <circle cx="571" cy="441" r="11"></circle>
+                        <circle cx="708" cy="538" r="12"></circle>
+                        <circle cx="845" cy="635" r="8"></circle>
+                        <circle cx="102" cy="122" r="9"></circle>
+                        <circle cx="239" cy="219" r="10"></circle>
+                      </g>
+                      <g class="map-text">
+                        <text x="320" y="311">Gedung A</text>
+                        <text x="645" y="348">Gedung B</text>
+                        <text x="775" y="485">Gedung C</text>
+                        <text x="424" y="635">Laboratorium Komputer</text>
+                        <text x="344" y="505">Perpustakaan</text>
+                        <text x="650" y="52">Gedung Rektorat</text>
+                      </g>
+                      <g class="map-road-text">
+                        <text x="80" y="336">Jl. Kampus Mendalo</text>
+                        <text x="700" y="157" transform="rotate(-14 700 157)">
+                          Jl. Lintas Kampus
+                        </text>
+                      </g></svg><span class="map-pin map-pin--broken" aria-label="Pilih Toilet Gedung A Lt.2" style="left: 35%; top: 35%"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin" aria-hidden="true">
+                        <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path>
+                        <circle cx="12" cy="10" r="3"></circle></svg><span class="map-pin-center"></span></span><span class="map-pin map-pin--broken" aria-label="Pilih Kursi &amp; Meja Ruang B.204" style="left: 64%; top: 43%"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin" aria-hidden="true">
+                        <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path>
+                        <circle cx="12" cy="10" r="3"></circle></svg><span class="map-pin-center"></span></span><span class="map-pin map-pin--broken" aria-label="Pilih Wi-Fi Lab Komputer" style="left: 45%; top: 69%"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin" aria-hidden="true">
+                        <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path>
+                        <circle cx="12" cy="10" r="3"></circle></svg><span class="map-pin-center"></span></span><span class="map-pin map-pin--good" aria-label="Pilih AC Ruang A.101" style="left: 29%; top: 43%"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin" aria-hidden="true">
+                        <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path>
+                        <circle cx="12" cy="10" r="3"></circle></svg><span class="map-pin-center"></span></span><span class="map-pin map-pin--broken" aria-label="Pilih Lampu Koridor Gedung C" style="left: 77%; top: 64%"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin" aria-hidden="true">
+                        <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path>
+                        <circle cx="12" cy="10" r="3"></circle></svg><span class="map-pin-center"></span></span><span class="map-pin map-pin--good" aria-label="Pilih Proyektor Ruang B.101" style="left: 61%; top: 52%"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin" aria-hidden="true">
+                        <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path>
+                        <circle cx="12" cy="10" r="3"></circle></svg><span class="map-pin-center"></span></span><span class="map-pin map-pin--broken" aria-label="Pilih Toilet Gedung B Lt.1" style="left: 69%; top: 35%"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin" aria-hidden="true">
+                        <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path>
+                        <circle cx="12" cy="10" r="3"></circle></svg><span class="map-pin-center"></span></span>
+                  </div>
+                  <div class="map-location-tag">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-building-complex lucide-building-2" aria-hidden="true">
+                      <path d="M10 12h4"></path>
+                      <path d="M10 8h4"></path>
+                      <path d="M14 21v-3a2 2 0 0 0-4 0v3"></path>
+                      <path d="M6 10H4a2 2 0 0 0-2 2v7a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-2"></path>
+                      <path d="M6 21V5a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v16"></path></svg><span>Kampus Mendalo</span>
+                  </div>
+                  <div class="map-controls">
+                    <button class="button button--white button--sm" aria-label="Perbesar peta" type="button">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plus" aria-hidden="true">
+                        <path d="M5 12h14"></path>
+                        <path d="M12 5v14"></path>
+                      </svg></button><button class="button button--white button--sm" aria-label="Perkecil peta" type="button">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-minus" aria-hidden="true">
+                        <path d="M5 12h14"></path>
+                      </svg></button><button class="button button--white button--sm" aria-label="Pusatkan peta kampus" type="button">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-locate-fixed" aria-hidden="true">
+                        <line x1="2" x2="5" y1="12" y2="12"></line>
+                        <line x1="19" x2="22" y1="12" y2="12"></line>
+                        <line x1="12" x2="12" y1="2" y2="5"></line>
+                        <line x1="12" x2="12" y1="19" y2="22"></line>
+                        <circle cx="12" cy="12" r="7"></circle>
+                        <circle cx="12" cy="12" r="3"></circle>
+                      </svg>
+                    </button>
+                  </div>
+                  <div class="map-attribution">Peta ilustrasi kampus · Bukan untuk navigasi</div>
+                </div>
+              </div>
+              <div class="button-row ds-overlay-actions">
+                <button class="button button--outline button--md" type="button">Buka Modal</button><button class="button button--outline button--md" type="button">
+                  Tampilkan Toast
+                </button>
+              </div>
+              <div class="panel" data-layer="Panel/Konten" data-layer-id="DS-01-layer-45">
+                <div class="empty-state">
+                  <div class="empty-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-inbox" aria-hidden="true">
+                      <polyline points="22 12 16 12 14 15 10 15 8 12 2 12"></polyline>
+                      <path d="M5.45 5.11 2 12v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-6l-3.45-6.89A2 2 0 0 0 16.76 4H7.24a2 2 0 0 0-1.79 1.11z"></path>
+                    </svg>
+                  </div>
+                  <h3 class="title title--3" data-layer="Teks/Subjudul — Belum ada laporan" data-layer-id="DS-01-layer-46">
+                    Belum ada laporan
+                  </h3>
+                  <p class="muted">Mulai berkontribusi untuk kampus yang lebih nyaman.</p>
+                  <button class="button button--primary button--md" type="button">
+                    Laporkan Kerusakan
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right" aria-hidden="true">
+                      <path d="M5 12h14"></path>
+                      <path d="m12 5 7 7-7 7"></path>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="ds-section" data-layer="Design System/Bagian — 08 — Pola Layout &amp; Komponen Lanjutan" data-layer-id="DS-01-layer-47">
+          <h3 class="title title--3" data-layer="Teks/Subjudul — 08 — Pola Layout &amp; Komponen Lanjutan" data-layer-id="DS-01-layer-48">
+            08 — Pola Layout &amp; Komponen Lanjutan
+          </h3>
+          <div class="ds-pattern-links">
+            <a class="text-link" href="PUB-01.html">Navbar Publik &amp; Footer<svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right" aria-hidden="true">
+                <path d="M7 7h10v10"></path>
+                <path d="M7 17 17 7"></path></svg></a><a class="text-link" href="PEL-01.html">Navbar Pelapor<svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right" aria-hidden="true">
+                <path d="M7 7h10v10"></path>
+                <path d="M7 17 17 7"></path></svg></a><a class="text-link" href="ADM-01.html">Sidebar &amp; Topbar Admin<svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right" aria-hidden="true">
+                <path d="M7 7h10v10"></path>
+                <path d="M7 17 17 7"></path></svg></a><a class="text-link" href="PTG-01.html">Sidebar &amp; Topbar Petugas<svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right" aria-hidden="true">
+                <path d="M7 7h10v10"></path>
+                <path d="M7 17 17 7"></path></svg></a><a class="text-link" href="KRD-01.html">Sidebar &amp; Topbar Koordinator<svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right" aria-hidden="true">
+                <path d="M7 7h10v10"></path>
+                <path d="M7 17 17 7"></path></svg></a><a class="text-link" href="PEL-05.html">Dropzone — Kosong<svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right" aria-hidden="true">
+                <path d="M7 7h10v10"></path>
+                <path d="M7 17 17 7"></path></svg></a><a class="text-link" href="PEL-05c.html">Dropzone — Preview<svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right" aria-hidden="true">
+                <path d="M7 7h10v10"></path>
+                <path d="M7 17 17 7"></path></svg></a><a class="text-link" href="PEL-03.html">Map Pin — Baik / Rusak<svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right" aria-hidden="true">
+                <path d="M7 7h10v10"></path>
+                <path d="M7 17 17 7"></path></svg></a>
+          </div>
+        </section>
+      </div>
+      <div class="prototype-footnote">
+        FasilitasQu · Sistem desain v1.0 · Universitas Jambi · 2026
+      </div>
+    </div>
+@endsection
