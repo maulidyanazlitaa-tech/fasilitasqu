@@ -1,0 +1,609 @@
+@extends('layouts.fasilitasqu')
+
+@section('title', 'PUB-01 Landing Page — FasilitasQu')
+@section('page-code', 'PUB-01')
+
+@section('content')
+
+    <!-- PUB-01 Landing Page — setiap data-layer adalah layer HTML yang dapat diperiksa. -->
+    <div class="landing-page" data-screen="PUB-01 Landing Page — Desktop / Mobile">
+      <section class="hero" id="beranda" data-layer="Hero" data-layer-id="PUB-01-layer-1">
+        <img class="hero-photo" alt="Ilustrasi gedung kampus Indonesia dengan halaman dan pepohonan" fetchpriority="high" src="../assets/images/campus.jpg">
+        <div class="hero-photo-overlay"></div>
+        
+@include('layouts.partials.navbar-publik')
+
+        <div class="hero-content" data-layer="Hero/Judul &amp; Aksi" data-layer-id="PUB-01-layer-4">
+          <div class="hero-eyebrow">
+            <span class="accent-dot"></span>DARI KITA, UNTUK KAMPUS KITA
+          </div>
+          <h1 class="title title--1" data-layer="Teks/Judul Utama — Laporkan Kerusakan Fasilitas Kampus, Pantau Sampai Selesai." data-layer-id="PUB-01-layer-5">
+            Laporkan Kerusakan<br class="desktop-break">
+            Fasilitas Kampus,<br class="desktop-break">
+            Pantau Sampai Selesai<span class="hero-heading-period">.</span>
+          </h1>
+          <p>
+            Platform pelaporan dan prioritas perbaikan fasilitas<br class="desktop-break">
+            Universitas Jambi — cepat, terpusat, dan transparan.
+          </p>
+          <div class="hero-buttons">
+            <a class="button button--primary button--lg" href="PUB-02.html">
+              Laporkan Kerusakan
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right" aria-hidden="true">
+                <path d="M7 7h10v10"></path>
+                <path d="M7 17 17 7"></path></svg></a><a class="button button--outline button--lg" href="PUB-02.html"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map" aria-hidden="true">
+                <path d="M14.106 5.553a2 2 0 0 0 1.788 0l3.659-1.83A1 1 0 0 1 21 4.619v12.764a1 1 0 0 1-.553.894l-4.553 2.277a2 2 0 0 1-1.788 0l-4.212-2.106a2 2 0 0 0-1.788 0l-3.659 1.83A1 1 0 0 1 3 19.381V6.618a1 1 0 0 1 .553-.894l4.553-2.277a2 2 0 0 1 1.788 0z"></path>
+                <path d="M15 5.764v15"></path>
+                <path d="M9 3.236v15"></path>
+              </svg>
+              Lihat Peta Fasilitas
+            </a>
+          </div>
+          <div class="hero-assurance">
+            <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shield-check" aria-hidden="true">
+                <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path>
+                <path d="m9 12 2 2 4-4"></path></svg>Terpusat &amp; transparan</span><span class="hero-assurance-divider"></span><span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-users-round lucide-users-2" aria-hidden="true">
+                <path d="M18 21a8 8 0 0 0-16 0"></path>
+                <circle cx="10" cy="8" r="5"></circle>
+                <path d="M22 20c0-3.37-2-6.5-4-8a5 5 0 0 0-.45-8.3"></path></svg>Untuk seluruh sivitas akademika</span>
+          </div>
+        </div>
+        <div class="hero-campus-label">
+          <span class="campus-label-icon"><svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-building-complex lucide-building-2" aria-hidden="true">
+              <path d="M10 12h4"></path>
+              <path d="M10 8h4"></path>
+              <path d="M14 21v-3a2 2 0 0 0-4 0v3"></path>
+              <path d="M6 10H4a2 2 0 0 0-2 2v7a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-2"></path>
+              <path d="M6 21V5a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v16"></path></svg></span>
+          <div><strong>Ruang yang lebih baik.</strong><span>Untuk tumbuh bersama.</span></div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right" aria-hidden="true">
+            <path d="M7 7h10v10"></path>
+            <path d="M7 17 17 7"></path>
+          </svg>
+        </div>
+        <div class="hero-photo-caption">
+          <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin" aria-hidden="true">
+            <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path>
+            <circle cx="12" cy="10" r="3"></circle></svg>Ilustrasi kampus · Universitas Jambi
+        </div>
+      </section>
+      <section class="quick-actions container" aria-label="Layanan utama" data-layer="Section/Layanan Utama" data-layer-id="PUB-01-layer-6">
+        <div class="quick-action quick-action--dark" data-layer="Card/Layanan — Lapor Kerusakan" data-layer-id="PUB-01-layer-7">
+          <div class="quick-action-top">
+            <div class="quick-action-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-file-pen-line lucide-file-signature" aria-hidden="true">
+                <path d="M14.364 13.634a2 2 0 0 0-.506.854l-.837 2.87a.5.5 0 0 0 .62.62l2.87-.837a2 2 0 0 0 .854-.506l4.013-4.009a1 1 0 0 0-3.004-3.004z"></path>
+                <path d="M14.487 7.858A1 1 0 0 1 14 7V2"></path>
+                <path d="M20 19.645V20a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l2.516 2.516"></path>
+                <path d="M8 18h1"></path>
+              </svg>
+            </div>
+            <span class="quick-action-number">01 / LAPORKAN</span>
+          </div>
+          <h4 class="title title--4" data-layer="Teks/Judul Kartu — Lapor Kerusakan" data-layer-id="PUB-01-layer-8">
+            Lapor Kerusakan
+          </h4>
+          <p>
+            Kirim laporan lengkap dengan<br class="desktop-break">
+            foto dan lokasi.
+          </p>
+          <a class="text-link" href="PUB-02.html">Mulai Lapor
+            <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right" aria-hidden="true">
+              <path d="M7 7h10v10"></path>
+              <path d="M7 17 17 7"></path></svg></a>
+        </div>
+        <div class="quick-action" data-layer="Card/Layanan — Peta &amp; Kondisi Fasilitas" data-layer-id="PUB-01-layer-9">
+          <div class="quick-action-top">
+            <div class="quick-action-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map" aria-hidden="true">
+                <path d="M14.106 5.553a2 2 0 0 0 1.788 0l3.659-1.83A1 1 0 0 1 21 4.619v12.764a1 1 0 0 1-.553.894l-4.553 2.277a2 2 0 0 1-1.788 0l-4.212-2.106a2 2 0 0 0-1.788 0l-3.659 1.83A1 1 0 0 1 3 19.381V6.618a1 1 0 0 1 .553-.894l4.553-2.277a2 2 0 0 1 1.788 0z"></path>
+                <path d="M15 5.764v15"></path>
+                <path d="M9 3.236v15"></path>
+              </svg>
+            </div>
+            <span class="quick-action-number">02 / TEMUKAN</span>
+          </div>
+          <h4 class="title title--4" data-layer="Teks/Judul Kartu — Peta &amp; Kondisi Fasilitas" data-layer-id="PUB-01-layer-10">
+            Peta &amp; Kondisi Fasilitas
+          </h4>
+          <p>
+            Lihat lokasi dan kondisi fasilitas<br class="desktop-break">
+            kampus.
+          </p>
+          <a class="text-link" href="PUB-02.html">Lihat Peta
+            <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right" aria-hidden="true">
+              <path d="M7 7h10v10"></path>
+              <path d="M7 17 17 7"></path></svg></a>
+        </div>
+        <div class="quick-action" data-layer="Card/Layanan — Pantau Status" data-layer-id="PUB-01-layer-11">
+          <div class="quick-action-top">
+            <div class="quick-action-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-clipboard-check" aria-hidden="true">
+                <rect width="8" height="4" x="8" y="2" rx="1" ry="1"></rect>
+                <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path>
+                <path d="m9 14 2 2 4-4"></path>
+              </svg>
+            </div>
+            <span class="quick-action-number">03 / PANTAU</span>
+          </div>
+          <h4 class="title title--4" data-layer="Teks/Judul Kartu — Pantau Status" data-layer-id="PUB-01-layer-12">
+            Pantau Status
+          </h4>
+          <p>
+            Ikuti perkembangan laporanmu<br class="desktop-break">
+            sampai selesai.
+          </p>
+          <a class="text-link" href="PUB-02.html">Cek Status
+            <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right" aria-hidden="true">
+              <path d="M7 7h10v10"></path>
+              <path d="M7 17 17 7"></path></svg></a>
+        </div>
+      </section>
+      <section class="category-section section-space container" id="fasilitas" data-layer="Section/Kategori Fasilitas" data-layer-id="PUB-01-layer-13">
+        <div class="section-heading centered">
+          <div class="eyebrow">
+            <span class="eyebrow-line"></span>FASILITAS KAMPUS<span class="eyebrow-line"></span>
+          </div>
+          <h2 class="title title--2" data-layer="Teks/Judul Section — Hal kecil yang berfungsi,dampak besar untuk kita." data-layer-id="PUB-01-layer-14">
+            Hal kecil yang berfungsi,<br>dampak besar untuk kita.
+          </h2>
+          <p>Kategori Fasilitas yang Dapat Dilaporkan</p>
+        </div>
+        <div class="category-grid" data-layer="Grid/Kategori" data-layer-id="PUB-01-layer-15">
+          <div class="category-item" data-layer="Card/Kategori — Toilet &amp; Saluran Air" data-layer-id="PUB-01-layer-16">
+            <div class="category-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-droplets" aria-hidden="true">
+                <path d="M7 16.3c2.2 0 4-1.83 4-4.05 0-1.16-.57-2.26-1.71-3.19S7.29 6.75 7 5.3c-.29 1.45-1.14 2.84-2.29 3.76S3 11.1 3 12.25c0 2.22 1.8 4.05 4 4.05z"></path>
+                <path d="M12.56 6.6A10.97 10.97 0 0 0 14 3.02c.5 2.5 2 4.9 4 6.5s3 3.5 3 5.5a6.98 6.98 0 0 1-11.91 4.97"></path>
+              </svg>
+            </div>
+            <h4 class="title title--4" data-layer="Teks/Judul Kartu — Toilet &amp; Saluran Air" data-layer-id="PUB-01-layer-17">
+              Toilet &amp; Saluran Air
+            </h4>
+            <p>Keran, sanitasi, dan saluran air yang berfungsi dengan baik.</p>
+            <a class="text-link" href="PUB-02.html">Lihat
+              <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right" aria-hidden="true">
+                <path d="M5 12h14"></path>
+                <path d="m12 5 7 7-7 7"></path></svg></a>
+          </div>
+          <div class="category-item" data-layer="Card/Kategori — Kursi &amp; Meja Kelas" data-layer-id="PUB-01-layer-18">
+            <div class="category-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-armchair" aria-hidden="true">
+                <path d="M19 9V6a2 2 0 0 0-2-2H7a2 2 0 0 0-2 2v3"></path>
+                <path d="M3 16a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-5a2 2 0 0 0-4 0v1.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V11a2 2 0 0 0-4 0z"></path>
+                <path d="M5 18v2"></path>
+                <path d="M19 18v2"></path>
+              </svg>
+            </div>
+            <h4 class="title title--4" data-layer="Teks/Judul Kartu — Kursi &amp; Meja Kelas" data-layer-id="PUB-01-layer-19">
+              Kursi &amp; Meja Kelas
+            </h4>
+            <p>Ruang belajar yang nyaman dimulai dari fasilitas yang layak.</p>
+            <a class="text-link" href="PUB-02.html">Lihat
+              <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right" aria-hidden="true">
+                <path d="M5 12h14"></path>
+                <path d="m12 5 7 7-7 7"></path></svg></a>
+          </div>
+          <div class="category-item" data-layer="Card/Kategori — Jaringan Internet / Wi-Fi" data-layer-id="PUB-01-layer-20">
+            <div class="category-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-wifi" aria-hidden="true">
+                <path d="M12 20h.01"></path>
+                <path d="M2 8.82a15 15 0 0 1 20 0"></path>
+                <path d="M5 12.859a10 10 0 0 1 14 0"></path>
+                <path d="M8.5 16.429a5 5 0 0 1 7 0"></path>
+              </svg>
+            </div>
+            <h4 class="title title--4" data-layer="Teks/Judul Kartu — Jaringan Internet / Wi-Fi" data-layer-id="PUB-01-layer-21">
+              Jaringan Internet / Wi-Fi
+            </h4>
+            <p>Koneksi yang andal untuk mendukung aktivitas akademik.</p>
+            <a class="text-link" href="PUB-02.html">Lihat
+              <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right" aria-hidden="true">
+                <path d="M5 12h14"></path>
+                <path d="m12 5 7 7-7 7"></path></svg></a>
+          </div>
+          <div class="category-item" data-layer="Card/Kategori — AC &amp; Pendingin Udara" data-layer-id="PUB-01-layer-22">
+            <div class="category-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-air-vent" aria-hidden="true">
+                <path d="M18 17.5a2.5 2.5 0 1 1-4 2.03V12"></path>
+                <path d="M6 12H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path>
+                <path d="M6 8h12"></path>
+                <path d="M6.6 15.572A2 2 0 1 0 10 17v-5"></path>
+              </svg>
+            </div>
+            <h4 class="title title--4" data-layer="Teks/Judul Kartu — AC &amp; Pendingin Udara" data-layer-id="PUB-01-layer-23">
+              AC &amp; Pendingin Udara
+            </h4>
+            <p>Suhu ruangan yang nyaman untuk belajar dan bekerja.</p>
+            <a class="text-link" href="PUB-02.html">Lihat
+              <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right" aria-hidden="true">
+                <path d="M5 12h14"></path>
+                <path d="m12 5 7 7-7 7"></path></svg></a>
+          </div>
+          <div class="category-item" data-layer="Card/Kategori — Proyektor &amp; Perangkat Kelas" data-layer-id="PUB-01-layer-24">
+            <div class="category-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-projector" aria-hidden="true">
+                <path d="M5 7 3 5"></path>
+                <path d="M9 6V3"></path>
+                <path d="m13 7 2-2"></path>
+                <circle cx="9" cy="13" r="3"></circle>
+                <path d="M11.83 12H20a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-4a2 2 0 0 1 2-2h2.17"></path>
+                <path d="M16 16h2"></path>
+              </svg>
+            </div>
+            <h4 class="title title--4" data-layer="Teks/Judul Kartu — Proyektor &amp; Perangkat Kelas" data-layer-id="PUB-01-layer-25">
+              Proyektor &amp; Perangkat Kelas
+            </h4>
+            <p>Perangkat presentasi yang siap mendukung perkuliahan.</p>
+            <a class="text-link" href="PUB-02.html">Lihat
+              <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right" aria-hidden="true">
+                <path d="M5 12h14"></path>
+                <path d="m12 5 7 7-7 7"></path></svg></a>
+          </div>
+          <div class="category-item" data-layer="Card/Kategori — Lampu &amp; Kelistrikan" data-layer-id="PUB-01-layer-26">
+            <div class="category-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-lightbulb" aria-hidden="true">
+                <path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5"></path>
+                <path d="M9 18h6"></path>
+                <path d="M10 22h4"></path>
+              </svg>
+            </div>
+            <h4 class="title title--4" data-layer="Teks/Judul Kartu — Lampu &amp; Kelistrikan" data-layer-id="PUB-01-layer-27">
+              Lampu &amp; Kelistrikan
+            </h4>
+            <p>Pencahayaan dan instalasi listrik yang aman untuk semua.</p>
+            <a class="text-link" href="PUB-02.html">Lihat
+              <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right" aria-hidden="true">
+                <path d="M5 12h14"></path>
+                <path d="m12 5 7 7-7 7"></path></svg></a>
+          </div>
+        </div>
+        <div class="section-footnote">
+          <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shield-check" aria-hidden="true">
+            <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path>
+            <path d="m9 12 2 2 4-4"></path></svg><span>Satu platform untuk fasilitas kampus yang lebih terawat.</span>
+        </div>
+      </section>
+      <section class="how-section" id="cara-kerja" data-layer="Section/Cara Kerja" data-layer-id="PUB-01-layer-28">
+        <div class="container section-space">
+          <div class="section-heading centered">
+            <div class="eyebrow">
+              <span class="eyebrow-line"></span>CARA KERJA<span class="eyebrow-line"></span>
+            </div>
+            <h2 class="title title--2" data-layer="Teks/Judul Section — Dari laporanmu,jadi perubahan nyata." data-layer-id="PUB-01-layer-29">
+              Dari laporanmu,<br>jadi perubahan nyata.
+            </h2>
+            <p>Empat langkah sederhana menuju fasilitas yang lebih baik.</p>
+          </div>
+          <div class="steps-grid" data-layer="Stepper/Cara Kerja" data-layer-id="PUB-01-layer-30">
+            <div class="how-step">
+              <div class="step-number">01</div>
+              <h4 class="title title--4" data-layer="Teks/Judul Kartu — Login dan pilih fasilitas" data-layer-id="PUB-01-layer-31">
+                Login dan pilih fasilitas
+              </h4>
+              <p>Masuk ke akun, lalu temukan fasilitas yang ingin dilaporkan.</p>
+            </div>
+            <div class="how-step">
+              <div class="step-number">02</div>
+              <h4 class="title title--4" data-layer="Teks/Judul Kartu — Isi laporan, foto, dan lokasi" data-layer-id="PUB-01-layer-32">
+                Isi laporan, foto, dan lokasi
+              </h4>
+              <p>Ceritakan kerusakannya dan lengkapi dengan bukti foto.</p>
+            </div>
+            <div class="how-step">
+              <div class="step-number">03</div>
+              <h4 class="title title--4" data-layer="Teks/Judul Kartu — Verifikasi &amp; prioritas" data-layer-id="PUB-01-layer-33">
+                Verifikasi &amp; prioritas
+              </h4>
+              <p>Admin memverifikasi dan menghitung skor prioritas perbaikan.</p>
+            </div>
+            <div class="how-step how-step--last">
+              <div class="step-number">
+                <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check" aria-hidden="true">
+                  <path d="M20 6 9 17l-5-5"></path>
+                </svg>
+              </div>
+              <h4 class="title title--4" data-layer="Teks/Judul Kartu — Ditangani sampai selesai" data-layer-id="PUB-01-layer-34">
+                Ditangani sampai selesai
+              </h4>
+              <p>Petugas menangani. Kamu bisa memantau setiap perkembangannya.</p>
+            </div>
+          </div>
+          <div class="centered-button">
+            <a class="button button--outline button--md" href="PUB-02.html">
+              Mulai Laporan Pertamamu
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right" aria-hidden="true">
+                <path d="M7 7h10v10"></path>
+                <path d="M7 17 17 7"></path></svg></a>
+          </div>
+        </div>
+      </section>
+      <section class="priority-section section-space container" id="prioritas" data-layer="Section/Prioritas" data-layer-id="PUB-01-layer-35">
+        <div class="section-heading split">
+          <div>
+            <div class="eyebrow">
+              <span class="eyebrow-line"></span>TERUKUR, BUKAN SEKADAR URUTAN
+            </div>
+            <h2 class="title title--2" data-layer="Teks/Judul Section — Prioritas PerbaikanBerbasis Skor." data-layer-id="PUB-01-layer-36">
+              Prioritas Perbaikan<br>Berbasis Skor.
+            </h2>
+          </div>
+          <p>
+            Yang paling membutuhkan, ditangani lebih dulu.<br>Setiap perbaikan diprioritaskan
+            berdasarkan<br class="desktop-break">
+            kerusakan, dampak, frekuensi, dan umur laporan.
+          </p>
+        </div>
+        <div class="priority-cards">
+          <div class="priority-showcase priority-showcase--dark" data-layer="Card/Prioritas — Toilet &amp; Saluran Air" data-layer-id="PUB-01-layer-37">
+            <div class="priority-showcase-top">
+              <svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-droplets" aria-hidden="true">
+                <path d="M7 16.3c2.2 0 4-1.83 4-4.05 0-1.16-.57-2.26-1.71-3.19S7.29 6.75 7 5.3c-.29 1.45-1.14 2.84-2.29 3.76S3 11.1 3 12.25c0 2.22 1.8 4.05 4 4.05z"></path>
+                <path d="M12.56 6.6A10.97 10.97 0 0 0 14 3.02c.5 2.5 2 4.9 4 6.5s3 3.5 3 5.5a6.98 6.98 0 0 1-11.91 4.97"></path></svg><span>PRIORITAS 01</span>
+            </div>
+            <h4 class="title title--4" data-layer="Teks/Judul Kartu — Toilet &amp; Saluran Air" data-layer-id="PUB-01-layer-38">
+              Toilet &amp; Saluran Air
+            </h4>
+            <p>Sanitasi yang layak, kebutuhan kita semua.</p>
+            <div class="priority-score-row">
+              <div class="showcase-score">4,28<span>/ 5,00</span></div>
+              <span class="badge priority priority--tinggi"><span class="badge-dot"></span>Tinggi</span>
+            </div>
+            <div class="priority-showcase-footer">
+              <span>Skor prioritas kategori</span><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right" aria-hidden="true">
+                <path d="M7 7h10v10"></path>
+                <path d="M7 17 17 7"></path>
+              </svg>
+            </div>
+          </div>
+          <div class="priority-showcase" data-layer="Card/Prioritas — Kursi &amp; Meja Kelas" data-layer-id="PUB-01-layer-39">
+            <div class="priority-showcase-top">
+              <svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-armchair" aria-hidden="true">
+                <path d="M19 9V6a2 2 0 0 0-2-2H7a2 2 0 0 0-2 2v3"></path>
+                <path d="M3 16a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-5a2 2 0 0 0-4 0v1.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V11a2 2 0 0 0-4 0z"></path>
+                <path d="M5 18v2"></path>
+                <path d="M19 18v2"></path></svg><span>PRIORITAS 02</span>
+            </div>
+            <h4 class="title title--4" data-layer="Teks/Judul Kartu — Kursi &amp; Meja Kelas" data-layer-id="PUB-01-layer-40">
+              Kursi &amp; Meja Kelas
+            </h4>
+            <p>Belajar lebih nyaman dengan fasilitas yang aman.</p>
+            <div class="priority-score-row">
+              <div class="showcase-score">4,25<span>/ 5,00</span></div>
+              <span class="badge priority priority--tinggi"><span class="badge-dot"></span>Tinggi</span>
+            </div>
+            <div class="priority-showcase-footer">
+              <span>Skor prioritas kategori</span><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right" aria-hidden="true">
+                <path d="M7 7h10v10"></path>
+                <path d="M7 17 17 7"></path>
+              </svg>
+            </div>
+          </div>
+          <div class="priority-showcase" data-layer="Card/Prioritas — Internet / Wi-Fi" data-layer-id="PUB-01-layer-41">
+            <div class="priority-showcase-top">
+              <svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-wifi" aria-hidden="true">
+                <path d="M12 20h.01"></path>
+                <path d="M2 8.82a15 15 0 0 1 20 0"></path>
+                <path d="M5 12.859a10 10 0 0 1 14 0"></path>
+                <path d="M8.5 16.429a5 5 0 0 1 7 0"></path></svg><span>PRIORITAS 03</span>
+            </div>
+            <h4 class="title title--4" data-layer="Teks/Judul Kartu — Internet / Wi-Fi" data-layer-id="PUB-01-layer-42">
+              Internet / Wi-Fi
+            </h4>
+            <p>Tetap terhubung untuk terus berkembang.</p>
+            <div class="priority-score-row">
+              <div class="showcase-score">3,89<span>/ 5,00</span></div>
+              <span class="badge priority priority--sedang"><span class="badge-dot"></span>Sedang</span>
+            </div>
+            <div class="priority-showcase-footer">
+              <span>Skor prioritas kategori</span><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right" aria-hidden="true">
+                <path d="M7 7h10v10"></path>
+                <path d="M7 17 17 7"></path>
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div class="priority-method">
+          <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shield-check" aria-hidden="true">
+              <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path>
+              <path d="m9 12 2 2 4-4"></path></svg>Berdasarkan survei pendahuluan 45 responden.</span><span>Skor = 0,346K + 0,325D + 0,200F + 0,129U</span>
+        </div>
+      </section>
+      <section class="why-section" id="tentang" data-layer="Section/Survei" data-layer-id="PUB-01-layer-43">
+        <div class="container section-space">
+          <div class="section-heading centered">
+            <div class="eyebrow">
+              <span class="eyebrow-line"></span>MENGAPA FASILITASQU?<span class="eyebrow-line"></span>
+            </div>
+            <h2 class="title title--2" data-layer="Teks/Judul Section — Kerusakan sering terlihat.Saatnya lebih banyak dilaporkan." data-layer-id="PUB-01-layer-44">
+              Kerusakan sering terlihat.<br>Saatnya lebih banyak dilaporkan.
+            </h2>
+            <p>Berangkat dari suara sivitas akademika, hadir untuk perubahan yang nyata.</p>
+          </div>
+          <div class="stats-grid">
+            <div class="stat-item">
+              <span class="stat-value">87<span>%</span></span>
+              <p>Pernah menemui fasilitas rusak<br>dalam 3 bulan terakhir</p>
+            </div>
+            <div class="stat-item">
+              <span class="stat-value">7<span>%</span></span>
+              <p>Pernah melaporkan<br>kerusakan fasilitas</p>
+            </div>
+            <div class="stat-item">
+              <span class="stat-value">45</span>
+              <p>Responden pada<br>survei pendahuluan</p>
+            </div>
+          </div>
+          <div class="survey-note">
+            Kepedulianmu adalah langkah pertama. Kami bantu agar tidak berhenti di sana.
+          </div>
+        </div>
+      </section>
+      <section class="actors-section section-space container" data-layer="Section/Peran" data-layer-id="PUB-01-layer-45">
+        <div class="section-heading centered">
+          <div class="eyebrow">
+            <span class="eyebrow-line"></span>KOLABORASI SATU KAMPUS<span class="eyebrow-line"></span>
+          </div>
+          <h2 class="title title--2" data-layer="Teks/Judul Section — Untuk Siapa FasilitasQu?" data-layer-id="PUB-01-layer-46">
+            Untuk Siapa FasilitasQu?
+          </h2>
+          <p>Peran berbeda. Tujuan yang sama: kampus yang lebih nyaman.</p>
+        </div>
+        <div class="actors-grid">
+          <div class="actor-card" data-layer="Card/Peran — Pelapor" data-layer-id="PUB-01-layer-47">
+            <div class="actor-illustration actor-illustration--0">
+              <div class="actor-orbit"></div>
+              <div class="actor-avatar">
+                <svg xmlns="http://www.w3.org/2000/svg" width="52" height="52" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-user-round lucide-user-2" aria-hidden="true">
+                  <circle cx="12" cy="8" r="5"></circle>
+                  <path d="M20 21a8 8 0 0 0-16 0"></path>
+                </svg>
+              </div>
+              <span class="actor-role-icon"><svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-user-round lucide-user-2" aria-hidden="true">
+                  <circle cx="12" cy="8" r="5"></circle>
+                  <path d="M20 21a8 8 0 0 0-16 0"></path></svg></span><span class="actor-decoration"></span>
+            </div>
+            <h4 class="title title--4" data-layer="Teks/Judul Kartu — Pelapor" data-layer-id="PUB-01-layer-48">
+              Pelapor
+            </h4>
+            <p>Laporkan kerusakan dan pantau perkembangannya.</p>
+          </div>
+          <div class="actor-card" data-layer="Card/Peran — Admin" data-layer-id="PUB-01-layer-49">
+            <div class="actor-illustration actor-illustration--1">
+              <div class="actor-orbit"></div>
+              <div class="actor-avatar">
+                <svg xmlns="http://www.w3.org/2000/svg" width="52" height="52" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-user-round lucide-user-2" aria-hidden="true">
+                  <circle cx="12" cy="8" r="5"></circle>
+                  <path d="M20 21a8 8 0 0 0-16 0"></path>
+                </svg>
+              </div>
+              <span class="actor-role-icon"><svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shield-check" aria-hidden="true">
+                  <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path>
+                  <path d="m9 12 2 2 4-4"></path></svg></span><span class="actor-decoration"></span>
+            </div>
+            <h4 class="title title--4" data-layer="Teks/Judul Kartu — Admin" data-layer-id="PUB-01-layer-50">
+              Admin
+            </h4>
+            <p>Verifikasi laporan dan kelola fasilitas kampus.</p>
+          </div>
+          <div class="actor-card" data-layer="Card/Peran — Petugas" data-layer-id="PUB-01-layer-51">
+            <div class="actor-illustration actor-illustration--2">
+              <div class="actor-orbit"></div>
+              <div class="actor-avatar">
+                <svg xmlns="http://www.w3.org/2000/svg" width="52" height="52" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-user-round lucide-user-2" aria-hidden="true">
+                  <circle cx="12" cy="8" r="5"></circle>
+                  <path d="M20 21a8 8 0 0 0-16 0"></path>
+                </svg>
+              </div>
+              <span class="actor-role-icon"><svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-wrench" aria-hidden="true">
+                  <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.106-3.105c.32-.322.863-.22.983.218a6 6 0 0 1-8.259 7.057l-7.91 7.91a1 1 0 0 1-2.999-3l7.91-7.91a6 6 0 0 1 7.057-8.259c.438.12.54.662.219.984z"></path></svg></span><span class="actor-decoration"></span>
+            </div>
+            <h4 class="title title--4" data-layer="Teks/Judul Kartu — Petugas" data-layer-id="PUB-01-layer-52">
+              Petugas
+            </h4>
+            <p>Tangani perbaikan sesuai urutan prioritas.</p>
+          </div>
+          <div class="actor-card" data-layer="Card/Peran — Koordinator" data-layer-id="PUB-01-layer-53">
+            <div class="actor-illustration actor-illustration--3">
+              <div class="actor-orbit"></div>
+              <div class="actor-avatar">
+                <svg xmlns="http://www.w3.org/2000/svg" width="52" height="52" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-user-round lucide-user-2" aria-hidden="true">
+                  <circle cx="12" cy="8" r="5"></circle>
+                  <path d="M20 21a8 8 0 0 0-16 0"></path>
+                </svg>
+              </div>
+              <span class="actor-role-icon"><svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-scan-line" aria-hidden="true">
+                  <path d="M3 7V5a2 2 0 0 1 2-2h2"></path>
+                  <path d="M17 3h2a2 2 0 0 1 2 2v2"></path>
+                  <path d="M21 17v2a2 2 0 0 1-2 2h-2"></path>
+                  <path d="M7 21H5a2 2 0 0 1-2-2v-2"></path>
+                  <path d="M7 12h10"></path></svg></span><span class="actor-decoration"></span>
+            </div>
+            <h4 class="title title--4" data-layer="Teks/Judul Kartu — Koordinator" data-layer-id="PUB-01-layer-54">
+              Koordinator
+            </h4>
+            <p>Pantau kondisi dan prioritas perbaikan kampus.</p>
+          </div>
+        </div>
+      </section>
+      <section class="transparency-section container" data-layer="Section/Status Transparan" data-layer-id="PUB-01-layer-55">
+        <div class="transparency-intro">
+          <div class="eyebrow"><span class="eyebrow-line"></span>TIDAK BERHENTI DI KIRIM</div>
+          <h2 class="title title--2" data-layer="Teks/Judul Section — Status LaporanTransparan." data-layer-id="PUB-01-layer-56">
+            Status Laporan<br>Transparan.
+          </h2>
+          <p>Setiap langkah tercatat.<br>Kamu tahu laporanmu sudah sampai mana.</p>
+          <a class="text-link" href="PUB-02.html">Pantau Laporanmu
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right" aria-hidden="true">
+              <path d="M7 7h10v10"></path>
+              <path d="M7 17 17 7"></path></svg></a>
+        </div>
+        <div class="status-preview">
+          <div class="status-preview-header">
+            <span class="status-document-icon"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-clipboard-check" aria-hidden="true">
+                <rect width="8" height="4" x="8" y="2" rx="1" ry="1"></rect>
+                <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path>
+                <path d="m9 14 2 2 4-4"></path></svg></span>
+            <div>
+              <strong>Perjalanan sebuah laporan</strong><span>Dari diterima hingga kembali berfungsi.</span>
+            </div>
+            <span class="status-preview-dots">···</span>
+          </div>
+          <div class="status-preview-timeline">
+            <div class="status-preview-item">
+              <span class="preview-status-dot"><span></span></span><span class="badge badge--waiting"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-clock-3" aria-hidden="true">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <path d="M12 6v6h4"></path></svg>Menunggu Verifikasi</span><span class="preview-status-note">Laporan diterima</span>
+            </div>
+            <div class="status-preview-item">
+              <span class="preview-status-dot"><span></span></span><span class="badge badge--verified"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shield-check" aria-hidden="true">
+                  <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path>
+                  <path d="m9 12 2 2 4-4"></path></svg>Terverifikasi</span><span class="preview-status-note">Diperiksa oleh admin</span>
+            </div>
+            <div class="status-preview-item">
+              <span class="preview-status-dot"><span></span></span><span class="badge badge--progress"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-wrench" aria-hidden="true">
+                  <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.106-3.105c.32-.322.863-.22.983.218a6 6 0 0 1-8.259 7.057l-7.91 7.91a1 1 0 0 1-2.999-3l7.91-7.91a6 6 0 0 1 7.057-8.259c.438.12.54.662.219.984z"></path></svg>Dalam Penanganan</span><span class="preview-status-note">Petugas bekerja</span>
+            </div>
+            <div class="status-preview-item is-last">
+              <span class="preview-status-dot"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check" aria-hidden="true">
+                  <path d="M20 6 9 17l-5-5"></path></svg></span><span class="badge badge--done"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check" aria-hidden="true">
+                  <path d="M20 6 9 17l-5-5"></path></svg>Selesai</span><span class="preview-status-note">Fasilitas kembali nyaman</span>
+            </div>
+          </div>
+          <div class="rejection-branch">
+            <span>Jika belum valid</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right" aria-hidden="true">
+              <path d="m9 18 6-6-6-6"></path></svg><span class="badge badge--rejected"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-x" aria-hidden="true">
+                <path d="M18 6 6 18"></path>
+                <path d="m6 6 12 12"></path></svg>Ditolak</span><span>disertai alasan yang jelas</span>
+          </div>
+        </div>
+      </section>
+      <section class="cta-banner container" data-layer="Section/CTA" data-layer-id="PUB-01-layer-57">
+        <div class="cta-decoration">
+          <svg xmlns="http://www.w3.org/2000/svg" width="220" height="220" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="0.7" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin" aria-hidden="true">
+            <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path>
+            <circle cx="12" cy="10" r="3"></circle></svg><svg xmlns="http://www.w3.org/2000/svg" width="95" height="95" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-wrench" aria-hidden="true">
+            <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.106-3.105c.32-.322.863-.22.983.218a6 6 0 0 1-8.259 7.057l-7.91 7.91a1 1 0 0 1-2.999-3l7.91-7.91a6 6 0 0 1 7.057-8.259c.438.12.54.662.219.984z"></path>
+          </svg>
+        </div>
+        <div>
+          <div class="eyebrow">KAMPUS NYAMAN, TANGGUNG JAWAB BERSAMA</div>
+          <h2 class="title title--2" data-layer="Teks/Judul Section — Menemukan fasilitas rusak?Laporkan sekarang." data-layer-id="PUB-01-layer-58">
+            Menemukan fasilitas rusak?<br>Laporkan sekarang.
+          </h2>
+          <p>Satu laporan kecil darimu, satu langkah besar untuk kampus kita.</p>
+        </div>
+        <a class="button button--white button--lg" href="PUB-02.html">
+          Laporkan Kerusakan
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right" aria-hidden="true">
+            <path d="M7 7h10v10"></path>
+            <path d="M7 17 17 7"></path></svg></a>
+      </section>
+      
+@include('layouts.partials.footer-publik')
+
+    </div>
+  
+
+
+@endsection
