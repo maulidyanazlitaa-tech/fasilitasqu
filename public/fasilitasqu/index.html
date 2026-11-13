@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#524646" />
+    <title>FasilitasQu — Halaman, Layer & Alur Prototype HTML</title>
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="assets/workspace.css" />
+    <script defer src="assets/workspace.js"></script>
+  </head>
+  <body>
+    <header class="workspace-header">
+      <a class="workspace-brand" href="#halaman" aria-label="FasilitasQu, semua halaman">
+        <img src="assets/favicon.svg" alt="" /><span
+          >Fasilitas<span class="brand-light">Qu</span><i>.</i></span
+        >
+      </a>
+      <span class="header-divider"></span>
+      <span class="project-name"
+        >Ruang kerja prototype <span class="format-label">HTML & BLADE</span></span
+      >
+      <nav class="workspace-tabs" aria-label="Tampilan prototype">
+        <a href="#halaman" data-tab="halaman"><span data-icon="grid"></span>Halaman</a>
+        <a href="#alur" data-tab="alur"><span data-icon="flow"></span>Alur Prototype</a>
+        <a href="#halaman/DS-01" data-tab="desain"><span data-icon="layers"></span>Sistem Desain</a>
+      </nav>
+      <div class="header-actions">
+        <button class="button button-outline guide-button" data-action="guide">
+          <span data-icon="book"></span>Panduan Laravel
+        </button>
+        <a class="button button-primary" href="fasilitasqu-laravel.zip" download
+          ><span data-icon="download"></span>Unduh Laravel</a
+        >
+      </div>
+      <button class="icon-button mobile-menu" data-action="menu" aria-label="Buka daftar halaman">
+        <span data-icon="menu"></span>
+      </button>
+    </header>
+    <div class="workspace-body">
+      <aside class="workspace-sidebar">
+        <div class="sidebar-project">
+          <span class="project-icon" data-icon="layers"></span>
+          <div><strong>FasilitasQu</strong><span>Universitas Jambi</span></div>
+          <span class="version">1.0</span>
+        </div>
+        <div class="sidebar-caption">HALAMAN PROTOTYPE</div>
+        <nav id="page-groups" aria-label="Kelompok halaman"></nav>
+        <div class="sidebar-tip">
+          <span data-icon="code"></span><strong>Satu halaman, satu file.</strong>
+          <p>
+            HTML yang dapat diedit dan template Blade untuk Laravel. Tanpa React di prototype ini.
+          </p>
+          <button class="text-button" data-action="guide">
+            Lihat struktur berkas <span data-icon="arrow"></span>
+          </button>
+        </div>
+        <div class="sidebar-footer"><span class="status-dot"></span>Data demo · Tanpa backend</div>
+      </aside>
+      <main id="workspace-main" class="workspace-main" aria-live="polite">
+        <div class="loading-state">Menyiapkan halaman prototype...</div>
+      </main>
+      <aside id="layer-panel" class="layer-panel" aria-label="Layer halaman" hidden></aside>
+    </div>
+    <div id="workspace-toast" class="workspace-toast" role="status" hidden></div>
+    <dialog id="laravel-guide" class="guide-dialog">
+      <div class="dialog-heading">
+        <div>
+          <span class="eyebrow">LAPISAN TAMPILAN, SIAP DIPINDAHKAN</span>
+          <h2>Dari HTML ke Laravel.</h2>
+        </div>
+        <button class="icon-button" data-action="close-guide" aria-label="Tutup panduan">
+          <span data-icon="close"></span>
+        </button>
+      </div>
+      <p class="muted guide-intro">
+        Paket ini berisi HTML per halaman, layout Blade, partial bersama, CSS, JavaScript murni, dan
+        aset lokal. PHP tidak diperlukan untuk mencoba prototype.
+      </p>
+      <ol class="guide-steps">
+        <li>
+          <span>01</span>
+          <div>
+            <strong>Unduh paket Laravel</strong>
+            <p>
+              Ekstrak berkas ZIP. Folder <code>html-prototype/</code> dapat dicoba sebagai prototype
+              HTML biasa.
+            </p>
+          </div>
+        </li>
+        <li>
+          <span>02</span>
+          <div>
+            <strong>Salin lapisan tampilan</strong>
+            <p>
+              Pindahkan <code>laravel/resources/views/</code> ke folder
+              <code>resources/views/</code> proyek Laravel Anda.
+            </p>
+          </div>
+        </li>
+        <li>
+          <span>03</span>
+          <div>
+            <strong>Salin aset bersama</strong>
+            <p>
+              Pindahkan <code>laravel/public/fasilitasqu/</code> ke folder
+              <code>public/fasilitasqu/</code> proyek Anda.
+            </p>
+          </div>
+        </li>
+        <li>
+          <span>04</span>
+          <div>
+            <strong>Hubungkan rute tampilan</strong>
+            <p>
+              Ikuti contoh rute di <code>README-LARAVEL.md</code>. Hubungkan controller,
+              autentikasi, dan database sesuai kebutuhan proyek Anda.
+            </p>
+          </div>
+        </li>
+      </ol>
+      <div class="guide-note">
+        <span data-icon="info"></span>
+        <p>
+          Paket berisi starter Laravel 12, struktur MVC/domain, Blade, migrasi, seeder, dan aset.
+          Login serta perubahan data di layar masih simulasi prototype, belum backend produksi.
+        </p>
+      </div>
+      <div class="dialog-actions">
+        <button class="button button-outline" data-action="close-guide">Kembali</button
+        ><a class="button button-primary" href="fasilitasqu-laravel.zip" download
+          ><span data-icon="download"></span>Unduh Paket Laravel</a
+        >
+      </div>
+    </dialog>
+  </body>
+</html>
