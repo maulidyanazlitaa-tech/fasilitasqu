@@ -6,7 +6,7 @@
 @section('content')
 
     <!-- ADM-08b Edit Fasilitas — setiap data-layer adalah layer HTML yang dapat diperiksa. -->
-    <div class="dashboard-app" style="">
+    <div class="dashboard-app">
       
 @include('layouts.partials.sidebar-admin')
 
