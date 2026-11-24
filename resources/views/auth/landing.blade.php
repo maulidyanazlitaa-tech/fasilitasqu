@@ -8,7 +8,7 @@
     <!-- PUB-01 Landing Page — setiap data-layer adalah layer HTML yang dapat diperiksa. -->
     <div class="landing-page" data-screen="PUB-01 Landing Page — Desktop / Mobile">
       <section class="hero" id="beranda" data-layer="Hero" data-layer-id="PUB-01-layer-1">
-        <img class="hero-photo" alt="Ilustrasi gedung kampus Indonesia dengan halaman dan pepohonan" fetchpriority="high" src="../assets/images/campus.jpg">
+        <img class="hero-photo" alt="Gerbang Universitas Jambi" fetchpriority="high" src="{{ asset('fotokampus/unja-gerbang.jpg') }}">
         <div class="hero-photo-overlay"></div>
         
 @include('layouts.partials.navbar-publik')
@@ -27,11 +27,11 @@
             Universitas Jambi — cepat, terpusat, dan transparan.
           </p>
           <div class="hero-buttons">
-            <a class="button button--primary button--lg" href="PUB-02.html">
+            <a class="button button--primary button--lg" href="{{ route('login') }}">
               Laporkan Kerusakan
               <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right" aria-hidden="true">
                 <path d="M7 7h10v10"></path>
-                <path d="M7 17 17 7"></path></svg></a><a class="button button--outline button--lg" href="PUB-02.html"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map" aria-hidden="true">
+                <path d="M7 17 17 7"></path></svg></a><a class="button button--outline button--lg" href="{{ route('login') }}"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map" aria-hidden="true">
                 <path d="M14.106 5.553a2 2 0 0 0 1.788 0l3.659-1.83A1 1 0 0 1 21 4.619v12.764a1 1 0 0 1-.553.894l-4.553 2.277a2 2 0 0 1-1.788 0l-4.212-2.106a2 2 0 0 0-1.788 0l-3.659 1.83A1 1 0 0 1 3 19.381V6.618a1 1 0 0 1 .553-.894l4.553-2.277a2 2 0 0 1 1.788 0z"></path>
                 <path d="M15 5.764v15"></path>
                 <path d="M9 3.236v15"></path>
