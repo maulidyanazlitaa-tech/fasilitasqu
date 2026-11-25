@@ -2,91 +2,90 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests\StoreFacilityRequest;
 use App\Http\Requests\UpdateFacilityRequest;
 use App\Models\Fasilitas;
+use App\Models\Kategori;
 use App\Services\FacilityService;
 use Illuminate\Http\Request;
 
 class FacilityController extends Controller
 {
-    protected FacilityService $facilityService;
-
-    public function __construct(FacilityService $facilityService)
-    {
-        $this->facilityService = $facilityService;
+    public function __construct(
+        private readonly FacilityService $facilityService
+    ) {
     }
 
-    // Menampilkan semua fasilitas
     public function index(Request $request)
     {
-        $filters = $request->only([
-            'search',
-            'category_id',
-            'condition_status',
-        ]);
+        $facilities = $this->facilityService->getAllFacilities(
+            $request->only([
+                'search',
+                'category_id',
+                'condition_status',
+            ])
+        );
 
-        $facilities = $this->facilityService->getAllFacilities($filters);
+        $categories = Kategori::orderBy('name')->get();
 
-        return response()->json([
-            'success' => true,
-            'message' => 'Daftar fasilitas berhasil ditampilkan.',
-            'data' => $facilities,
-        ], 200);
+        return view('facilities.index', compact(
+            'facilities',
+            'categories'
+        ));
     }
 
-    // Menampilkan detail fasilitas
-    public function show(Fasilitas $facility)
+    public function create()
+    {
+        $categories = Kategori::orderBy('name')->get();
+
+        return view('facilities.create', compact('categories'));
+    }
+
+    public function store(StoreFacilityRequest $request)
+    {
+        $this->facilityService->createFacility(
+            $request->validated()
+        );
+
+        return redirect()
+            ->route('admin.facilities.index')
+            ->with('success', 'Fasilitas berhasil ditambahkan.');
+    }
+
+    public function edit(Fasilitas $facility)
     {
         $facility = $this->facilityService->getFacilityById(
             $facility->id
         );
 
-        return response()->json([
-            'success' => true,
-            'message' => 'Detail fasilitas berhasil ditampilkan.',
-            'data' => $facility,
-        ], 200);
+        $categories = Kategori::orderBy('name')->get();
+
+        return view('facilities.edit', compact(
+            'facility',
+            'categories'
+        ));
     }
 
-    // Menambahkan fasilitas
-    public function store(Request $request)
-    {
-        $facility = $this->facilityService->createFacility(
-            $request->all()
-        );
-
-        return response()->json([
-            'success' => true,
-            'message' => 'Fasilitas berhasil ditambahkan.',
-            'data' => $facility,
-        ], 201);
-    }
-
-    // Mengubah fasilitas
     public function update(
         UpdateFacilityRequest $request,
         Fasilitas $facility
     ) {
-        $updatedFacility = $this->facilityService->updateFacility(
+        $this->facilityService->updateFacility(
             $facility,
             $request->validated()
         );
 
-        return response()->json([
-            'success' => true,
-            'message' => 'Fasilitas berhasil diperbarui.',
-            'data' => $updatedFacility,
-        ], 200);
+        return redirect()
+            ->route('admin.facilities.index')
+            ->with('success', 'Data fasilitas berhasil diperbarui.');
     }
 
-    // Menghapus fasilitas
     public function destroy(Fasilitas $facility)
     {
         $this->facilityService->deleteFacility($facility);
 
-        return response()->json([
-            'success' => true,
-            'message' => 'Fasilitas berhasil dihapus.',
-        ], 200);
+        return redirect()
+            ->route('admin.facilities.index')
+            ->with('success', 'Fasilitas berhasil dihapus.');
     }
 }

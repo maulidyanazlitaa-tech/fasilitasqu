@@ -9,6 +9,8 @@ class Prioritas extends Model
 {
     use HasFactory;
 
+    protected $table = 'priorities';
+
     protected $fillable = [
         'report_id',
         'k_score',

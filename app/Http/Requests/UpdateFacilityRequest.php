@@ -52,8 +52,7 @@ class UpdateFacilityRequest extends FormRequest
             ],
             'condition_status' => [
                 'required',
-                'string',
-                'max:30',
+                Rule::in(['baik', 'rusak', 'dalam_perbaikan']),
             ],
         ];
     }
@@ -74,7 +73,7 @@ class UpdateFacilityRequest extends FormRequest
             'longitude.numeric' => 'Longitude harus berupa angka.',
             'longitude.between' => 'Longitude harus antara -180 sampai 180.',
             'condition_status.required' => 'Kondisi fasilitas wajib diisi.',
-            'condition_status.max' => 'Kondisi fasilitas maksimal 30 karakter.',
+            'condition_status.in' => 'Kondisi fasilitas harus baik, rusak, atau dalam perbaikan.',
         ];
     }
 }
