@@ -5,6 +5,7 @@ namespace App\Services;
 use App\Models\Fasilitas;
 use App\Repositories\FacilityRepository;
 use Illuminate\Contracts\Pagination\LengthAwarePaginator;
+use Illuminate\Validation\ValidationException;
 
 class FacilityService
 {
@@ -37,6 +38,14 @@ class FacilityService
 
     public function deleteFacility(Fasilitas $facility): bool
     {
+        if ($facility->reports()->exists()) {
+            throw ValidationException::withMessages([
+                'facility' => [
+                    'Fasilitas tidak dapat dihapus karena masih digunakan oleh laporan.',
+                ],
+            ]);
+        }
+
         return $this->facilityRepository->delete($facility);
     }
 }

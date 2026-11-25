@@ -56,7 +56,7 @@ class ReportService
                         continue;
                     }
 
-                    $path = $photo->store('reports', 'public');
+                    $path = $photo->store('reports', 'private');
 
                     if (!$path) {
                         throw new RuntimeException(
@@ -92,7 +92,7 @@ class ReportService
         } catch (Throwable $exception) {
             // Hapus file jika transaksi database gagal.
             if (!empty($storedPaths)) {
-                Storage::disk('public')->delete($storedPaths);
+                Storage::disk('private')->delete($storedPaths);
             }
 
             throw $exception;

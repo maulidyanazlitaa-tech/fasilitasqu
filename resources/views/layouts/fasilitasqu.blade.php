@@ -2,8 +2,12 @@
     $pageCode = trim($__env->yieldContent('page-code'));
 
     $laravelDashboardPages = [
+        'PUB-02',
         'PEL-01',
         'ADM-01',
+        'ADM-07',
+        'ADM-08',
+        'ADM-08b',
         'PTG-01',
         'KRD-01',
     ];

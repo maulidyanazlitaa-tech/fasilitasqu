@@ -24,6 +24,7 @@ class StoreReportRequest extends FormRequest
                 'required',
                 'string',
                 'min:10',
+                'max:1000',
             ],
 
             'photos' => [
@@ -48,6 +49,7 @@ class StoreReportRequest extends FormRequest
             'facility_id.exists' => 'Fasilitas yang dipilih tidak ditemukan.',
             'description.required' => 'Deskripsi kerusakan wajib diisi.',
             'description.min' => 'Deskripsi kerusakan minimal 10 karakter.',
+            'description.max' => 'Deskripsi kerusakan maksimal 1000 karakter.',
             'photos.max' => 'Maksimal 5 foto yang dapat diunggah.',
             'photos.*.image' => 'File harus berupa gambar.',
             'photos.*.mimes' => 'Format foto harus JPG, JPEG, PNG, atau WEBP.',

@@ -284,7 +284,7 @@
                         </div>
 
                         {{-- TOP 5 PRIORITAS PERBAIKAN --}}
-                        <section class="panel app-section" data-layer="Panel/Konten" data-layer-id="KRD-01-layer-26">
+                        <section id="top-priorities" class="panel app-section" data-layer="Panel/Konten" data-layer-id="KRD-01-layer-26">
 
                             <div class="panel-heading" data-layer="Panel/Judul" data-layer-id="KRD-01-layer-27">
 

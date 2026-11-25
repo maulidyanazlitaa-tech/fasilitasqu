@@ -2,10 +2,10 @@
 
 namespace Database\Seeders;
 
-use App\Models\Kategory;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Database\Seeder;
 
-class KategorySeeder extends Seeder
+class CategorySeeder extends Seeder
 {
     public function run(): void
     {
@@ -41,7 +41,7 @@ class KategorySeeder extends Seeder
         ];
 
         foreach ($categories as $category) {
-            Kategory::updateOrCreate(
+            DB::table('categories')->updateOrInsert(
                 ['name' => $category['name']],
                 ['severity_weight' => $category['severity_weight']]
             );
