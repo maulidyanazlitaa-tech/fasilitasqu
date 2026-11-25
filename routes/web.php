@@ -5,8 +5,6 @@ use App\Http\Controllers\WebAuthController;
 use App\Http\Controllers\DashboardController;
 
 Route::get('/', function () {
-  feature/landing_page
-    return view('pub_01');
     return redirect()->route('login');
 });
 
