@@ -181,6 +181,141 @@ class FasilitasQuWorkflowsTest extends TestCase
             ->assertSee('value="' . $facility->id . '" selected', false);
     }
 
+    public function test_report_creation_validates_description_and_photo_count_format_and_size(): void
+    {
+        Storage::fake('private');
+        $citizen = $this->user('masyarakat');
+        $facility = $this->facility();
+        $base = ['facility_id' => $facility->id];
+
+        $this->actingAs($citizen)->from('/reports/create')->post(route('reports.store'), array_merge($base, [
+            'description' => 'pendek',
+        ]))->assertSessionHasErrors('description');
+        $this->post(route('reports.store'), array_merge($base, [
+            'description' => str_repeat('a', 1001),
+        ]))->assertSessionHasErrors('description');
+
+        $valid = ['description' => 'Kondisi fasilitas perlu segera diperiksa.'];
+        $tooManyPhotos = array_fill(0, 6, UploadedFile::fake()->image('photo.jpg'));
+        $this->post(route('reports.store'), array_merge($base, $valid, ['photos' => $tooManyPhotos]))
+            ->assertSessionHasErrors('photos');
+
+        $this->post(route('reports.store'), array_merge($base, $valid, [
+            'photos' => [UploadedFile::fake()->create('dokumen.pdf', 10, 'application/pdf')],
+        ]))->assertSessionHasErrors('photos.0');
+        $this->post(route('reports.store'), array_merge($base, $valid, [
+            'photos' => [UploadedFile::fake()->image('besar.jpg')->size(5121)],
+        ]))->assertSessionHasErrors('photos.0');
+
+        $this->assertDatabaseCount('reports', 0);
+        $this->assertDatabaseCount('photos', 0);
+    }
+
+    public function test_admin_can_reject_report_with_reason_and_rejection_cannot_be_assigned_or_progressed(): void
+    {
+        $admin = $this->user('admin');
+        $citizen = $this->user('masyarakat');
+        $petugas = $this->user('petugas');
+        $report = $this->report($citizen, $this->facility());
+
+        $this->actingAs($admin)->post(route('admin.reports.verify', $report), [
+            'decision' => 'ditolak', 'rejection_reason' => 'Bukti tidak menunjukkan kerusakan.',
+        ])->assertRedirect(route('reports.show', $report));
+
+        $report->refresh();
+        $this->assertSame('ditolak', $report->status);
+        $this->assertSame('Bukti tidak menunjukkan kerusakan.', $report->rejection_reason);
+        $this->assertDatabaseHas('report_status_logs', [
+            'report_id' => $report->id, 'changed_by' => $admin->id,
+            'old_status' => 'menunggu_verifikasi', 'new_status' => 'ditolak',
+            'note' => $report->rejection_reason,
+        ]);
+
+        $this->post(route('admin.reports.assign', $report), ['assigned_to' => $petugas->id])
+            ->assertSessionHasErrors('assigned_to');
+        $this->actingAs($petugas)->post(route('reports.progress', $report), [
+            'note' => 'Perbaikan telah dilakukan.',
+        ])->assertForbidden();
+
+        $report->refresh();
+        $this->assertSame('ditolak', $report->status);
+        $this->assertNull($report->assigned_to);
+        $this->assertSame(1, $report->statusLogs()->count());
+    }
+
+    public function test_admin_rejection_requires_a_valid_reason_and_report_can_only_be_verified_once(): void
+    {
+        $admin = $this->user('admin');
+        $report = $this->report($this->user('masyarakat'), $this->facility());
+
+        $this->actingAs($admin)->post(route('admin.reports.verify', $report), [
+            'decision' => 'ditolak',
+        ])->assertSessionHasErrors('rejection_reason');
+        $this->post(route('admin.reports.verify', $report), [
+            'decision' => 'ditolak', 'rejection_reason' => 'no',
+        ])->assertSessionHasErrors('rejection_reason');
+        $this->assertSame('menunggu_verifikasi', $report->fresh()->status);
+        $this->assertSame(0, $report->statusLogs()->count());
+
+        $this->post(route('admin.reports.verify', $report), [
+            'decision' => 'terverifikasi', 'damage_level' => 3,
+        ])->assertRedirect(route('reports.show', $report));
+        $this->post(route('admin.reports.verify', $report), [
+            'decision' => 'ditolak', 'rejection_reason' => 'Alasan penolakan yang valid',
+        ])->assertSessionHasErrors('decision');
+        $this->assertSame('terverifikasi', $report->fresh()->status);
+        $this->assertSame(1, $report->statusLogs()->count());
+    }
+
+    public function test_only_assigned_petugas_can_update_progress_and_unauthorized_roles_cannot_run_workflow_actions(): void
+    {
+        $admin = $this->user('admin');
+        $citizen = $this->user('masyarakat');
+        $assigned = $this->user('petugas');
+        $otherPetugas = $this->user('petugas');
+        $report = $this->report($citizen, $this->facility(), [
+            'status' => 'dalam_penanganan', 'assigned_to' => $assigned->id,
+        ]);
+
+        $this->actingAs($otherPetugas)->post(route('reports.progress', $report), [
+            'note' => 'Pekerjaan sudah diselesaikan.',
+        ])->assertForbidden();
+        $this->assertSame('dalam_penanganan', $report->fresh()->status);
+        $this->assertSame(0, $report->statusLogs()->count());
+
+        foreach ([$citizen, $assigned, $this->user('koordinator')] as $notAdmin) {
+            $this->actingAs($notAdmin)->post(route('admin.reports.verify', $report), [
+                'decision' => 'terverifikasi', 'damage_level' => 3,
+            ])->assertForbidden();
+            $this->post(route('admin.reports.assign', $report), ['assigned_to' => $assigned->id])
+                ->assertForbidden();
+        }
+
+        $this->post(route('reports.store'), [
+            'facility_id' => $report->facility_id,
+            'description' => 'Pelaporan sebagai petugas tidak diperbolehkan.',
+        ])->assertForbidden();
+
+        auth()->logout();
+        $this->post(route('admin.reports.verify', $report), [
+            'decision' => 'terverifikasi', 'damage_level' => 3,
+        ])->assertRedirect(route('login'));
+        $this->post(route('reports.progress', $report), ['note' => 'Selesai dilakukan.'])
+            ->assertRedirect(route('login'));
+        $this->assertSame('dalam_penanganan', $report->fresh()->status);
+        $this->assertSame(0, $report->statusLogs()->count());
+    }
+
+    public function test_citizen_cannot_view_another_users_report(): void
+    {
+        $owner = $this->user('masyarakat');
+        $otherCitizen = $this->user('masyarakat');
+        $report = $this->report($owner, $this->facility());
+
+        $this->actingAs($otherCitizen)->get(route('reports.show', $report))->assertForbidden();
+        $this->assertDatabaseHas('reports', ['id' => $report->id, 'user_id' => $owner->id]);
+    }
+
     public function test_admin_verification_assignment_and_assigned_petugas_completion_are_logged(): void
     {
         $admin = $this->user('admin');
