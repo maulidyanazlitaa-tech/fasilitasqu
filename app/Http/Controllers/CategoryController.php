@@ -2,88 +2,69 @@
 
 namespace App\Http\Controllers;
 
-use App\Http\Requests\StoreFacilityRequest;
-use App\Http\Requests\UpdateFacilityRequest;
+use App\Http\Requests\StoreCategoryRequest;
+use App\Http\Requests\UpdateCategoryRequest;
 use App\Models\Kategori;
 use App\Services\CategoryService;
 use Illuminate\Http\Request;
 
 class CategoryController extends Controller
 {
-    protected CategoryService $categoryService;
-
-    public function __construct(CategoryService $categoryService)
-    {
-        $this->categoryService = $categoryService;
+    public function __construct(
+        private readonly CategoryService $categoryService
+    ) {
     }
 
-    // Menampilkan seluruh kategori
     public function index(Request $request)
     {
         $categories = $this->categoryService->getAllCategories(
-            $request->only(['search'])
+            $request->only('search')
         );
 
-        return response()->json([
-            'success' => true,
-            'message' => 'Daftar kategori berhasil ditampilkan.',
-            'data' => $categories,
-        ], 200);
+        return view('Categories.index', compact('categories'));
     }
 
-    // Menampilkan detail kategori
-    public function show(Kategori $category)
+    public function create()
     {
-        $category = $this->categoryService->getCategoryById(
-            $category->id
-        );
-
-        return response()->json([
-            'success' => true,
-            'message' => 'Detail kategori berhasil ditampilkan.',
-            'data' => $category,
-        ], 200);
+        return view('Categories.create');
     }
 
-    // Menambahkan kategori
-    public function store(StoreFacilityRequest $request)
+    public function store(StoreCategoryRequest $request)
     {
-        $category = $this->categoryService->createCategory(
+        $this->categoryService->createCategory(
             $request->validated()
         );
 
-        return response()->json([
-            'success' => true,
-            'message' => 'Kategori berhasil ditambahkan.',
-            'data' => $category,
-        ], 201);
+        return redirect()
+            ->route('admin.categories.index')
+            ->with('success', 'Kategori berhasil ditambahkan.');
     }
 
-    // Mengubah kategori
+    public function edit(Kategori $category)
+    {
+        return view('Categories.edit', compact('category'));
+    }
+
     public function update(
-        UpdateFacilityRequest $request,
+        UpdateCategoryRequest $request,
         Kategori $category
     ) {
-        $updatedCategory = $this->categoryService->updateCategory(
+        $this->categoryService->updateCategory(
             $category,
             $request->validated()
         );
 
-        return response()->json([
-            'success' => true,
-            'message' => 'Kategori berhasil diperbarui.',
-            'data' => $updatedCategory,
-        ], 200);
+        return redirect()
+            ->route('admin.categories.index')
+            ->with('success', 'Kategori berhasil diperbarui.');
     }
 
-    // Menghapus kategori
     public function destroy(Kategori $category)
     {
         $this->categoryService->deleteCategory($category);
 
-        return response()->json([
-            'success' => true,
-            'message' => 'Kategori berhasil dihapus.',
-        ], 200);
+        return redirect()
+            ->route('admin.categories.index')
+            ->with('success', 'Kategori berhasil dihapus.');
     }
 }

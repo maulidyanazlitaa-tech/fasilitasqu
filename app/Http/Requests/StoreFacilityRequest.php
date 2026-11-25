@@ -3,6 +3,7 @@
 namespace App\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
+use Illuminate\Validation\Rule;
 
 class StoreFacilityRequest extends FormRequest
 {
@@ -46,8 +47,7 @@ class StoreFacilityRequest extends FormRequest
             ],
             'condition_status' => [
                 'required',
-                'string',
-                'max:30',
+                Rule::in(['baik', 'rusak', 'dalam_perbaikan']),
             ],
         ];
     }
@@ -68,7 +68,7 @@ class StoreFacilityRequest extends FormRequest
             'longitude.numeric' => 'Longitude harus berupa angka.',
             'longitude.between' => 'Longitude harus antara -180 sampai 180.',
             'condition_status.required' => 'Kondisi fasilitas wajib diisi.',
-            'condition_status.max' => 'Kondisi fasilitas maksimal 30 karakter.',
+            'condition_status.in' => 'Kondisi fasilitas harus baik, rusak, atau dalam perbaikan.',
         ];
     }
 }

@@ -2,24 +2,41 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Hash;
 
 class WebAuthController extends Controller
 {
+    /**
+     * Menampilkan halaman login.
+     */
     public function showLogin()
     {
         return view('auth.login');
     }
 
+    /**
+     * Memproses login dan memeriksa role akun.
+     */
     public function login(Request $request)
     {
-        $credentials = $request->validate([
+        $validated = $request->validate([
             'email' => ['required', 'email'],
             'password' => ['required', 'string'],
+            'remember' => ['nullable', 'boolean'],
+            'login_as' => [
+                'nullable',
+                'in:masyarakat,admin,petugas,koordinator',
+            ],
         ]);
 
-        if (!Auth::attempt($credentials, $request->boolean('remember'))) {
+        // Cari akun berdasarkan email.
+        $user = User::where('email', $validated['email'])->first();
+
+        // Periksa email dan password.
+        if (!$user || !Hash::check($validated['password'], $user->password)) {
             return back()
                 ->withErrors([
                     'email' => 'Email atau password salah.',
@@ -27,11 +44,47 @@ class WebAuthController extends Controller
                 ->onlyInput('email');
         }
 
+        // Jika pengguna memilih tombol role tertentu,
+        // pastikan role tersebut sesuai dengan role akun di database.
+        $requestedRole = $validated['login_as'] ?? null;
+
+        if ($requestedRole && $user->role !== $requestedRole) {
+            return back()
+                ->withErrors([
+                    'email' => 'Akun ini tidak terdaftar sebagai '
+                        . $this->roleLabel($requestedRole)
+                        . '. Silakan pilih peran yang sesuai dengan akun Anda.',
+                ])
+                ->onlyInput('email');
+        }
+
+        // Login menggunakan akun yang sudah diverifikasi.
+        Auth::login($user, $request->boolean('remember'));
+
+        // Regenerasi session untuk keamanan.
         $request->session()->regenerate();
 
+        // Dashboard ditentukan berdasarkan role akun sebenarnya.
         return redirect()->intended(route('dashboard'));
     }
 
+    /**
+     * Mengubah kode role menjadi nama yang mudah dibaca.
+     */
+    private function roleLabel(string $role): string
+    {
+        return match ($role) {
+            'masyarakat' => 'Pelapor',
+            'admin' => 'Admin',
+            'petugas' => 'Petugas',
+            'koordinator' => 'Koordinator',
+            default => 'peran yang dipilih',
+        };
+    }
+
+    /**
+     * Memproses logout.
+     */
     public function logout(Request $request)
     {
         Auth::logout();
