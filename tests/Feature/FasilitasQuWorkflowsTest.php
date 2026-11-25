@@ -453,4 +453,135 @@ class FasilitasQuWorkflowsTest extends TestCase
             ->assertSee('#' . $report->id)
             ->assertDontSee('LP-2026-0008');
     }
+
+    public function test_citizen_dashboard_shows_only_own_reports_and_own_status_statistics(): void
+    {
+        $citizen = $this->user('masyarakat');
+        $otherCitizen = $this->user('masyarakat');
+        $facility = $this->facility();
+        $this->report($citizen, $facility, ['description' => 'Laporan warga menunggu verifikasi.', 'status' => 'menunggu_verifikasi']);
+        $this->report($citizen, $facility, ['description' => 'Laporan warga dalam penanganan.', 'status' => 'dalam_penanganan']);
+        $this->report($citizen, $facility, ['description' => 'Laporan warga sudah selesai.', 'status' => 'selesai']);
+        $this->report($otherCitizen, $facility, ['description' => 'Rahasia laporan warga lain.', 'status' => 'menunggu_verifikasi']);
+
+        $response = $this->actingAs($citizen)->get(route('dashboard.masyarakat'))->assertOk();
+        $response->assertViewHas('totalReports', 3);
+        $response->assertViewHas('pendingReports', 1);
+        $response->assertViewHas('inProgressReports', 1);
+        $response->assertViewHas('completedReports', 1);
+        $response->assertSee('Laporan warga menunggu verifikasi.')
+            ->assertSee('Laporan warga dalam penanganan.')
+            ->assertSee('Laporan warga sudah selesai.')
+            ->assertDontSee('Rahasia laporan warga lain.');
+    }
+
+    public function test_admin_dashboard_shows_database_report_and_facility_totals_and_status_counts(): void
+    {
+        $admin = $this->user('admin');
+        $citizen = $this->user('masyarakat');
+        $category = $this->category();
+        $facility = $this->facility($category);
+        $secondFacility = Fasilitas::create([
+            'category_id' => $category->id,
+            'name' => 'Pintu Gedung B',
+            'building' => 'Gedung B',
+            'condition_status' => 'baik',
+        ]);
+
+        foreach (['menunggu_verifikasi', 'terverifikasi', 'dalam_penanganan', 'selesai', 'ditolak'] as $status) {
+            $this->report($citizen, $facility, ['status' => $status]);
+        }
+
+        $response = $this->actingAs($admin)->get(route('dashboard.admin'))->assertOk();
+        $response->assertViewHas('totalReports', 5);
+        $response->assertViewHas('totalFacilities', 2);
+        $response->assertViewHas('pendingReports', 1);
+        $response->assertViewHas('verifiedReports', 1);
+        $response->assertViewHas('inProgressReports', 1);
+        $response->assertViewHas('completedReports', 1);
+        $response->assertViewHas('rejectedReports', 1);
+        $response->assertSeeText('Saat ini terdapat 5 laporan dan 2 fasilitas terdaftar.');
+        $this->assertSame('Pintu Gedung B', $secondFacility->fresh()->name);
+    }
+
+    public function test_petugas_dashboard_shows_only_assigned_tasks_and_own_status_counts(): void
+    {
+        $petugas = $this->user('petugas');
+        $otherPetugas = $this->user('petugas');
+        $citizen = $this->user('masyarakat');
+        $facility = $this->facility();
+
+        $this->report($citizen, $facility, ['description' => 'Tugas baru petugas ini.', 'status' => 'terverifikasi', 'assigned_to' => $petugas->id]);
+        $this->report($citizen, $facility, ['description' => 'Tugas aktif petugas ini.', 'status' => 'dalam_penanganan', 'assigned_to' => $petugas->id]);
+        $this->report($citizen, $facility, ['description' => 'Tugas selesai petugas ini.', 'status' => 'selesai', 'assigned_to' => $petugas->id]);
+        $this->report($citizen, $facility, ['description' => 'Tugas milik petugas lain.', 'status' => 'dalam_penanganan', 'assigned_to' => $otherPetugas->id]);
+        $this->report($citizen, $facility, ['description' => 'Laporan tanpa penugasan.', 'status' => 'menunggu_verifikasi']);
+
+        $response = $this->actingAs($petugas)->get(route('dashboard.petugas'))->assertOk();
+        $response->assertViewHas('totalAssignedReports', 3);
+        $response->assertViewHas('verifiedReports', 1);
+        $response->assertViewHas('inProgressReports', 1);
+        $response->assertViewHas('completedReports', 1);
+        $response->assertSee('Tugas baru petugas ini.')
+            ->assertSee('Tugas aktif petugas ini.')
+            ->assertDontSee('Tugas milik petugas lain.')
+            ->assertDontSee('Laporan tanpa penugasan.');
+    }
+
+    public function test_coordinator_dashboard_monitoring_statistics_match_database(): void
+    {
+        $coordinator = $this->user('koordinator');
+        $citizen = $this->user('masyarakat');
+        $category = $this->category();
+        $broken = $this->facility($category);
+        Fasilitas::create([
+            'category_id' => $category->id,
+            'name' => 'Meja Perpustakaan',
+            'building' => 'Perpustakaan',
+            'condition_status' => 'baik',
+        ]);
+        Fasilitas::create([
+            'category_id' => $category->id,
+            'name' => 'Toilet Gedung C',
+            'building' => 'Gedung C',
+            'condition_status' => 'dalam_perbaikan',
+        ]);
+        $this->report($citizen, $broken, ['status' => 'menunggu_verifikasi']);
+        $this->report($citizen, $broken, ['status' => 'terverifikasi']);
+        $this->report($citizen, $broken, ['status' => 'dalam_penanganan']);
+        $this->report($citizen, $broken, ['status' => 'selesai']);
+        $this->report($citizen, $broken, ['status' => 'ditolak']);
+
+        $response = $this->actingAs($coordinator)->get(route('dashboard.koordinator'))->assertOk();
+        $response->assertViewHas('totalReports', 5);
+        $response->assertViewHas('totalFacilities', 3);
+        $response->assertViewHas('pendingReports', 1);
+        $response->assertViewHas('verifiedReports', 1);
+        $response->assertViewHas('inProgressReports', 1);
+        $response->assertViewHas('completedReports', 1);
+        $response->assertViewHas('rejectedReports', 1);
+        $response->assertViewHas('facilityConditionCounts', function ($counts): bool {
+            return (int) $counts['baik'] === 1
+                && (int) $counts['rusak'] === 1
+                && (int) $counts['dalam_perbaikan'] === 1;
+        });
+        $response->assertSeeText('Saat ini terdapat 5 laporan');
+        $response->assertSee('3 fasilitas terdata');
+    }
+
+    public function test_all_role_dashboards_render_when_reports_and_facilities_are_empty(): void
+    {
+        foreach ([
+            ['masyarakat', 'dashboard.masyarakat'],
+            ['admin', 'dashboard.admin'],
+            ['petugas', 'dashboard.petugas'],
+            ['koordinator', 'dashboard.koordinator'],
+        ] as [$role, $routeName]) {
+            $response = $this->actingAs($this->user($role))->get(route($routeName))->assertOk();
+            $response->assertViewHas('reports', fn ($reports) => $reports->isEmpty());
+        }
+
+        $this->assertDatabaseCount('reports', 0);
+        $this->assertDatabaseCount('facilities', 0);
+    }
 }
