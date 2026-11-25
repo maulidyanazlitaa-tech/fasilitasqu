@@ -400,6 +400,46 @@ class FasilitasQuWorkflowsTest extends TestCase
         $this->actingAs($this->user('petugas'))->get($url)->assertForbidden();
     }
 
+    public function test_private_report_photo_is_not_available_at_public_storage_url_or_exposes_its_path(): void
+    {
+        Storage::fake('private');
+        Storage::fake('public');
+        $owner = $this->user('masyarakat');
+        $report = $this->report($owner, $this->facility());
+        $path = UploadedFile::fake()->image('private-evidence.jpg')->store('reports', 'private');
+        $photo = $report->photos()->create(['file_path' => $path]);
+        $publicUrl = '/storage/' . $path;
+
+        Storage::disk('private')->assertExists($path);
+        Storage::disk('public')->assertMissing($path);
+        $this->get($publicUrl)->assertClientError();
+
+        $detail = $this->actingAs($owner)->get(route('reports.show', $report))->assertOk();
+        $detail->assertDontSee($path);
+        $detail->assertDontSee(Storage::disk('private')->path($path));
+
+        $photoResponse = $this->get(route('reports.photos.show', [$report, $photo]))->assertOk();
+        $responseText = $photoResponse->getContent() . json_encode($photoResponse->headers->all());
+        $this->assertStringNotContainsString($path, $responseText);
+        $this->assertStringNotContainsString(Storage::disk('private')->path($path), $responseText);
+    }
+
+    public function test_missing_or_mismatched_report_photo_resources_return_not_found(): void
+    {
+        Storage::fake('private');
+        $owner = $this->user('masyarakat');
+        $category = $this->category();
+        $report = $this->report($owner, $this->facility($category));
+        $otherReport = $this->report($owner, $this->facility($category));
+        $path = UploadedFile::fake()->image('evidence.jpg')->store('reports', 'private');
+        $photo = $report->photos()->create(['file_path' => $path]);
+        $missingFilePhoto = $otherReport->photos()->create(['file_path' => 'reports/missing.jpg']);
+
+        $this->actingAs($owner)->get(route('reports.photos.show', [$report, 999999]))->assertNotFound();
+        $this->get(route('reports.photos.show', [$otherReport, $photo]))->assertNotFound();
+        $this->get(route('reports.photos.show', [$otherReport, $missingFilePhoto]))->assertNotFound();
+    }
+
     public function test_non_admin_cannot_open_admin_routes_and_citizen_dashboard_uses_database_content(): void
     {
         $citizen = $this->user('masyarakat');
