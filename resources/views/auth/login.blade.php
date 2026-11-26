@@ -255,6 +255,10 @@
                 </p>
 
             </form>
+            <p class="login-demo-note">
+                Belum punya akun?
+                <a class="text-link" href="{{ route('register') }}">Daftar sebagai masyarakat</a>
+            </p>
         </div>
 
         <div class="login-footer">

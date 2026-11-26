@@ -8,6 +8,19 @@ use Illuminate\Support\Facades\Hash;
 class AuthService
 {
     /**
+     * Membuat akun masyarakat baru.
+     */
+    public function register(array $data): User
+    {
+        return User::create([
+            'name' => $data['name'],
+            'email' => $data['email'],
+            'password' => Hash::make($data['password']),
+            'role' => 'masyarakat',
+        ]);
+    }
+
+    /**
      * Memeriksa email dan password pengguna.
      */
     public function authenticate(array $credentials): ?User

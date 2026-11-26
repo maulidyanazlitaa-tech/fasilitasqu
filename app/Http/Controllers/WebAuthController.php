@@ -2,13 +2,38 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests\RegisterRequest;
 use App\Models\User;
+use App\Services\AuthService;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
 
 class WebAuthController extends Controller
 {
+    public function __construct(private AuthService $authService)
+    {}
+
+    /**
+     * Menampilkan halaman registrasi masyarakat.
+     */
+    public function showRegister()
+    {
+        return view('auth.register');
+    }
+
+    /**
+     * Memproses registrasi masyarakat.
+     */
+    public function register(RegisterRequest $request)
+    {
+        $this->authService->register($request->validated());
+
+        return redirect()
+            ->route('login')
+            ->with('success', 'Registrasi berhasil. Silakan masuk dengan akun Anda.');
+    }
+
     /**
      * Menampilkan halaman login.
      */
@@ -52,8 +77,8 @@ class WebAuthController extends Controller
             return back()
                 ->withErrors([
                     'email' => 'Akun ini tidak terdaftar sebagai '
-                        . $this->roleLabel($requestedRole)
-                        . '. Silakan pilih peran yang sesuai dengan akun Anda.',
+                        .$this->roleLabel($requestedRole)
+                        .'. Silakan pilih peran yang sesuai dengan akun Anda.',
                 ])
                 ->onlyInput('email');
         }

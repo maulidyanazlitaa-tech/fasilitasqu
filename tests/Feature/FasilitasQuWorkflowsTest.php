@@ -3,12 +3,12 @@
 namespace Tests\Feature;
 
 use App\Models\Fasilitas;
-use App\Models\Foto;
 use App\Models\Kategori;
 use App\Models\Laporan;
 use App\Models\User;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Http\UploadedFile;
+use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Storage;
 use Tests\TestCase;
 
@@ -63,7 +63,7 @@ class FasilitasQuWorkflowsTest extends TestCase
             ])->assertRedirect(route('dashboard'));
 
             $this->assertAuthenticatedAs($user);
-            $this->get(route('dashboard'))->assertRedirect(route('dashboard.' . $role));
+            $this->get(route('dashboard'))->assertRedirect(route('dashboard.'.$role));
             $this->post(route('logout'))->assertRedirect(route('login'));
             $this->assertGuest();
         }
@@ -74,6 +74,67 @@ class FasilitasQuWorkflowsTest extends TestCase
             'password' => 'password',
             'login_as' => 'petugas',
         ])->assertSessionHasErrors('email');
+    }
+
+    public function test_public_registration_creates_citizen_and_validates_input(): void
+    {
+        $this->get(route('register'))
+            ->assertOk()
+            ->assertSee('Daftar sebagai Masyarakat')
+            ->assertSee('name="password_confirmation"', false);
+
+        $this->post(route('register.process'), [
+            'name' => 'A',
+            'email' => 'bukan-email',
+            'password' => 'pendek',
+            'password_confirmation' => 'lain',
+            'role' => 'admin',
+        ])->assertSessionHasErrors(['name', 'email', 'password']);
+
+        $this->post(route('register.process'), [
+            'name' => 'Masyarakat Baru',
+            'email' => 'masyarakat.baru@example.com',
+            'password' => 'password123',
+            'password_confirmation' => 'password123',
+            'role' => 'admin',
+        ])->assertRedirect(route('login'))
+            ->assertSessionHas('success', 'Registrasi berhasil. Silakan masuk dengan akun Anda.');
+        $this->assertGuest();
+
+        $this->assertDatabaseHas('users', [
+            'name' => 'Masyarakat Baru',
+            'email' => 'masyarakat.baru@example.com',
+            'role' => 'masyarakat',
+        ]);
+
+        $user = User::where('email', 'masyarakat.baru@example.com')->firstOrFail();
+        $this->assertTrue(Hash::check('password123', $user->password));
+        $this->get(route('login'))
+            ->assertOk()
+            ->assertSee('Registrasi berhasil. Silakan masuk dengan akun Anda.');
+
+        $this->post(route('login.process'), [
+            'email' => $user->email,
+            'password' => 'password123',
+        ])->assertRedirect(route('dashboard'));
+        $this->assertAuthenticatedAs($user);
+        $this->post(route('logout'))->assertRedirect(route('login'));
+
+        $this->post(route('register.process'), [
+            'name' => 'Duplikat',
+            'email' => 'masyarakat.baru@example.com',
+            'password' => 'password123',
+            'password_confirmation' => 'password123',
+        ])->assertSessionHasErrors('email');
+    }
+
+    public function test_authenticated_user_cannot_access_registration_page(): void
+    {
+        $user = $this->user('masyarakat');
+
+        $this->actingAs($user)
+            ->get(route('register'))
+            ->assertRedirect();
     }
 
     public function test_category_crud_validation_and_in_use_protection(): void
@@ -178,7 +239,7 @@ class FasilitasQuWorkflowsTest extends TestCase
         $facility = $this->facility();
         $this->get(route('reports.create', ['facility_id' => $facility->id]))
             ->assertOk()
-            ->assertSee('value="' . $facility->id . '" selected', false);
+            ->assertSee('value="'.$facility->id.'" selected', false);
     }
 
     public function test_report_creation_validates_description_and_photo_count_format_and_size(): void
@@ -408,7 +469,7 @@ class FasilitasQuWorkflowsTest extends TestCase
         $report = $this->report($owner, $this->facility());
         $path = UploadedFile::fake()->image('private-evidence.jpg')->store('reports', 'private');
         $photo = $report->photos()->create(['file_path' => $path]);
-        $publicUrl = '/storage/' . $path;
+        $publicUrl = '/storage/'.$path;
 
         Storage::disk('private')->assertExists($path);
         Storage::disk('public')->assertMissing($path);
@@ -419,7 +480,7 @@ class FasilitasQuWorkflowsTest extends TestCase
         $detail->assertDontSee(Storage::disk('private')->path($path));
 
         $photoResponse = $this->get(route('reports.photos.show', [$report, $photo]))->assertOk();
-        $responseText = $photoResponse->getContent() . json_encode($photoResponse->headers->all());
+        $responseText = $photoResponse->getContent().json_encode($photoResponse->headers->all());
         $this->assertStringNotContainsString($path, $responseText);
         $this->assertStringNotContainsString(Storage::disk('private')->path($path), $responseText);
     }
@@ -450,7 +511,7 @@ class FasilitasQuWorkflowsTest extends TestCase
         $this->get(route('dashboard.masyarakat'))
             ->assertOk()
             ->assertSee($facility->name)
-            ->assertSee('#' . $report->id)
+            ->assertSee('#'.$report->id)
             ->assertDontSee('LP-2026-0008');
     }
 }
