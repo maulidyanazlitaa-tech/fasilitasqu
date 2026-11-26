@@ -347,6 +347,9 @@
                                 Verifikasi laporan dengan teliti. Skor dihitung dari kerusakan, dampak,
                                 frekuensi, dan umur laporan.
                             </p>
+                            <p>
+                                Saat ini terdapat {{ $totalReports }} laporan dan {{ $totalFacilities }} fasilitas terdaftar.
+                            </p>
                         </div>
 
                         <a class="text-link" href="{{ route('dashboard.admin') }}#top-priorities">
