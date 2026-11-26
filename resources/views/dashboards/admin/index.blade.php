@@ -32,7 +32,7 @@
                         </div>
 
                         <div class="page-heading-actions">
-                            <a class="button button--primary button--md" href="{{ route('admin.reports.index', ['status' => 'menunggu_verifikasi']) }}">
+                            <a class="button button--primary button--md" href="{{ route('admin.reports.index') }}">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shield-check" aria-hidden="true">
                                     <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path>
                                     <path d="m9 12 2 2 4-4"></path>
@@ -140,7 +140,7 @@
                                     </p>
                                 </div>
 
-                                <a class="text-link" href="{{ route('admin.reports.index', ['status' => 'menunggu_verifikasi']) }}">
+                                <a class="text-link" href="{{ route('admin.reports.index') }}">
                                     Lihat Semua
                                     <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right" aria-hidden="true">
                                         <path d="M5 12h14"></path>
@@ -243,7 +243,7 @@
                         </section>
 
                         {{-- TOP PRIORITAS --}}
-                        <section id="top-priorities" class="panel top-priority-panel" data-layer="Panel/Konten" data-layer-id="ADM-01-layer-19">
+                        <section class="panel top-priority-panel" data-layer="Panel/Konten" data-layer-id="ADM-01-layer-19">
 
                             <div class="panel-heading" data-layer="Panel/Judul" data-layer-id="ADM-01-layer-20">
                                 <div>
@@ -318,7 +318,7 @@
 
                             </div>
 
-                            <a class="text-link panel-footer-link" href="{{ route('dashboard.admin') }}#top-priorities">
+                            <a class="text-link panel-footer-link" href="{{ asset('fasilitasqu/pages/ADM-06.html') }}">
                                 Lihat Daftar Prioritas
                                 <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right" aria-hidden="true">
                                     <path d="M5 12h14"></path>
@@ -349,7 +349,7 @@
                             </p>
                         </div>
 
-                        <a class="text-link" href="{{ route('dashboard.admin') }}#top-priorities">
+                        <a class="text-link" href="{{ asset('fasilitasqu/pages/ADM-06.html') }}">
                             <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right" aria-hidden="true">
                                 <path d="M7 7h10v10"></path>
                                 <path d="M7 17 17 7"></path>

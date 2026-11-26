@@ -6,6 +6,7 @@ use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\FacilityController;
 use App\Http\Controllers\ReportController;
+
 // Prototype HTML lama menggunakan tautan seperti PUB-02.html.
 // Alihkan ke lokasi statis sebenarnya agar tautan lama tidak menjadi 404.
 Route::get('/{prototypePage}.html', function (string $prototypePage) {
@@ -17,7 +18,7 @@ Route::get('/{prototypePage}.html', function (string $prototypePage) {
 })->where('prototypePage', '[A-Za-z]+-[A-Za-z0-9]+');
 
 Route::get('/', function () {
-    return redirect()->route('login');
+    return view('auth.landing');
 });
 
 // AUTENTIKASI TAMU
